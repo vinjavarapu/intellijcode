@@ -20,9 +20,9 @@ public class BaseTest {
     @BeforeTest
     public void BeforeTestMethod(){
 
-        htmlReporter = new ExtentHtmlReporter("./ExtentReports//Automation Test.html");
+        htmlReporter = new ExtentHtmlReporter("./ExtentReports//AutomationTest.html");
         htmlReporter.config().setEncoding("utf-8");
-        htmlReporter.config().setDocumentTitle("Automation Test");
+        htmlReporter.config().setDocumentTitle("Automation Test Results");
         htmlReporter.config().setReportName("Automation Test");
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter);

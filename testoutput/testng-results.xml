@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="2" total="7" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="example suite 1" duration-ms="32812" started-at="2022-02-13T22:18:08 IST" finished-at="2022-02-13T22:18:40 IST">
+  <suite name="example suite 1" duration-ms="33255" started-at="2022-02-13T22:29:54 IST" finished-at="2022-02-13T22:30:28 IST">
     <groups>
     </groups>
-    <test name="Regression suite 1" duration-ms="32812" started-at="2022-02-13T22:18:08 IST" finished-at="2022-02-13T22:18:40 IST">
+    <test name="Regression suite 1" duration-ms="33255" started-at="2022-02-13T22:29:54 IST" finished-at="2022-02-13T22:30:28 IST">
       <class name="Login.LoginInvalid">
-        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Login.LoginInvalid@73ad2d6]" name="LaunchArtemisURL" is-config="true" duration-ms="4591" started-at="2022-02-13T22:18:20 IST" finished-at="2022-02-13T22:18:25 IST">
+        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Login.LoginInvalid@73ad2d6]" name="LaunchArtemisURL" is-config="true" duration-ms="5275" started-at="2022-02-13T22:30:07 IST" finished-at="2022-02-13T22:30:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchArtemisURL -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalid@73ad2d6]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2022-02-13T22:18:25 IST" finished-at="2022-02-13T22:18:25 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalid@73ad2d6]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2022-02-13T22:30:12 IST" finished-at="2022-02-13T22:30:12 IST">
           <params>
             <param index="0">
               <value>
@@ -22,11 +22,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="EnterWrongemailid()[pri:0, instance:Login.LoginInvalid@73ad2d6]" name="EnterWrongemailid" duration-ms="5310" started-at="2022-02-13T22:18:25 IST" finished-at="2022-02-13T22:18:30 IST">
+        <test-method status="PASS" signature="EnterWrongemailid()[pri:0, instance:Login.LoginInvalid@73ad2d6]" name="EnterWrongemailid" duration-ms="5324" started-at="2022-02-13T22:30:12 IST" finished-at="2022-02-13T22:30:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnterWrongemailid -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalid@73ad2d6]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2022-02-13T22:18:30 IST" finished-at="2022-02-13T22:18:30 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalid@73ad2d6]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2022-02-13T22:30:17 IST" finished-at="2022-02-13T22:30:17 IST">
           <params>
             <param index="0">
               <value>
@@ -37,25 +37,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="wrongpassword()[pri:0, instance:Login.LoginInvalid@73ad2d6]" name="wrongpassword" duration-ms="9434" started-at="2022-02-13T22:18:30 IST" finished-at="2022-02-13T22:18:40 IST">
+        <test-method status="PASS" signature="wrongpassword()[pri:0, instance:Login.LoginInvalid@73ad2d6]" name="wrongpassword" duration-ms="9371" started-at="2022-02-13T22:30:17 IST" finished-at="2022-02-13T22:30:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wrongpassword -->
-        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Login.LoginInvalid@73ad2d6]" name="QuitWindows" is-config="true" duration-ms="663" started-at="2022-02-13T22:18:40 IST" finished-at="2022-02-13T22:18:40 IST">
+        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Login.LoginInvalid@73ad2d6]" name="QuitWindows" is-config="true" duration-ms="665" started-at="2022-02-13T22:30:27 IST" finished-at="2022-02-13T22:30:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- QuitWindows -->
       </class> <!-- Login.LoginInvalid -->
       <class name="Login.Login_Test">
-        <test-method status="PASS" signature="BeforeTestMethod()[pri:0, instance:Login.Login_Test@3fee9989]" name="BeforeTestMethod" is-config="true" duration-ms="98" started-at="2022-02-13T22:18:08 IST" finished-at="2022-02-13T22:18:08 IST">
+        <test-method status="PASS" signature="BeforeTestMethod()[pri:0, instance:Login.Login_Test@3fee9989]" name="BeforeTestMethod" is-config="true" duration-ms="97" started-at="2022-02-13T22:29:54 IST" finished-at="2022-02-13T22:29:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTestMethod -->
-        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Login.Login_Test@3fee9989]" name="LaunchArtemisURL" is-config="true" duration-ms="5245" started-at="2022-02-13T22:18:08 IST" finished-at="2022-02-13T22:18:13 IST">
+        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Login.Login_Test@3fee9989]" name="LaunchArtemisURL" is-config="true" duration-ms="5095" started-at="2022-02-13T22:29:54 IST" finished-at="2022-02-13T22:29:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchArtemisURL -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.Login_Test@3fee9989]" name="BeforeMethod" is-config="true" duration-ms="5" started-at="2022-02-13T22:18:13 IST" finished-at="2022-02-13T22:18:13 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.Login_Test@3fee9989]" name="BeforeMethod" is-config="true" duration-ms="8" started-at="2022-02-13T22:30:00 IST" finished-at="2022-02-13T22:30:00 IST">
           <params>
             <param index="0">
               <value>
@@ -66,11 +66,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="Login_HomePage()[pri:1, instance:Login.Login_Test@3fee9989]" name="Login_HomePage" duration-ms="16" started-at="2022-02-13T22:18:13 IST" description="Check the Login page title" finished-at="2022-02-13T22:18:13 IST">
+        <test-method status="PASS" signature="Login_HomePage()[pri:1, instance:Login.Login_Test@3fee9989]" name="Login_HomePage" duration-ms="16" started-at="2022-02-13T22:30:00 IST" description="Check the Login page title" finished-at="2022-02-13T22:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_HomePage -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.Login_Test@3fee9989]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2022-02-13T22:18:13 IST" finished-at="2022-02-13T22:18:13 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.Login_Test@3fee9989]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2022-02-13T22:30:00 IST" finished-at="2022-02-13T22:30:00 IST">
           <params>
             <param index="0">
               <value>
@@ -81,11 +81,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="LogintoApp()[pri:2, instance:Login.Login_Test@3fee9989]" name="LogintoApp" duration-ms="6488" started-at="2022-02-13T22:18:13 IST" description="Verify Login to application with valid details" finished-at="2022-02-13T22:18:20 IST">
+        <test-method status="PASS" signature="LogintoApp()[pri:2, instance:Login.Login_Test@3fee9989]" name="LogintoApp" duration-ms="6456" started-at="2022-02-13T22:30:00 IST" description="Verify Login to application with valid details" finished-at="2022-02-13T22:30:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogintoApp -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.Login_Test@3fee9989]" name="BeforeMethod" is-config="true" duration-ms="1" started-at="2022-02-13T22:18:20 IST" finished-at="2022-02-13T22:18:20 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.Login_Test@3fee9989]" name="BeforeMethod" is-config="true" duration-ms="0" started-at="2022-02-13T22:30:06 IST" finished-at="2022-02-13T22:30:06 IST">
           <params>
             <param index="0">
               <value>
@@ -96,15 +96,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="Loginsuccesful()[pri:3, instance:Login.Login_Test@3fee9989]" name="Loginsuccesful" duration-ms="5" started-at="2022-02-13T22:18:20 IST" finished-at="2022-02-13T22:18:20 IST">
+        <test-method status="PASS" signature="Loginsuccesful()[pri:3, instance:Login.Login_Test@3fee9989]" name="Loginsuccesful" duration-ms="6" started-at="2022-02-13T22:30:06 IST" finished-at="2022-02-13T22:30:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Loginsuccesful -->
-        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Login.Login_Test@3fee9989]" name="QuitWindows" is-config="true" duration-ms="675" started-at="2022-02-13T22:18:20 IST" finished-at="2022-02-13T22:18:20 IST">
+        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Login.Login_Test@3fee9989]" name="QuitWindows" is-config="true" duration-ms="653" started-at="2022-02-13T22:30:06 IST" finished-at="2022-02-13T22:30:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- QuitWindows -->
-        <test-method status="PASS" signature="AfterTestMethod()[pri:0, instance:Login.Login_Test@3fee9989]" name="AfterTestMethod" is-config="true" duration-ms="243" started-at="2022-02-13T22:18:40 IST" finished-at="2022-02-13T22:18:40 IST">
+        <test-method status="PASS" signature="AfterTestMethod()[pri:0, instance:Login.Login_Test@3fee9989]" name="AfterTestMethod" is-config="true" duration-ms="241" started-at="2022-02-13T22:30:27 IST" finished-at="2022-02-13T22:30:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTestMethod -->

@@ -21,6 +21,7 @@ public class Login_Test extends BaseTest{
     public void LogintoApp() throws InterruptedException {
 
         driver.findElement(By.id(LoginPage.email_locator)).sendKeys(Constants.username);
+        logger.info("User entered the email id");
         driver.findElement(By.xpath(LoginPage.ClickLoginButton)).click();
         Thread.sleep(3000);
         driver.findElement(By.id(LoginPage.password_locator)).sendKeys(Constants.password);
