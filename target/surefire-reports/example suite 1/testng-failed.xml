@@ -12,13 +12,6 @@
           <include name="project_accesspolicy"/>
         </methods>
       </class> <!-- Projects.CreateProjects -->
-      <class name="Login.LoginInvalid">
-        <methods>
-          <include name="LaunchArtemisURL"/>
-          <include name="QuitWindows"/>
-          <include name="wrongpassword"/>
-        </methods>
-      </class> <!-- Login.LoginInvalid -->
     </classes>
   </test> <!-- Regression suite 1(failed) -->
 </suite> <!-- Failed suite [example suite 1] -->
