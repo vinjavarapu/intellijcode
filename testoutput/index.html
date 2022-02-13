@@ -249,23 +249,23 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'wrongpassword')
 data.setCell(0, 2, 'Login.LoginInvalid')
-data.setCell(0, 3, 9425);
+data.setCell(0, 3, 9434);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'LogintoApp')
 data.setCell(1, 2, 'Login.Login_Test')
-data.setCell(1, 3, 6456);
+data.setCell(1, 3, 6488);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'EnterWrongemailid')
 data.setCell(2, 2, 'Login.LoginInvalid')
-data.setCell(2, 3, 5313);
+data.setCell(2, 3, 5310);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'Login_HomePage')
 data.setCell(3, 2, 'Login.Login_Test')
-data.setCell(3, 3, 8);
+data.setCell(3, 3, 16);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'Loginsuccesful')
 data.setCell(4, 2, 'Login.Login_Test')
-data.setCell(4, 3, 4);
+data.setCell(4, 3, 5);
 window.suiteTableData['example_suite_1']= { tableData: data, tableDiv: 'times-div-example_suite_1'}
 return data;
 }
@@ -285,9 +285,18 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-example_suite_1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">2 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Login.LoginInvalid</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">AfterTestMethod</span>
+                <br/>
+                <span class="ignored-method-name">BeforeTestMethod</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-example_suite_1" class="panel">
@@ -297,45 +306,76 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">Login.Login_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">BeforeTestMethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">LaunchArtemisURL</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">107 ms</span>
               </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod(public void Login.Login_Test.Login_HomePage())</span>
+                <span class="method-start">5364 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Login_HomePage</span>
-                <span class="method-start">4881 ms</span>
+                <span class="method-start">5370 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod(public void Login.Login_Test.LogintoApp() throws java.lang.InterruptedException)</span>
+                <span class="method-start">5389 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LogintoApp</span>
-                <span class="method-start">4894 ms</span>
+                <span class="method-start">5390 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod(public void Login.Login_Test.Loginsuccesful())</span>
+                <span class="method-start">11879 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Loginsuccesful</span>
-                <span class="method-start">11350 ms</span>
+                <span class="method-start">11880 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">QuitWindows</span>
-                <span class="method-start">11355 ms</span>
+                <span class="method-start">11886 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Login.LoginInvalid</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">LaunchArtemisURL</span>
-                <span class="method-start">12006 ms</span>
+                <span class="method-start">12562 ms</span>
               </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod(public void Login.LoginInvalid.EnterWrongemailid() throws java.lang.InterruptedException)</span>
+                <span class="method-start">17153 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">EnterWrongemailid</span>
-                <span class="method-start">16088 ms</span>
+                <span class="method-start">17154 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod(public void Login.LoginInvalid.wrongpassword() throws java.lang.InterruptedException)</span>
+                <span class="method-start">22466 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">wrongpassword</span>
-                <span class="method-start">21402 ms</span>
+                <span class="method-start">22466 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">QuitWindows</span>
-                <span class="method-start">30828 ms</span>
+                <span class="method-start">31900 ms</span>
               </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login.Login_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">AfterTestMethod</span>
+                <span class="method-start">32564 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

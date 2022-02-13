@@ -1,14 +1,43 @@
 package Login;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
 import utils.Constants;
 
+import java.lang.reflect.Method;
+
 public class BaseTest {
 
-
+    public ExtentHtmlReporter htmlReporter;
+    public static ExtentReports extent;
     public static WebDriver driver;
+    public static ExtentTest logger;
+
+    @BeforeTest
+    public void BeforeTestMethod(){
+
+        htmlReporter = new ExtentHtmlReporter("./ExtentReports//Automation Test.html");
+        htmlReporter.config().setEncoding("utf-8");
+        htmlReporter.config().setDocumentTitle("Automation Test");
+        htmlReporter.config().setReportName("Automation Test");
+        extent = new ExtentReports();
+        extent.attachReporter(htmlReporter);
+
+    }
+    @AfterTest
+    public void AfterTestMethod() {
+
+        extent.flush();
+    }
+    @BeforeMethod
+    public void BeforeMethod(Method testMethod){
+
+        logger = extent.createTest(testMethod.getName());
+    }
 
     @BeforeClass
     public void LaunchArtemisURL() {
