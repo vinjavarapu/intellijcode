@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [example suite 1]">
+  <test thread-count="5" verbose="0" name="Regression suite 1(failed)">
+    <classes>
+      <class name="Projects.CreateProjects">
+        <methods>
+          <include name="LaunchArtemisURL"/>
+          <include name="QuitWindows"/>
+          <include name="NewCreateProject"/>
+          <include name="project_label"/>
+          <include name="project_accesspolicy"/>
+        </methods>
+      </class> <!-- Projects.CreateProjects -->
+      <class name="Login.LoginInvalid">
+        <methods>
+          <include name="LaunchArtemisURL"/>
+          <include name="QuitWindows"/>
+          <include name="wrongpassword"/>
+        </methods>
+      </class> <!-- Login.LoginInvalid -->
+    </classes>
+  </test> <!-- Regression suite 1(failed) -->
+</suite> <!-- Failed suite [example suite 1] -->

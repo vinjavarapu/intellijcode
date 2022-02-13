@@ -1,0 +1,49 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 114.958 s <<< FAILURE! - in TestSuite
+Login.LoginInvalid.wrongpassword  Time elapsed: 9.395 s  <<< FAILURE!
+java.lang.AssertionError: expected:<> but was:<Password is required>
+	at Login.LoginInvalid.wrongpassword(LoginInvalid.java:34)
+
+Projects.CreateProjects.NewCreateProject  Time elapsed: 25.446 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#input\-216"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-TKGHDD60', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\vamse\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49313}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 96c12717016ee7fbcf8cac1777499ec3
+*** Element info: {Using=id, value=input-216}
+	at Projects.CreateProjects.NewCreateProject(CreateProjects.java:34)
+
+Projects.CreateProjects.project_label  Time elapsed: 20.408 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //*[@id="elk"]/div[1]/main/div/div/div/div/div[1]/div[2]/div/div/div[2]/div[2]/div/div[1]/div[1]/div/div[2]/div[1]/div[1] (tried for 20 second(s) with 500 milliseconds interval)
+	at Projects.CreateProjects.project_label(CreateProjects.java:49)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="elk"]/div[1]/main/div/div/div/div/div[1]/div[2]/div/div/div[2]/div[2]/div/div[1]/div[1]/div/div[2]/div[1]/div[1]"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-TKGHDD60', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\vamse\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49313}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 96c12717016ee7fbcf8cac1777499ec3
+*** Element info: {Using=xpath, value=//*[@id="elk"]/div[1]/main/div/div/div/div/div[1]/div[2]/div/div/div[2]/div[2]/div/div[1]/div[1]/div/div[2]/div[1]/div[1]}
+	at Projects.CreateProjects.project_label(CreateProjects.java:49)
+
+Projects.CreateProjects.project_accesspolicy  Time elapsed: 0.028 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="elk"]/div[1]/main/div/div/div/div/div[1]/div[2]/div/div/div[2]/div[2]/div/div[1]/div[1]/div/div[2]/div[1]/div[2]/span/span"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-TKGHDD60', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\vamse\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49313}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 96c12717016ee7fbcf8cac1777499ec3
+*** Element info: {Using=xpath, value=//*[@id="elk"]/div[1]/main/div/div/div/div/div[1]/div[2]/div/div/div[2]/div[2]/div/div[1]/div[1]/div/div[2]/div[1]/div[2]/span/span}
+	at Projects.CreateProjects.project_accesspolicy(CreateProjects.java:57)
+
