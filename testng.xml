@@ -4,6 +4,7 @@
         <classes>
             <class name="Login.Login_Test"/>
             <class name="Login.LoginInvalid"/>
+            <class name="Projects.ProjectProperties"/>
 
 
         </classes>

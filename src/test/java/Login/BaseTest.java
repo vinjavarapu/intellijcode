@@ -9,6 +9,7 @@ import org.testng.annotations.*;
 import utils.Constants;
 
 import java.lang.reflect.Method;
+import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
 
@@ -25,6 +26,8 @@ public class BaseTest {
         htmlReporter.config().setDocumentTitle("Automation Test Results");
         htmlReporter.config().setReportName("Automation Test");
         extent = new ExtentReports();
+
+
         extent.attachReporter(htmlReporter);
 
     }
@@ -32,11 +35,14 @@ public class BaseTest {
     public void AfterTestMethod() {
 
         extent.flush();
+
     }
     @BeforeMethod
     public void BeforeMethod(Method testMethod){
 
         logger = extent.createTest(testMethod.getName());
+
+        extent.flush();
     }
 
     @BeforeClass
@@ -44,12 +50,12 @@ public class BaseTest {
          Setupdriver();
         driver.get(Constants.url);
         driver.manage().window().maximize();
-       // driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+       driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
 
     @AfterClass
     public void QuitWindows() {
-
+        extent.flush();
         driver.quit();
     }
 

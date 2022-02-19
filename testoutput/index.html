@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">10 methods,   10 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,6 +100,11 @@
                       <a href="#" panel-name="suite-example_suite_1" class="show-methods passed suite-example_suite_1"> (show)</a> <!-- show-methods passed suite-example_suite_1 -->
                     </span>
                     <div class="method-list-content passed suite-example_suite_1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="Projects.ProjectProperties" hash-for-method="ClickProject">ClickProject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="Login.LoginInvalid" hash-for-method="EnterWrongemailid">EnterWrongemailid</a> <!-- method navigator-link -->
@@ -118,6 +123,26 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="Login.Login_Test" hash-for-method="LogintoApp">LogintoApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="Projects.ProjectProperties" hash-for-method="closeProjectDetailsContent">closeProjectDetailsContent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="Projects.ProjectProperties" hash-for-method="fetchprojecttitle">fetchprojecttitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="Projects.ProjectProperties" hash-for-method="getProjectClassification">getProjectClassification</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-example_suite_1" title="Projects.ProjectProperties" hash-for-method="getProjectDetailsContent">getProjectDetailsContent</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -192,6 +217,49 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-example_suite_1-class-passed -->
+          <div class="suite-example_suite_1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Projects.ProjectProperties</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ClickProject">
+                  </a> <!-- ClickProject -->
+                  <span class="method-name">ClickProject</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="closeProjectDetailsContent">
+                  </a> <!-- closeProjectDetailsContent -->
+                  <span class="method-name">closeProjectDetailsContent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fetchprojecttitle">
+                  </a> <!-- fetchprojecttitle -->
+                  <span class="method-name">fetchprojecttitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProjectClassification">
+                  </a> <!-- getProjectClassification -->
+                  <span class="method-name">getProjectClassification</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getProjectDetailsContent">
+                  </a> <!-- getProjectDetailsContent -->
+                  <span class="method-name">getProjectDetailsContent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-example_suite_1-class-passed -->
         </div> <!-- panel example_suite_1 -->
         <div panel-name="test-xml-example_suite_1" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -206,6 +274,7 @@
     &lt;classes&gt;
       &lt;class name=&quot;Login.Login_Test&quot;/&gt;
       &lt;class name=&quot;Login.LoginInvalid&quot;/&gt;
+      &lt;class name=&quot;Projects.ProjectProperties&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Regression suite 1 --&gt;
 &lt;/suite&gt; &lt;!-- example suite 1 --&gt;
@@ -219,7 +288,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Regression suite 1 (2 classes)</span>
+                <span class="test-name">Regression suite 1 (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -245,32 +314,52 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'wrongpassword')
-data.setCell(0, 2, 'Login.LoginInvalid')
-data.setCell(0, 3, 9371);
+data.setCell(0, 1, 'fetchprojecttitle')
+data.setCell(0, 2, 'Projects.ProjectProperties')
+data.setCell(0, 3, 14489);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'LogintoApp')
-data.setCell(1, 2, 'Login.Login_Test')
-data.setCell(1, 3, 6456);
+data.setCell(1, 1, 'wrongpassword')
+data.setCell(1, 2, 'Login.LoginInvalid')
+data.setCell(1, 3, 9381);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'EnterWrongemailid')
-data.setCell(2, 2, 'Login.LoginInvalid')
-data.setCell(2, 3, 5324);
+data.setCell(2, 1, 'LogintoApp')
+data.setCell(2, 2, 'Login.Login_Test')
+data.setCell(2, 3, 6437);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Login_HomePage')
-data.setCell(3, 2, 'Login.Login_Test')
-data.setCell(3, 3, 16);
+data.setCell(3, 1, 'EnterWrongemailid')
+data.setCell(3, 2, 'Login.LoginInvalid')
+data.setCell(3, 3, 5304);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'Loginsuccesful')
-data.setCell(4, 2, 'Login.Login_Test')
-data.setCell(4, 3, 6);
+data.setCell(4, 1, 'getProjectDetailsContent')
+data.setCell(4, 2, 'Projects.ProjectProperties')
+data.setCell(4, 3, 5108);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'getProjectClassification')
+data.setCell(5, 2, 'Projects.ProjectProperties')
+data.setCell(5, 3, 449);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'ClickProject')
+data.setCell(6, 2, 'Projects.ProjectProperties')
+data.setCell(6, 3, 87);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'closeProjectDetailsContent')
+data.setCell(7, 2, 'Projects.ProjectProperties')
+data.setCell(7, 3, 52);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Login_HomePage')
+data.setCell(8, 2, 'Login.Login_Test')
+data.setCell(8, 3, 35);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Loginsuccesful')
+data.setCell(9, 2, 'Login.Login_Test')
+data.setCell(9, 3, 7);
 window.suiteTableData['example_suite_1']= { tableData: data, tableDiv: 'times-div-example_suite_1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <span class="suite-total-time">Total running time: 41 seconds</span>
               <div id="times-div-example_suite_1">
               </div> <!-- times-div-example_suite_1 -->
             </div> <!-- times-div -->
@@ -285,11 +374,20 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-example_suite_1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">4 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">Login.LoginInvalid</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">AfterTestMethod</span>
+                <br/>
+                <span class="ignored-method-name">BeforeTestMethod</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Projects.ProjectProperties</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">AfterTestMethod</span>
                 <br/>
@@ -312,69 +410,120 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">LaunchArtemisURL</span>
-                <span class="method-start">109 ms</span>
+                <span class="method-start">97 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">BeforeMethod(public void Login.Login_Test.Login_HomePage())</span>
-                <span class="method-start">5221 ms</span>
+                <span class="method-start">3310 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Login_HomePage</span>
-                <span class="method-start">5230 ms</span>
+                <span class="method-start">3538 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">BeforeMethod(public void Login.Login_Test.LogintoApp() throws java.lang.InterruptedException)</span>
-                <span class="method-start">5251 ms</span>
+                <span class="method-start">3576 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LogintoApp</span>
-                <span class="method-start">5252 ms</span>
+                <span class="method-start">3614 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">BeforeMethod(public void Login.Login_Test.Loginsuccesful())</span>
-                <span class="method-start">11709 ms</span>
+                <span class="method-start">10052 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">Loginsuccesful</span>
-                <span class="method-start">11709 ms</span>
+                <span class="method-start">10096 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">QuitWindows</span>
-                <span class="method-start">11716 ms</span>
+                <span class="method-start">10104 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Login.LoginInvalid</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">LaunchArtemisURL</span>
-                <span class="method-start">12370 ms</span>
+                <span class="method-start">10803 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">BeforeMethod(public void Login.LoginInvalid.EnterWrongemailid() throws java.lang.InterruptedException)</span>
-                <span class="method-start">17646 ms</span>
+                <span class="method-start">12748 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">EnterWrongemailid</span>
-                <span class="method-start">17647 ms</span>
+                <span class="method-start">12782 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">BeforeMethod(public void Login.LoginInvalid.wrongpassword() throws java.lang.InterruptedException)</span>
-                <span class="method-start">22971 ms</span>
+                <span class="method-start">18086 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">wrongpassword</span>
-                <span class="method-start">22972 ms</span>
+                <span class="method-start">18111 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">QuitWindows</span>
-                <span class="method-start">32344 ms</span>
+                <span class="method-start">27492 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Projects.ProjectProperties</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">LaunchArtemisURL</span>
+                <span class="method-start">28185 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod(public void Projects.ProjectProperties.fetchprojecttitle() throws java.lang.InterruptedException)</span>
+                <span class="method-start">30368 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fetchprojecttitle</span>
+                <span class="method-start">30418 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod(public void Projects.ProjectProperties.ClickProject())</span>
+                <span class="method-start">44908 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ClickProject</span>
+                <span class="method-start">44940 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod(public void Projects.ProjectProperties.getProjectClassification())</span>
+                <span class="method-start">45028 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getProjectClassification</span>
+                <span class="method-start">45060 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod(public void Projects.ProjectProperties.getProjectDetailsContent() throws java.lang.InterruptedExcept...)</span>
+                <span class="method-start">45509 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getProjectDetailsContent</span>
+                <span class="method-start">45546 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">BeforeMethod(public void Projects.ProjectProperties.closeProjectDetailsContent())</span>
+                <span class="method-start">50655 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">closeProjectDetailsContent</span>
+                <span class="method-start">50684 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">QuitWindows</span>
+                <span class="method-start">50737 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Login.Login_Test</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">AfterTestMethod</span>
-                <span class="method-start">33009 ms</span>
+                <span class="method-start">51467 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

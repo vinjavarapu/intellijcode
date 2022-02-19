@@ -3,15 +3,16 @@
 <suite name="Failed suite [example suite 1]">
   <test thread-count="5" name="Regression suite 1(failed)">
     <classes>
-      <class name="Projects.CreateProjects">
+      <class name="Projects.ProjectProperties">
         <methods>
+          <include name="AfterTestMethod"/>
           <include name="LaunchArtemisURL"/>
+          <include name="BeforeTestMethod"/>
+          <include name="BeforeMethod"/>
+          <include name="ClickProject"/>
           <include name="QuitWindows"/>
-          <include name="NewCreateProject"/>
-          <include name="project_label"/>
-          <include name="project_accesspolicy"/>
         </methods>
-      </class> <!-- Projects.CreateProjects -->
+      </class> <!-- Projects.ProjectProperties -->
     </classes>
   </test> <!-- Regression suite 1(failed) -->
 </suite> <!-- Failed suite [example suite 1] -->
