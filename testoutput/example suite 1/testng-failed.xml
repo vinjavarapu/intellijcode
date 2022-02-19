@@ -5,12 +5,23 @@
     <classes>
       <class name="Projects.ProjectProperties">
         <methods>
+          <include name="DeleteConfirmmessage"/>
+          <include name="Deleteaction"/>
+          <include name="TitleLabel_exists"/>
+          <include name="verifyCreateStrategypopupDetails"/>
+          <include name="enterProblemStatements"/>
+          <include name="DeleteStragey"/>
+          <include name="editstragegy"/>
+          <include name="ClickCreateStargeyDoneButton"/>
+          <include name="enterTitleofStrategy"/>
           <include name="AfterTestMethod"/>
           <include name="LaunchArtemisURL"/>
           <include name="BeforeTestMethod"/>
           <include name="BeforeMethod"/>
-          <include name="ClickProject"/>
+          <include name="DeleteStargeyMenu"/>
           <include name="QuitWindows"/>
+          <include name="ProblemStatement_exists"/>
+          <include name="VerifyHelpText"/>
         </methods>
       </class> <!-- Projects.ProjectProperties -->
     </classes>
