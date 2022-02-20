@@ -3,16 +3,25 @@
 <suite name="Failed suite [example suite 1]">
   <test thread-count="5" name="Regression suite 1(failed)">
     <classes>
-      <class name="Projects.FormsProperties">
+      <class name="Forms.FormsProperties">
         <methods>
+          <include name="formspagetitle"/>
+          <include name="createforms"/>
+          <include name="formstitle"/>
+          <include name="additionalquestions"/>
+          <include name="NavigatetoFormsTab"/>
+          <include name="PublishForm"/>
           <include name="AfterTestMethod"/>
           <include name="LaunchArtemisURL"/>
-          <include name="NavigatetoFormsTab"/>
           <include name="BeforeTestMethod"/>
           <include name="BeforeMethod"/>
           <include name="QuitWindows"/>
+          <include name="redirectedurl"/>
+          <include name="formtitle"/>
+          <include name="createQuestion1"/>
+          <include name="NavigatetoProjectDetailsPage"/>
         </methods>
-      </class> <!-- Projects.FormsProperties -->
+      </class> <!-- Forms.FormsProperties -->
     </classes>
   </test> <!-- Regression suite 1(failed) -->
 </suite> <!-- Failed suite [example suite 1] -->

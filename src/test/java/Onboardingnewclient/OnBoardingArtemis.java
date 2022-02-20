@@ -3,7 +3,11 @@ package Onboardingnewclient;
 import static org.testng.Assert.assertEquals;
 
 import java.io.IOException;
+import java.lang.reflect.Method;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,16 +15,41 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import utils.Constants;
 
 
 public class OnBoardingArtemis {
+
+	public ExtentHtmlReporter htmlReporter;
+	public static ExtentReports extent;
+	public static WebDriver driver;
+	public static ExtentTest logger;
 	
-	public WebDriver driver;
-	
+
+
+	@BeforeTest
+	public void BeforeTestMethod(){
+
+		htmlReporter = new ExtentHtmlReporter("./ExtentReports//AutomationTest.html");
+		htmlReporter.config().setEncoding("utf-8");
+		htmlReporter.config().setDocumentTitle("Automation Test Results");
+		htmlReporter.config().setReportName("Automation Test");
+		extent = new ExtentReports();
+
+
+		extent.attachReporter(htmlReporter);
+
+	}
+
+	@AfterTest
+	public void AfterTestMethod() {
+
+		extent.flush();
+
+	}
+
 	
 	@Test(priority=1)
 	public void LaunchURL() throws IOException {

@@ -1,29 +1,39 @@
-package Onboardingnewclient;
+package Login;
 
-import Login.BaseTest;
-import Login.Login_Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import utils.Constants;
 
 import static org.testng.AssertJUnit.assertEquals;
 
-public class ForgotPassword {
 
-    public WebDriver driver;
+public class LoginInvalidAndForgotPassword extends BaseTest {
+
+    @Test
+    public void EnterWrongemailid() throws InterruptedException {
+
+        driver.findElement(By.id("input-31")).sendKeys("test");
+
+        driver.findElement(By.xpath("//div[@id='0']/div/div[3]")).click();
+
+        driver.findElement(By.xpath("//div[@id='fawn-accounts']/div/main/div/div/div/div[2]/div/div[2]/div[5]/div[2]/button/span")).click();
+        Thread.sleep(5000);
+        assertEquals(driver.switchTo().activeElement().findElement(By.xpath("//div[@id='fawn-accounts']/div/div/div/div/div/div/div[2]/pre")).getText(), "Please enter valid email address");
 
 
-    @BeforeTest
-    public void SetUPDriver(){
 
-        System.setProperty("webdriver.chrome.driver","./Drivers//chromedriver.exe");
-        driver = new ChromeDriver();
+    }
+    @Test
+    public void wrongpassword() throws InterruptedException {
 
+        Thread.sleep(4000);
+        driver.findElement(By.id("input-31")).sendKeys("vinjavarapu@gmail.com");
+        driver.findElement(By.xpath("//div[@id='fawn-accounts']/div/main/div/div/div/div[2]/div/div[2]/div[5]/div[2]/button/span")).click();
+        driver.findElement(By.xpath("//div[@id='fawn-accounts']/div/main/div/div/div/div[2]/div/div[2]/div[5]/div[2]/button/span")).click();
+        Thread.sleep(5000);
+        driver.findElement(By.xpath("//div[@id='fawn-accounts']/div/div/div/div/div/div/div[2]/pre")).click();
+        assertEquals(driver.findElement(By.xpath("//div[@id='fawn-accounts']/div/div/div/div/div/div/div[2]/pre")).getText(), "Password is required");
     }
     @Test(priority=1)
     public void LaunchURL(){
@@ -72,8 +82,8 @@ public class ForgotPassword {
     @Test(priority=7)
     public void recoveryhelptext(){
 
-       String helptext= driver.findElement(By.xpath("//*[@id=\"fawn-accounts\"]/div/main/div/div/div[1]/div[2]/div/div[2]/div/div/div[2]")).getText();
-       System.out.println(helptext);
+        String helptext= driver.findElement(By.xpath("//*[@id=\"fawn-accounts\"]/div/main/div/div/div[1]/div[2]/div/div[2]/div/div/div[2]")).getText();
+        System.out.println(helptext);
 
 
     }
@@ -83,15 +93,4 @@ public class ForgotPassword {
         Thread.sleep(5000);
         driver.findElement(By.xpath("//*[@id=\"fawn-accounts\"]/div/main/div/div/div[1]/div[2]/div/div[2]/div/button/span")).click();
     }
-    @AfterTest
-    public void quitwindows(){
-
-        driver.quit();
-    }
-
-
-
-
-
-
 }

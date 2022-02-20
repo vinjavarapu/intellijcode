@@ -3,13 +3,13 @@
     <test name="Regression suite 1" >
         <classes>
             <class name="Login.Login_Test"/>
-            <class name="Login.LoginInvalid"/>
+            <class name="Login.LoginInvalidAndForgotPassword"/>
             <class name="Projects.ProjectProperties"/>
-            <class name="Projects.FormsProperties"/>
+            <class name="Forms.FormsProperties"/>
+            <class name="Projects.editproject"/>
             <class name="Onboardingnewclient.OnBoardingArtemis"/>
             <class name="Onboardingnewclient.SettingsPage"/>
             <class name="Onboardingnewclient.SingupNewUser"/>
-            <class name="Onboardingnewclient.ForgotPassword"/>
 
 
         </classes>

@@ -1,4 +1,4 @@
-package Projects;
+package Forms;
 
 import Login.BaseTest;
 import Login.Login_Test;
@@ -69,9 +69,31 @@ public class FormsProperties extends BaseTest {
 
        driver.findElement(By.xpath("//div[@id='elk']/div/main/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div[2]/span/div/div/form/div/div/div[2]/div/div/div/div/div/input")).sendKeys("BabuGaru");
        Thread.sleep(6000);
-       driver.findElement(By.xpath("//*[@id=\"elk\"]/div[1]/main/div/div/div/div/div[1]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/span/div/div/form/div/div[3]/div/div[2]/button/span")).click();
-       Thread.sleep(8000);
+         driver.findElement(By.xpath("//*[@id=\"elk\"]/div[1]/main/div/div/div/div/div[1]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/span/div/div/form/div/div[3]/div/div[2]/button/span")).click();
+         Thread.sleep(7000);
+
 
 
     }
+    @Test(priority = 9)
+    public void additionalquestions() throws InterruptedException {
+
+        driver.findElement(By.xpath("//*[@id=\"elk\"]/div[1]/main/div/div/div/div/div[1]/div[2]/div/div/div[2]/div[2]/div/div/div[3]/div")).click();
+        Thread.sleep(6000);
+        driver.findElement(By.xpath("/html/body/div/div[1]/main/div/div/div/div/div[1]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/span/div[2]/div/form/div/div[2]/div[2]/div[1]/div/div/div[1]/div/input")).sendKeys("Ammavaru");
+        Thread.sleep(6000);
+         driver.findElement(By.xpath("//*[@id=\"elk\"]/div[1]/main/div/div/div/div/div[1]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/span/div[2]/div/form/div/div[4]/div/div[2]/button/span")).click();
+         Thread.sleep(6000);
+
+    }
+    @Test(priority = 10)
+    public void PublishForm() throws InterruptedException {
+
+        driver.navigate().refresh();
+        Thread.sleep(5000);
+        driver.findElement(By.xpath("//*[@id=\"elk\"]/div[1]/main/div/div/div/div/div[1]/div[1]/div/div[2]/div/div[2]/button/span")).click();
+
+    }
+
+
 }
