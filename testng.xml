@@ -6,6 +6,10 @@
             <class name="Login.LoginInvalid"/>
             <class name="Projects.ProjectProperties"/>
             <class name="Projects.FormsProperties"/>
+            <class name="Onboardingnewclient.OnBoardingArtemis"/>
+            <class name="Onboardingnewclient.SettingsPage"/>
+            <class name="Onboardingnewclient.SingupNewUser"/>
+            <class name="Onboardingnewclient.ForgotPassword"/>
 
 
         </classes>
