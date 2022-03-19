@@ -10,6 +10,7 @@
             <class name="Onboardingnewclient.OnBoardingArtemis"/>
             <class name="Onboardingnewclient.SettingsPage"/>
             <class name="Onboardingnewclient.SingupNewUser"/>
+            <class name="NewUserSiteNavigation.newusernavigation"/>
 
 
         </classes>

@@ -2,6 +2,7 @@ package Onboardingnewclient;
 
 import static org.testng.Assert.assertEquals;
 
+import Login.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,7 +11,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class SingupNewUser {
+public class SingupNewUser extends BaseTest {
 	
 	public static WebDriver driver;
 	

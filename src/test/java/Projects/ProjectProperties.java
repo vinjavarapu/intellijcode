@@ -24,23 +24,24 @@ public class ProjectProperties extends BaseTest {
         assertEquals(text,"Project123");
 
     }
-    @Test(priority=2)
+   @Test(priority=3)
     public void ClickProject() {
 
-        driver.findElement(By.xpath(ProjectsPage.project_title)).click();
+
         String redirected_url = driver.getCurrentUrl();
         System.out.println(redirected_url);
-       // assertEquals(redirected_url,"https://staging.artemis.im/projects");
+       assertEquals(redirected_url,"https://staging.artemis.im/projects");
+       driver.findElement(By.xpath("/html/body/div/div[1]/main/div/div/div/div/div[1]/div[2]/div/div/div[2]/div[2]/div/div[1]/div/div/div[2]/div/div[1]")).click();
 
     }
-    @Test(priority=3)
+    @Test(priority=4)
     public void getProjectClassification() {
 
         WebElement element = driver.findElement(By.xpath(ProjectsPage.project_access));
         String access = element.getText();
         System.out.println("The project access is " + access);
     }
-    @Test(priority=4)
+    @Test(priority=5)
     public void getProjectDetailsContent() throws InterruptedException {
 
         WebElement element = driver.findElement(By.xpath(ProjectsPage.project_seedetails));
@@ -52,14 +53,14 @@ public class ProjectProperties extends BaseTest {
 
 
     }
-    @Test(priority=5)
+    @Test(priority=6)
     public void closeProjectDetailsContent(){
         WebElement element = driver.findElement(By.xpath(ProjectsPage.project_closedetails));
         element.click();
 
 
     }
-    @Test(priority=6)
+    @Test(priority=7)
     public void ClickStrategyTab(){
 
         WebElement element = driver.findElement(By.xpath(ProjectsPage.project_strategytab));
@@ -69,14 +70,14 @@ public class ProjectProperties extends BaseTest {
         assertEquals(text,"Strategy");
     }
 
-    @Test(priority=7)
+    @Test(priority=8)
     public void gettitleofpage(){
 
         String title = driver.getTitle();
         System.out.println("The page title is " + " "+ title);
     }
 
-    @Test(priority=8)
+    @Test(priority=9)
     public void ClickCreateStragey() throws InterruptedException {
 
         WebElement element = driver.findElement(By.xpath(ProjectsPage.project_CreateStrategy));
@@ -85,7 +86,7 @@ public class ProjectProperties extends BaseTest {
         System.out.println("The tab name is " + tabName);
         Thread.sleep(5000);
     }
-    @Test(priority=9)
+    @Test(priority=10)
     public void verifyCreateStrategypopupDetails(){
 
        WebElement ele = driver.switchTo().activeElement().findElement(By.xpath("//div[@id='elk']/div[4]/div/div/div/div/form/div/div/div/div"));
@@ -93,13 +94,13 @@ public class ProjectProperties extends BaseTest {
        System.out.println(text);
        assertEquals(text,"Create strategy");
     }
-    @Test(priority=10)
+    @Test(priority=11)
     public void HelpTextofCreateStrategy(){
 
         String helptext = driver.findElement(By.xpath("//*[@id=\"toc\"]/div/div/div/div[2]/div")).getText();
         System.out.println(helptext);
     }
-    @Test(priority=11)
+    @Test(priority=12)
     public void VerifyHelpText(){
 
         WebElement HelpText = driver.switchTo().activeElement().findElement(By.xpath("//div[@id='elk']/div[4]/div/div/div/div/form/div/div/div[2]/div/span"));
@@ -107,34 +108,38 @@ public class ProjectProperties extends BaseTest {
         System.out.println("The help text displayed as " + " " + HelpText_Content);
 
     }
-    @Test(priority=12)
+    @Test(priority=13)
     public void TitleLabel_exists(){
 
         WebElement title_label = driver.switchTo().activeElement().findElement(By.xpath("//div[@id='elk']/div[4]/div/div/div/div/form/div/div[2]/div/div/div/div"));
         String text = title_label.getText();
         System.out.println(text);
     }
-    @Test(priority=13)
-    public void ProblemStatement_exists() {
+    @Test(priority=14)
+    public void ProblemStatement_exists() throws InterruptedException {
 
         WebElement problemstatement = driver.switchTo().activeElement().findElement(By.xpath("//div[@id='elk']/div[4]/div/div/div/div/form/div/div[2]/div[2]/div/div/div"));
         String text = problemstatement.getText();
         System.out.println(text);
-    }
-    @Test(priority = 14)
-    public void enterTitleofStrategy() throws InterruptedException {
-
-        WebElement title = driver.switchTo().activeElement().findElement(By.id("input-362"));
-        title.sendKeys("Ravikumar123");
-        Thread.sleep(4000);
+        Thread.sleep(5000);
     }
     @Test(priority = 15)
-    public void enterProblemStatements() throws InterruptedException {
+    public void enterTitleofStrategy() throws InterruptedException {
 
-       driver.switchTo().activeElement().findElement(By.xpath("//*[@id=\"input-364\"]")).sendKeys("text12345text12345text12345text12345text12345text12345text12345");
+        WebElement title = driver.findElement(By.xpath("/html/body/div/div[4]/div/div/div[1]/div/form/div/div[2]/div[1]/div/div/div[2]/div/div/div/div/input"));
+        title.sendKeys("Ravikumar123");
 
     }
     @Test(priority = 16)
+    public void enterProblemStatements() throws InterruptedException {
+
+        Thread.sleep(5000);
+        WebElement textarea =driver.findElement(By.xpath("/html/body/div/div[4]/div/div/div[1]/div/form/div/div[2]/div[2]/div/div/div[2]/div/div/div[1]/div/textarea"));
+        textarea.sendKeys("TestTestTest");
+
+
+    }
+    @Test(priority = 17)
     public void ClickCreateStargeyDoneButton() throws InterruptedException {
 
         driver.switchTo().activeElement().findElement(By.xpath("//div[@id='elk']/div[4]/div/div/div[2]/button[2]/span")).click();
@@ -142,7 +147,7 @@ public class ProjectProperties extends BaseTest {
 
 
     }
-    @Test(priority = 17)
+    @Test(priority = 18)
     public void DeleteStargeyMenu() throws InterruptedException {
 
         driver.findElement(By.xpath("//*[@id=\"toc\"]/div[1]/div/div[1]/div[5]/button")).click();
@@ -155,7 +160,7 @@ public class ProjectProperties extends BaseTest {
     @Test(priority = 18)
     public void DeleteStragey() throws InterruptedException {
 
-        driver.findElement(By.id("list-item-411")).click();
+        driver.findElement(By.xpath("/html/body/div/div[3]/div/div[2]/div")).click();
         Thread.sleep(4000);
     }
     @Test(priority = 19)

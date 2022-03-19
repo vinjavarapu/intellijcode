@@ -3,25 +3,45 @@
 <suite name="Failed suite [example suite 1]">
   <test thread-count="5" name="Regression suite 1(failed)">
     <classes>
-      <class name="Forms.FormsProperties">
+      <class name="Projects.editproject">
         <methods>
-          <include name="formspagetitle"/>
-          <include name="createforms"/>
-          <include name="formstitle"/>
-          <include name="additionalquestions"/>
-          <include name="NavigatetoFormsTab"/>
-          <include name="PublishForm"/>
+          <include name="VerifyTitleofeditproject"/>
+          <include name="fetchProjectaccess"/>
+          <include name="ClickEditProject"/>
+          <include name="NavigatetoProjectBoard"/>
           <include name="AfterTestMethod"/>
           <include name="LaunchArtemisURL"/>
           <include name="BeforeTestMethod"/>
           <include name="BeforeMethod"/>
+          <include name="edittitleofproject"/>
           <include name="QuitWindows"/>
-          <include name="redirectedurl"/>
-          <include name="formtitle"/>
-          <include name="createQuestion1"/>
-          <include name="NavigatetoProjectDetailsPage"/>
+          <include name="clickCancelButton"/>
+          <include name="clickProjectHamburgicon"/>
+          <include name="checkProjectState"/>
         </methods>
-      </class> <!-- Forms.FormsProperties -->
+      </class> <!-- Projects.editproject -->
+      <class name="Onboardingnewclient.OnBoardingArtemis">
+        <methods>
+          <include name="Logout_click"/>
+          <include name="Logout_Click"/>
+          <include name="Logout_Confirmation"/>
+          <include name="AfterTestMethod"/>
+          <include name="Settings_is_Clickable"/>
+          <include name="Setting_is_Present"/>
+          <include name="Settings_Navigations_Popup"/>
+          <include name="BeforeTestMethod"/>
+          <include name="closewindows"/>
+        </methods>
+      </class> <!-- Onboardingnewclient.OnBoardingArtemis -->
+      <class name="Onboardingnewclient.SingupNewUser">
+        <methods>
+          <include name="VerifySignupLinkisavailable"/>
+          <include name="verifyTitleofsignup"/>
+          <include name="quitwindows"/>
+          <include name="clickSignuplink"/>
+          <include name="LaunchURL"/>
+        </methods>
+      </class> <!-- Onboardingnewclient.SingupNewUser -->
     </classes>
   </test> <!-- Regression suite 1(failed) -->
 </suite> <!-- Failed suite [example suite 1] -->

@@ -5,6 +5,7 @@ import static org.testng.Assert.assertEquals;
 import java.io.IOException;
 import java.lang.reflect.Method;
 
+import Login.BaseTest;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
@@ -20,7 +21,7 @@ import org.testng.annotations.*;
 import utils.Constants;
 
 
-public class OnBoardingArtemis {
+public class OnBoardingArtemis extends BaseTest {
 
 	public ExtentHtmlReporter htmlReporter;
 	public static ExtentReports extent;
@@ -29,26 +30,7 @@ public class OnBoardingArtemis {
 	
 
 
-	@BeforeTest
-	public void BeforeTestMethod(){
 
-		htmlReporter = new ExtentHtmlReporter("./ExtentReports//AutomationTest.html");
-		htmlReporter.config().setEncoding("utf-8");
-		htmlReporter.config().setDocumentTitle("Automation Test Results");
-		htmlReporter.config().setReportName("Automation Test");
-		extent = new ExtentReports();
-
-
-		extent.attachReporter(htmlReporter);
-
-	}
-
-	@AfterTest
-	public void AfterTestMethod() {
-
-		extent.flush();
-
-	}
 
 	
 	@Test(priority=1)
