@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="16" total="89" passed="73">
+<testng-results skipped="0" failed="0" ignored="16" total="96" passed="80">
   <reporter-output>
     <line>
       <![CDATA[Fetch the title of the page]]>
@@ -71,16 +71,16 @@
       <![CDATA[User clicks the next button]]>
     </line>
   </reporter-output>
-  <suite name="example suite 1" duration-ms="308268" started-at="2022-03-19T23:42:32 IST" finished-at="2022-03-19T23:47:40 IST">
+  <suite name="example suite 1" duration-ms="326766" started-at="2022-03-20T00:21:37 IST" finished-at="2022-03-20T00:27:04 IST">
     <groups>
     </groups>
-    <test name="Regression suite 1" duration-ms="308268" started-at="2022-03-19T23:42:32 IST" finished-at="2022-03-19T23:47:40 IST">
+    <test name="Regression suite 1" duration-ms="326766" started-at="2022-03-20T00:21:37 IST" finished-at="2022-03-20T00:27:04 IST">
       <class name="Projects.editproject">
-        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Projects.editproject@cb644e]" name="LaunchArtemisURL" is-config="true" duration-ms="1961" started-at="2022-03-19T23:45:23 IST" finished-at="2022-03-19T23:45:25 IST">
+        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Projects.editproject@13805618]" name="LaunchArtemisURL" is-config="true" duration-ms="1853" started-at="2022-03-20T00:24:30 IST" finished-at="2022-03-20T00:24:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchArtemisURL -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.editproject@cb644e]" name="BeforeMethod" is-config="true" duration-ms="33" started-at="2022-03-19T23:45:25 IST" finished-at="2022-03-19T23:45:25 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.editproject@13805618]" name="BeforeMethod" is-config="true" duration-ms="26" started-at="2022-03-20T00:24:31 IST" finished-at="2022-03-20T00:24:31 IST">
           <params>
             <param index="0">
               <value>
@@ -91,7 +91,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="NavigatetoProjectBoard()[pri:1, instance:Projects.editproject@cb644e]" name="NavigatetoProjectBoard" duration-ms="14499" started-at="2022-03-19T23:45:25 IST" finished-at="2022-03-19T23:45:39 IST">
+        <test-method status="PASS" signature="NavigatetoProjectBoard()[pri:1, instance:Projects.editproject@13805618]" name="NavigatetoProjectBoard" duration-ms="14518" started-at="2022-03-20T00:24:31 IST" finished-at="2022-03-20T00:24:46 IST">
           <reporter-output>
             <line>
               <![CDATA[User ented the email id details succefully]]>
@@ -107,7 +107,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- NavigatetoProjectBoard -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.editproject@cb644e]" name="BeforeMethod" is-config="true" duration-ms="37" started-at="2022-03-19T23:45:39 IST" finished-at="2022-03-19T23:45:39 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.editproject@13805618]" name="BeforeMethod" is-config="true" duration-ms="44" started-at="2022-03-20T00:24:46 IST" finished-at="2022-03-20T00:24:46 IST">
           <params>
             <param index="0">
               <value>
@@ -118,11 +118,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="fetchProjectaccess()[pri:2, instance:Projects.editproject@cb644e]" name="fetchProjectaccess" duration-ms="33" started-at="2022-03-19T23:45:39 IST" finished-at="2022-03-19T23:45:39 IST">
+        <test-method status="PASS" signature="fetchProjectaccess()[pri:2, instance:Projects.editproject@13805618]" name="fetchProjectaccess" duration-ms="36" started-at="2022-03-20T00:24:46 IST" finished-at="2022-03-20T00:24:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchProjectaccess -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.editproject@cb644e]" name="BeforeMethod" is-config="true" duration-ms="44" started-at="2022-03-19T23:45:39 IST" finished-at="2022-03-19T23:45:39 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.editproject@13805618]" name="BeforeMethod" is-config="true" duration-ms="51" started-at="2022-03-20T00:24:46 IST" finished-at="2022-03-20T00:24:46 IST">
           <params>
             <param index="0">
               <value>
@@ -133,11 +133,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="checkProjectState()[pri:3, instance:Projects.editproject@cb644e]" name="checkProjectState" duration-ms="5045" started-at="2022-03-19T23:45:39 IST" finished-at="2022-03-19T23:45:44 IST">
+        <test-method status="PASS" signature="checkProjectState()[pri:3, instance:Projects.editproject@13805618]" name="checkProjectState" duration-ms="5034" started-at="2022-03-20T00:24:46 IST" finished-at="2022-03-20T00:24:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkProjectState -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.editproject@cb644e]" name="BeforeMethod" is-config="true" duration-ms="48" started-at="2022-03-19T23:45:44 IST" finished-at="2022-03-19T23:45:44 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.editproject@13805618]" name="BeforeMethod" is-config="true" duration-ms="44" started-at="2022-03-20T00:24:51 IST" finished-at="2022-03-20T00:24:51 IST">
           <params>
             <param index="0">
               <value>
@@ -148,11 +148,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="clickProjectHamburgicon()[pri:4, instance:Projects.editproject@cb644e]" name="clickProjectHamburgicon" duration-ms="8071" started-at="2022-03-19T23:45:44 IST" finished-at="2022-03-19T23:45:52 IST">
+        <test-method status="PASS" signature="clickProjectHamburgicon()[pri:4, instance:Projects.editproject@13805618]" name="clickProjectHamburgicon" duration-ms="8071" started-at="2022-03-20T00:24:51 IST" finished-at="2022-03-20T00:24:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickProjectHamburgicon -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.editproject@cb644e]" name="BeforeMethod" is-config="true" duration-ms="55" started-at="2022-03-19T23:45:52 IST" finished-at="2022-03-19T23:45:52 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.editproject@13805618]" name="BeforeMethod" is-config="true" duration-ms="22" started-at="2022-03-20T00:24:59 IST" finished-at="2022-03-20T00:24:59 IST">
           <params>
             <param index="0">
               <value>
@@ -163,11 +163,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="ClickEditProject()[pri:5, instance:Projects.editproject@cb644e]" name="ClickEditProject" duration-ms="8161" started-at="2022-03-19T23:45:52 IST" finished-at="2022-03-19T23:46:01 IST">
+        <test-method status="PASS" signature="ClickEditProject()[pri:5, instance:Projects.editproject@13805618]" name="ClickEditProject" duration-ms="8181" started-at="2022-03-20T00:24:59 IST" finished-at="2022-03-20T00:25:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickEditProject -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.editproject@cb644e]" name="BeforeMethod" is-config="true" duration-ms="28" started-at="2022-03-19T23:46:01 IST" finished-at="2022-03-19T23:46:01 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.editproject@13805618]" name="BeforeMethod" is-config="true" duration-ms="44" started-at="2022-03-20T00:25:07 IST" finished-at="2022-03-20T00:25:08 IST">
           <params>
             <param index="0">
               <value>
@@ -178,11 +178,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="VerifyTitleofeditproject()[pri:6, instance:Projects.editproject@cb644e]" name="VerifyTitleofeditproject" duration-ms="6027" started-at="2022-03-19T23:46:01 IST" finished-at="2022-03-19T23:46:07 IST">
+        <test-method status="PASS" signature="VerifyTitleofeditproject()[pri:6, instance:Projects.editproject@13805618]" name="VerifyTitleofeditproject" duration-ms="6041" started-at="2022-03-20T00:25:08 IST" finished-at="2022-03-20T00:25:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyTitleofeditproject -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.editproject@cb644e]" name="BeforeMethod" is-config="true" duration-ms="22" started-at="2022-03-19T23:46:07 IST" finished-at="2022-03-19T23:46:07 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.editproject@13805618]" name="BeforeMethod" is-config="true" duration-ms="52" started-at="2022-03-20T00:25:14 IST" finished-at="2022-03-20T00:25:14 IST">
           <params>
             <param index="0">
               <value>
@@ -193,11 +193,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="edittitleofproject()[pri:7, instance:Projects.editproject@cb644e]" name="edittitleofproject" duration-ms="13387" started-at="2022-03-19T23:46:07 IST" finished-at="2022-03-19T23:46:20 IST">
+        <test-method status="PASS" signature="edittitleofproject()[pri:7, instance:Projects.editproject@13805618]" name="edittitleofproject" duration-ms="13252" started-at="2022-03-20T00:25:14 IST" finished-at="2022-03-20T00:25:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- edittitleofproject -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.editproject@cb644e]" name="BeforeMethod" is-config="true" duration-ms="21" started-at="2022-03-19T23:46:20 IST" finished-at="2022-03-19T23:46:20 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.editproject@13805618]" name="BeforeMethod" is-config="true" duration-ms="57" started-at="2022-03-20T00:25:27 IST" finished-at="2022-03-20T00:25:27 IST">
           <params>
             <param index="0">
               <value>
@@ -208,21 +208,275 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="clickCancelButton()[pri:8, instance:Projects.editproject@cb644e]" name="clickCancelButton" duration-ms="8198" started-at="2022-03-19T23:46:20 IST" finished-at="2022-03-19T23:46:28 IST">
+        <test-method status="PASS" signature="clickCancelButton()[pri:8, instance:Projects.editproject@13805618]" name="clickCancelButton" duration-ms="8112" started-at="2022-03-20T00:25:27 IST" finished-at="2022-03-20T00:25:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickCancelButton -->
-        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Projects.editproject@cb644e]" name="QuitWindows" is-config="true" duration-ms="723" started-at="2022-03-19T23:46:28 IST" finished-at="2022-03-19T23:46:29 IST">
+        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Projects.editproject@13805618]" name="QuitWindows" is-config="true" duration-ms="788" started-at="2022-03-20T00:25:35 IST" finished-at="2022-03-20T00:25:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- QuitWindows -->
       </class> <!-- Projects.editproject -->
-      <class name="Projects.ProjectProperties">
-        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Projects.ProjectProperties@6e1567f1]" name="LaunchArtemisURL" is-config="true" duration-ms="1931" started-at="2022-03-19T23:43:28 IST" finished-at="2022-03-19T23:43:30 IST">
+      <class name="Onboardingnewclient.OnBoardingArtemis">
+        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="LaunchArtemisURL" is-config="true" duration-ms="1928" started-at="2022-03-20T00:25:36 IST" finished-at="2022-03-20T00:25:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchArtemisURL -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="51" started-at="2022-03-19T23:43:30 IST" finished-at="2022-03-19T23:43:30 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="BeforeMethod" is-config="true" duration-ms="24" started-at="2022-03-20T00:25:38 IST" finished-at="2022-03-20T00:25:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.LaunchURL() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="LaunchURL()[pri:1, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="LaunchURL" duration-ms="1844" started-at="2022-03-20T00:25:38 IST" finished-at="2022-03-20T00:25:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchURL -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="BeforeMethod" is-config="true" duration-ms="27" started-at="2022-03-20T00:25:40 IST" finished-at="2022-03-20T00:25:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.LoginErrorMessage_Wrongemailformat() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="LoginErrorMessage_Wrongemailformat()[pri:2, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="LoginErrorMessage_Wrongemailformat" duration-ms="4807" started-at="2022-03-20T00:25:40 IST" finished-at="2022-03-20T00:25:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorMessage_Wrongemailformat -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="BeforeMethod" is-config="true" duration-ms="68" started-at="2022-03-20T00:25:44 IST" finished-at="2022-03-20T00:25:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.LoginAction() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="LoginAction()[pri:3, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="LoginAction" duration-ms="4382" started-at="2022-03-20T00:25:45 IST" finished-at="2022-03-20T00:25:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAction -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="BeforeMethod" is-config="true" duration-ms="29" started-at="2022-03-20T00:25:49 IST" finished-at="2022-03-20T00:25:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.HomePageTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="HomePageTitle()[pri:4, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="HomePageTitle" duration-ms="5" started-at="2022-03-20T00:25:49 IST" finished-at="2022-03-20T00:25:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTitle -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="BeforeMethod" is-config="true" duration-ms="33" started-at="2022-03-20T00:25:49 IST" finished-at="2022-03-20T00:25:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.UserNameDisplay()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="UserNameDisplay()[pri:5, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="UserNameDisplay" duration-ms="4839" started-at="2022-03-20T00:25:49 IST" finished-at="2022-03-20T00:25:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserNameDisplay -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="BeforeMethod" is-config="true" duration-ms="21" started-at="2022-03-20T00:25:54 IST" finished-at="2022-03-20T00:25:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.isCreateNewButtonPresent()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="isCreateNewButtonPresent()[pri:6, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="isCreateNewButtonPresent" duration-ms="45" started-at="2022-03-20T00:25:54 IST" finished-at="2022-03-20T00:25:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isCreateNewButtonPresent -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="BeforeMethod" is-config="true" duration-ms="31" started-at="2022-03-20T00:25:54 IST" finished-at="2022-03-20T00:25:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.isCreateNewButtonEnabled()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="isCreateNewButtonEnabled()[pri:7, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="isCreateNewButtonEnabled" duration-ms="22" started-at="2022-03-20T00:25:54 IST" finished-at="2022-03-20T00:25:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isCreateNewButtonEnabled -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="BeforeMethod" is-config="true" duration-ms="38" started-at="2022-03-20T00:25:54 IST" finished-at="2022-03-20T00:25:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.ClickCreatenewproject()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="ClickCreatenewproject()[pri:8, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="ClickCreatenewproject" duration-ms="378" started-at="2022-03-20T00:25:54 IST" finished-at="2022-03-20T00:25:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickCreatenewproject -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="BeforeMethod" is-config="true" duration-ms="26" started-at="2022-03-20T00:25:54 IST" finished-at="2022-03-20T00:25:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.ClickCancelProjectDialog() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="ClickCancelProjectDialog()[pri:9, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="ClickCancelProjectDialog" duration-ms="5702" started-at="2022-03-20T00:25:54 IST" finished-at="2022-03-20T00:26:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickCancelProjectDialog -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="BeforeMethod" is-config="true" duration-ms="27" started-at="2022-03-20T00:26:00 IST" finished-at="2022-03-20T00:26:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.LogoutAction() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="LogoutAction()[pri:10, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="LogoutAction" duration-ms="4740" started-at="2022-03-20T00:26:00 IST" finished-at="2022-03-20T00:26:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutAction -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="BeforeMethod" is-config="true" duration-ms="44" started-at="2022-03-20T00:26:05 IST" finished-at="2022-03-20T00:26:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.Setting_is_Present()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="Setting_is_Present()[pri:11, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="Setting_is_Present" duration-ms="80" started-at="2022-03-20T00:26:05 IST" finished-at="2022-03-20T00:26:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setting_is_Present -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="BeforeMethod" is-config="true" duration-ms="30" started-at="2022-03-20T00:26:05 IST" finished-at="2022-03-20T00:26:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.Settings_is_Clickable()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="Settings_is_Clickable()[pri:12, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="Settings_is_Clickable" duration-ms="40" started-at="2022-03-20T00:26:05 IST" finished-at="2022-03-20T00:26:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Settings_is_Clickable -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="BeforeMethod" is-config="true" duration-ms="31" started-at="2022-03-20T00:26:05 IST" finished-at="2022-03-20T00:26:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.Settings_Navigations_Popup() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="Settings_Navigations_Popup()[pri:13, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="Settings_Navigations_Popup" duration-ms="4120" started-at="2022-03-20T00:26:05 IST" finished-at="2022-03-20T00:26:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Settings_Navigations_Popup -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="BeforeMethod" is-config="true" duration-ms="42" started-at="2022-03-20T00:26:09 IST" finished-at="2022-03-20T00:26:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.Logout_Click()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="Logout_Click()[pri:14, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="Logout_Click" duration-ms="87" started-at="2022-03-20T00:26:09 IST" finished-at="2022-03-20T00:26:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout_Click -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="BeforeMethod" is-config="true" duration-ms="34" started-at="2022-03-20T00:26:09 IST" finished-at="2022-03-20T00:26:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.Logout_Confirmation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="Logout_Confirmation()[pri:15, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="Logout_Confirmation" duration-ms="27" started-at="2022-03-20T00:26:09 IST" finished-at="2022-03-20T00:26:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout_Confirmation -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="BeforeMethod" is-config="true" duration-ms="35" started-at="2022-03-20T00:26:09 IST" finished-at="2022-03-20T00:26:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.Logout_click()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="Logout_click()[pri:16, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="Logout_click" duration-ms="101" started-at="2022-03-20T00:26:09 IST" finished-at="2022-03-20T00:26:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout_click -->
+        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="QuitWindows" is-config="true" duration-ms="749" started-at="2022-03-20T00:26:10 IST" finished-at="2022-03-20T00:26:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitWindows -->
+        <test-method status="PASS" signature="closewindows()[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@56ef9176]" name="closewindows" is-config="true" duration-ms="725" started-at="2022-03-20T00:27:03 IST" finished-at="2022-03-20T00:27:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindows -->
+      </class> <!-- Onboardingnewclient.OnBoardingArtemis -->
+      <class name="Projects.ProjectProperties">
+        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Projects.ProjectProperties@5cb9f472]" name="LaunchArtemisURL" is-config="true" duration-ms="1942" started-at="2022-03-20T00:22:35 IST" finished-at="2022-03-20T00:22:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchArtemisURL -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="44" started-at="2022-03-20T00:22:37 IST" finished-at="2022-03-20T00:22:37 IST">
           <params>
             <param index="0">
               <value>
@@ -233,7 +487,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="fetchprojecttitle()[pri:1, instance:Projects.ProjectProperties@6e1567f1]" name="fetchprojecttitle" duration-ms="14504" started-at="2022-03-19T23:43:30 IST" finished-at="2022-03-19T23:43:45 IST">
+        <test-method status="PASS" signature="fetchprojecttitle()[pri:1, instance:Projects.ProjectProperties@5cb9f472]" name="fetchprojecttitle" duration-ms="14479" started-at="2022-03-20T00:22:37 IST" finished-at="2022-03-20T00:22:52 IST">
           <reporter-output>
             <line>
               <![CDATA[User ented the email id details succefully]]>
@@ -249,7 +503,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- fetchprojecttitle -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="46" started-at="2022-03-19T23:43:45 IST" finished-at="2022-03-19T23:43:45 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="47" started-at="2022-03-20T00:22:52 IST" finished-at="2022-03-20T00:22:52 IST">
           <params>
             <param index="0">
               <value>
@@ -260,11 +514,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="ClickProject()[pri:3, instance:Projects.ProjectProperties@6e1567f1]" name="ClickProject" duration-ms="79" started-at="2022-03-19T23:43:45 IST" finished-at="2022-03-19T23:43:45 IST">
+        <test-method status="PASS" signature="ClickProject()[pri:3, instance:Projects.ProjectProperties@5cb9f472]" name="ClickProject" duration-ms="85" started-at="2022-03-20T00:22:52 IST" finished-at="2022-03-20T00:22:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickProject -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="31" started-at="2022-03-19T23:43:45 IST" finished-at="2022-03-19T23:43:45 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="29" started-at="2022-03-20T00:22:52 IST" finished-at="2022-03-20T00:22:52 IST">
           <params>
             <param index="0">
               <value>
@@ -275,11 +529,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="getProjectClassification()[pri:4, instance:Projects.ProjectProperties@6e1567f1]" name="getProjectClassification" duration-ms="533" started-at="2022-03-19T23:43:45 IST" finished-at="2022-03-19T23:43:45 IST">
+        <test-method status="PASS" signature="getProjectClassification()[pri:4, instance:Projects.ProjectProperties@5cb9f472]" name="getProjectClassification" duration-ms="700" started-at="2022-03-20T00:22:52 IST" finished-at="2022-03-20T00:22:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getProjectClassification -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="29" started-at="2022-03-19T23:43:45 IST" finished-at="2022-03-19T23:43:45 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="36" started-at="2022-03-20T00:22:52 IST" finished-at="2022-03-20T00:22:52 IST">
           <params>
             <param index="0">
               <value>
@@ -290,11 +544,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="getProjectDetailsContent()[pri:5, instance:Projects.ProjectProperties@6e1567f1]" name="getProjectDetailsContent" duration-ms="5110" started-at="2022-03-19T23:43:45 IST" finished-at="2022-03-19T23:43:50 IST">
+        <test-method status="PASS" signature="getProjectDetailsContent()[pri:5, instance:Projects.ProjectProperties@5cb9f472]" name="getProjectDetailsContent" duration-ms="5129" started-at="2022-03-20T00:22:52 IST" finished-at="2022-03-20T00:22:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getProjectDetailsContent -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="53" started-at="2022-03-19T23:43:50 IST" finished-at="2022-03-19T23:43:50 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="43" started-at="2022-03-20T00:22:58 IST" finished-at="2022-03-20T00:22:58 IST">
           <params>
             <param index="0">
               <value>
@@ -305,11 +559,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="closeProjectDetailsContent()[pri:6, instance:Projects.ProjectProperties@6e1567f1]" name="closeProjectDetailsContent" duration-ms="67" started-at="2022-03-19T23:43:50 IST" finished-at="2022-03-19T23:43:50 IST">
+        <test-method status="PASS" signature="closeProjectDetailsContent()[pri:6, instance:Projects.ProjectProperties@5cb9f472]" name="closeProjectDetailsContent" duration-ms="64" started-at="2022-03-20T00:22:58 IST" finished-at="2022-03-20T00:22:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeProjectDetailsContent -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="26" started-at="2022-03-19T23:43:50 IST" finished-at="2022-03-19T23:43:51 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="38" started-at="2022-03-20T00:22:58 IST" finished-at="2022-03-20T00:22:58 IST">
           <params>
             <param index="0">
               <value>
@@ -320,11 +574,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="ClickStrategyTab()[pri:7, instance:Projects.ProjectProperties@6e1567f1]" name="ClickStrategyTab" duration-ms="110" started-at="2022-03-19T23:43:51 IST" finished-at="2022-03-19T23:43:51 IST">
+        <test-method status="PASS" signature="ClickStrategyTab()[pri:7, instance:Projects.ProjectProperties@5cb9f472]" name="ClickStrategyTab" duration-ms="63" started-at="2022-03-20T00:22:58 IST" finished-at="2022-03-20T00:22:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickStrategyTab -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="26" started-at="2022-03-19T23:43:51 IST" finished-at="2022-03-19T23:43:51 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="29" started-at="2022-03-20T00:22:58 IST" finished-at="2022-03-20T00:22:58 IST">
           <params>
             <param index="0">
               <value>
@@ -335,11 +589,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="gettitleofpage()[pri:8, instance:Projects.ProjectProperties@6e1567f1]" name="gettitleofpage" duration-ms="6" started-at="2022-03-19T23:43:51 IST" finished-at="2022-03-19T23:43:51 IST">
+        <test-method status="PASS" signature="gettitleofpage()[pri:8, instance:Projects.ProjectProperties@5cb9f472]" name="gettitleofpage" duration-ms="6" started-at="2022-03-20T00:22:58 IST" finished-at="2022-03-20T00:22:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gettitleofpage -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="31" started-at="2022-03-19T23:43:51 IST" finished-at="2022-03-19T23:43:51 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="30" started-at="2022-03-20T00:22:58 IST" finished-at="2022-03-20T00:22:58 IST">
           <params>
             <param index="0">
               <value>
@@ -350,11 +604,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="ClickCreateStragey()[pri:9, instance:Projects.ProjectProperties@6e1567f1]" name="ClickCreateStragey" duration-ms="5146" started-at="2022-03-19T23:43:51 IST" finished-at="2022-03-19T23:43:56 IST">
+        <test-method status="PASS" signature="ClickCreateStragey()[pri:9, instance:Projects.ProjectProperties@5cb9f472]" name="ClickCreateStragey" duration-ms="5147" started-at="2022-03-20T00:22:58 IST" finished-at="2022-03-20T00:23:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickCreateStragey -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="47" started-at="2022-03-19T23:43:56 IST" finished-at="2022-03-19T23:43:56 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="50" started-at="2022-03-20T00:23:03 IST" finished-at="2022-03-20T00:23:03 IST">
           <params>
             <param index="0">
               <value>
@@ -365,11 +619,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="verifyCreateStrategypopupDetails()[pri:10, instance:Projects.ProjectProperties@6e1567f1]" name="verifyCreateStrategypopupDetails" duration-ms="39" started-at="2022-03-19T23:43:56 IST" finished-at="2022-03-19T23:43:56 IST">
+        <test-method status="PASS" signature="verifyCreateStrategypopupDetails()[pri:10, instance:Projects.ProjectProperties@5cb9f472]" name="verifyCreateStrategypopupDetails" duration-ms="38" started-at="2022-03-20T00:23:03 IST" finished-at="2022-03-20T00:23:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCreateStrategypopupDetails -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="47" started-at="2022-03-19T23:43:56 IST" finished-at="2022-03-19T23:43:56 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="40" started-at="2022-03-20T00:23:03 IST" finished-at="2022-03-20T00:23:03 IST">
           <params>
             <param index="0">
               <value>
@@ -380,11 +634,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="HelpTextofCreateStrategy()[pri:11, instance:Projects.ProjectProperties@6e1567f1]" name="HelpTextofCreateStrategy" duration-ms="43" started-at="2022-03-19T23:43:56 IST" finished-at="2022-03-19T23:43:56 IST">
+        <test-method status="PASS" signature="HelpTextofCreateStrategy()[pri:11, instance:Projects.ProjectProperties@5cb9f472]" name="HelpTextofCreateStrategy" duration-ms="34" started-at="2022-03-20T00:23:03 IST" finished-at="2022-03-20T00:23:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HelpTextofCreateStrategy -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="37" started-at="2022-03-19T23:43:56 IST" finished-at="2022-03-19T23:43:56 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="38" started-at="2022-03-20T00:23:03 IST" finished-at="2022-03-20T00:23:03 IST">
           <params>
             <param index="0">
               <value>
@@ -395,11 +649,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="VerifyHelpText()[pri:12, instance:Projects.ProjectProperties@6e1567f1]" name="VerifyHelpText" duration-ms="35" started-at="2022-03-19T23:43:56 IST" finished-at="2022-03-19T23:43:56 IST">
+        <test-method status="PASS" signature="VerifyHelpText()[pri:12, instance:Projects.ProjectProperties@5cb9f472]" name="VerifyHelpText" duration-ms="42" started-at="2022-03-20T00:23:03 IST" finished-at="2022-03-20T00:23:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyHelpText -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="50" started-at="2022-03-19T23:43:56 IST" finished-at="2022-03-19T23:43:56 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="62" started-at="2022-03-20T00:23:03 IST" finished-at="2022-03-20T00:23:03 IST">
           <params>
             <param index="0">
               <value>
@@ -410,11 +664,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="TitleLabel_exists()[pri:13, instance:Projects.ProjectProperties@6e1567f1]" name="TitleLabel_exists" duration-ms="42" started-at="2022-03-19T23:43:56 IST" finished-at="2022-03-19T23:43:56 IST">
+        <test-method status="PASS" signature="TitleLabel_exists()[pri:13, instance:Projects.ProjectProperties@5cb9f472]" name="TitleLabel_exists" duration-ms="43" started-at="2022-03-20T00:23:03 IST" finished-at="2022-03-20T00:23:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TitleLabel_exists -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="31" started-at="2022-03-19T23:43:56 IST" finished-at="2022-03-19T23:43:56 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="37" started-at="2022-03-20T00:23:03 IST" finished-at="2022-03-20T00:23:03 IST">
           <params>
             <param index="0">
               <value>
@@ -425,11 +679,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="ProblemStatement_exists()[pri:14, instance:Projects.ProjectProperties@6e1567f1]" name="ProblemStatement_exists" duration-ms="5034" started-at="2022-03-19T23:43:56 IST" finished-at="2022-03-19T23:44:01 IST">
+        <test-method status="PASS" signature="ProblemStatement_exists()[pri:14, instance:Projects.ProjectProperties@5cb9f472]" name="ProblemStatement_exists" duration-ms="5039" started-at="2022-03-20T00:23:03 IST" finished-at="2022-03-20T00:23:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProblemStatement_exists -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="48" started-at="2022-03-19T23:44:01 IST" finished-at="2022-03-19T23:44:01 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="48" started-at="2022-03-20T00:23:08 IST" finished-at="2022-03-20T00:23:08 IST">
           <params>
             <param index="0">
               <value>
@@ -440,11 +694,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="enterTitleofStrategy()[pri:15, instance:Projects.ProjectProperties@6e1567f1]" name="enterTitleofStrategy" duration-ms="110" started-at="2022-03-19T23:44:01 IST" finished-at="2022-03-19T23:44:01 IST">
+        <test-method status="PASS" signature="enterTitleofStrategy()[pri:15, instance:Projects.ProjectProperties@5cb9f472]" name="enterTitleofStrategy" duration-ms="103" started-at="2022-03-20T00:23:08 IST" finished-at="2022-03-20T00:23:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterTitleofStrategy -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="29" started-at="2022-03-19T23:44:01 IST" finished-at="2022-03-19T23:44:01 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="29" started-at="2022-03-20T00:23:09 IST" finished-at="2022-03-20T00:23:09 IST">
           <params>
             <param index="0">
               <value>
@@ -455,11 +709,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="enterProblemStatements()[pri:16, instance:Projects.ProjectProperties@6e1567f1]" name="enterProblemStatements" duration-ms="5135" started-at="2022-03-19T23:44:01 IST" finished-at="2022-03-19T23:44:07 IST">
+        <test-method status="PASS" signature="enterProblemStatements()[pri:16, instance:Projects.ProjectProperties@5cb9f472]" name="enterProblemStatements" duration-ms="5132" started-at="2022-03-20T00:23:09 IST" finished-at="2022-03-20T00:23:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterProblemStatements -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="25" started-at="2022-03-19T23:44:07 IST" finished-at="2022-03-19T23:44:07 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="31" started-at="2022-03-20T00:23:14 IST" finished-at="2022-03-20T00:23:14 IST">
           <params>
             <param index="0">
               <value>
@@ -470,11 +724,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="ClickCreateStargeyDoneButton()[pri:17, instance:Projects.ProjectProperties@6e1567f1]" name="ClickCreateStargeyDoneButton" duration-ms="5089" started-at="2022-03-19T23:44:07 IST" finished-at="2022-03-19T23:44:12 IST">
+        <test-method status="PASS" signature="ClickCreateStargeyDoneButton()[pri:17, instance:Projects.ProjectProperties@5cb9f472]" name="ClickCreateStargeyDoneButton" duration-ms="5087" started-at="2022-03-20T00:23:14 IST" finished-at="2022-03-20T00:23:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickCreateStargeyDoneButton -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="24" started-at="2022-03-19T23:44:12 IST" finished-at="2022-03-19T23:44:12 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="50" started-at="2022-03-20T00:23:19 IST" finished-at="2022-03-20T00:23:19 IST">
           <params>
             <param index="0">
               <value>
@@ -485,11 +739,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="DeleteStargeyMenu()[pri:18, instance:Projects.ProjectProperties@6e1567f1]" name="DeleteStargeyMenu" duration-ms="4076" started-at="2022-03-19T23:44:12 IST" finished-at="2022-03-19T23:44:16 IST">
+        <test-method status="PASS" signature="DeleteStargeyMenu()[pri:18, instance:Projects.ProjectProperties@5cb9f472]" name="DeleteStargeyMenu" duration-ms="4085" started-at="2022-03-20T00:23:19 IST" finished-at="2022-03-20T00:23:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteStargeyMenu -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="43" started-at="2022-03-19T23:44:16 IST" finished-at="2022-03-19T23:44:16 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="47" started-at="2022-03-20T00:23:23 IST" finished-at="2022-03-20T00:23:23 IST">
           <params>
             <param index="0">
               <value>
@@ -500,11 +754,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="DeleteStragey()[pri:18, instance:Projects.ProjectProperties@6e1567f1]" name="DeleteStragey" duration-ms="4103" started-at="2022-03-19T23:44:16 IST" finished-at="2022-03-19T23:44:20 IST">
+        <test-method status="PASS" signature="DeleteStragey()[pri:18, instance:Projects.ProjectProperties@5cb9f472]" name="DeleteStragey" duration-ms="4126" started-at="2022-03-20T00:23:23 IST" finished-at="2022-03-20T00:23:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteStragey -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="47" started-at="2022-03-19T23:44:20 IST" finished-at="2022-03-19T23:44:20 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="48" started-at="2022-03-20T00:23:27 IST" finished-at="2022-03-20T00:23:27 IST">
           <params>
             <param index="0">
               <value>
@@ -515,11 +769,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="DeleteConfirmmessage()[pri:19, instance:Projects.ProjectProperties@6e1567f1]" name="DeleteConfirmmessage" duration-ms="5041" started-at="2022-03-19T23:44:20 IST" finished-at="2022-03-19T23:44:25 IST">
+        <test-method status="PASS" signature="DeleteConfirmmessage()[pri:19, instance:Projects.ProjectProperties@5cb9f472]" name="DeleteConfirmmessage" duration-ms="5048" started-at="2022-03-20T00:23:27 IST" finished-at="2022-03-20T00:23:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteConfirmmessage -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="47" started-at="2022-03-19T23:44:25 IST" finished-at="2022-03-19T23:44:25 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="46" started-at="2022-03-20T00:23:32 IST" finished-at="2022-03-20T00:23:32 IST">
           <params>
             <param index="0">
               <value>
@@ -530,275 +784,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="Deleteaction()[pri:20, instance:Projects.ProjectProperties@6e1567f1]" name="Deleteaction" duration-ms="7076" started-at="2022-03-19T23:44:25 IST" finished-at="2022-03-19T23:44:32 IST">
+        <test-method status="PASS" signature="Deleteaction()[pri:20, instance:Projects.ProjectProperties@5cb9f472]" name="Deleteaction" duration-ms="7093" started-at="2022-03-20T00:23:32 IST" finished-at="2022-03-20T00:23:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Deleteaction -->
-        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Projects.ProjectProperties@6e1567f1]" name="QuitWindows" is-config="true" duration-ms="769" started-at="2022-03-19T23:44:32 IST" finished-at="2022-03-19T23:44:33 IST">
+        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Projects.ProjectProperties@5cb9f472]" name="QuitWindows" is-config="true" duration-ms="767" started-at="2022-03-20T00:23:39 IST" finished-at="2022-03-20T00:23:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- QuitWindows -->
       </class> <!-- Projects.ProjectProperties -->
-      <class name="Onboardingnewclient.OnBoardingArtemis">
-        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="LaunchArtemisURL" is-config="true" duration-ms="3941" started-at="2022-03-19T23:46:29 IST" finished-at="2022-03-19T23:46:33 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchArtemisURL -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="BeforeMethod" is-config="true" duration-ms="27" started-at="2022-03-19T23:46:33 IST" finished-at="2022-03-19T23:46:33 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.LaunchURL() throws java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="LaunchURL()[pri:1, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="LaunchURL" duration-ms="2908" started-at="2022-03-19T23:46:33 IST" finished-at="2022-03-19T23:46:36 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchURL -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="BeforeMethod" is-config="true" duration-ms="27" started-at="2022-03-19T23:46:36 IST" finished-at="2022-03-19T23:46:36 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.LoginErrorMessage_Wrongemailformat() throws java.lang.InterruptedException,java.io.IOException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="LoginErrorMessage_Wrongemailformat()[pri:2, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="LoginErrorMessage_Wrongemailformat" duration-ms="4800" started-at="2022-03-19T23:46:36 IST" finished-at="2022-03-19T23:46:41 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginErrorMessage_Wrongemailformat -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="BeforeMethod" is-config="true" duration-ms="26" started-at="2022-03-19T23:46:41 IST" finished-at="2022-03-19T23:46:41 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.LoginAction() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="LoginAction()[pri:3, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="LoginAction" duration-ms="4432" started-at="2022-03-19T23:46:41 IST" finished-at="2022-03-19T23:46:45 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginAction -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="BeforeMethod" is-config="true" duration-ms="24" started-at="2022-03-19T23:46:45 IST" finished-at="2022-03-19T23:46:45 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.HomePageTitle()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="HomePageTitle()[pri:4, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="HomePageTitle" duration-ms="5" started-at="2022-03-19T23:46:45 IST" finished-at="2022-03-19T23:46:45 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HomePageTitle -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="BeforeMethod" is-config="true" duration-ms="24" started-at="2022-03-19T23:46:45 IST" finished-at="2022-03-19T23:46:45 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.UserNameDisplay()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="UserNameDisplay()[pri:5, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="UserNameDisplay" duration-ms="4990" started-at="2022-03-19T23:46:45 IST" finished-at="2022-03-19T23:46:50 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UserNameDisplay -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="BeforeMethod" is-config="true" duration-ms="25" started-at="2022-03-19T23:46:50 IST" finished-at="2022-03-19T23:46:50 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.isCreateNewButtonPresent()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="isCreateNewButtonPresent()[pri:6, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="isCreateNewButtonPresent" duration-ms="49" started-at="2022-03-19T23:46:50 IST" finished-at="2022-03-19T23:46:50 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isCreateNewButtonPresent -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="BeforeMethod" is-config="true" duration-ms="34" started-at="2022-03-19T23:46:50 IST" finished-at="2022-03-19T23:46:50 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.isCreateNewButtonEnabled()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="isCreateNewButtonEnabled()[pri:7, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="isCreateNewButtonEnabled" duration-ms="195" started-at="2022-03-19T23:46:50 IST" finished-at="2022-03-19T23:46:51 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isCreateNewButtonEnabled -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="BeforeMethod" is-config="true" duration-ms="22" started-at="2022-03-19T23:46:51 IST" finished-at="2022-03-19T23:46:51 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.ClickCreatenewproject()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="ClickCreatenewproject()[pri:8, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="ClickCreatenewproject" duration-ms="358" started-at="2022-03-19T23:46:51 IST" finished-at="2022-03-19T23:46:51 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClickCreatenewproject -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="BeforeMethod" is-config="true" duration-ms="33" started-at="2022-03-19T23:46:51 IST" finished-at="2022-03-19T23:46:51 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.ClickCancelProjectDialog() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="ClickCancelProjectDialog()[pri:9, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="ClickCancelProjectDialog" duration-ms="5125" started-at="2022-03-19T23:46:51 IST" finished-at="2022-03-19T23:46:56 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClickCancelProjectDialog -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="BeforeMethod" is-config="true" duration-ms="48" started-at="2022-03-19T23:46:56 IST" finished-at="2022-03-19T23:46:56 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.LogoutAction() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="LogoutAction()[pri:10, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="LogoutAction" duration-ms="5481" started-at="2022-03-19T23:46:56 IST" finished-at="2022-03-19T23:47:02 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LogoutAction -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="BeforeMethod" is-config="true" duration-ms="48" started-at="2022-03-19T23:47:02 IST" finished-at="2022-03-19T23:47:02 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.Setting_is_Present()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="Setting_is_Present()[pri:11, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="Setting_is_Present" duration-ms="59" started-at="2022-03-19T23:47:02 IST" finished-at="2022-03-19T23:47:02 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setting_is_Present -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="BeforeMethod" is-config="true" duration-ms="40" started-at="2022-03-19T23:47:02 IST" finished-at="2022-03-19T23:47:02 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.Settings_is_Clickable()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="Settings_is_Clickable()[pri:12, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="Settings_is_Clickable" duration-ms="31" started-at="2022-03-19T23:47:02 IST" finished-at="2022-03-19T23:47:02 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Settings_is_Clickable -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="BeforeMethod" is-config="true" duration-ms="40" started-at="2022-03-19T23:47:02 IST" finished-at="2022-03-19T23:47:02 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.Settings_Navigations_Popup() throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="Settings_Navigations_Popup()[pri:13, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="Settings_Navigations_Popup" duration-ms="4256" started-at="2022-03-19T23:47:02 IST" finished-at="2022-03-19T23:47:06 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Settings_Navigations_Popup -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="BeforeMethod" is-config="true" duration-ms="48" started-at="2022-03-19T23:47:06 IST" finished-at="2022-03-19T23:47:06 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.Logout_Click()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="Logout_Click()[pri:14, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="Logout_Click" duration-ms="96" started-at="2022-03-19T23:47:06 IST" finished-at="2022-03-19T23:47:06 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Logout_Click -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="BeforeMethod" is-config="true" duration-ms="33" started-at="2022-03-19T23:47:06 IST" finished-at="2022-03-19T23:47:06 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.Logout_Confirmation()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="Logout_Confirmation()[pri:15, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="Logout_Confirmation" duration-ms="30" started-at="2022-03-19T23:47:06 IST" finished-at="2022-03-19T23:47:06 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Logout_Confirmation -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="BeforeMethod" is-config="true" duration-ms="31" started-at="2022-03-19T23:47:06 IST" finished-at="2022-03-19T23:47:06 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.Logout_click()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="Logout_click()[pri:16, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="Logout_click" duration-ms="114" started-at="2022-03-19T23:47:06 IST" finished-at="2022-03-19T23:47:06 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Logout_click -->
-        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="QuitWindows" is-config="true" duration-ms="821" started-at="2022-03-19T23:47:06 IST" finished-at="2022-03-19T23:47:07 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- QuitWindows -->
-        <test-method status="PASS" signature="closewindows()[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@13805618]" name="closewindows" is-config="true" duration-ms="723" started-at="2022-03-19T23:47:39 IST" finished-at="2022-03-19T23:47:40 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closewindows -->
-      </class> <!-- Onboardingnewclient.OnBoardingArtemis -->
       <class name="Forms.FormsProperties">
-        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Forms.FormsProperties@5cb9f472]" name="LaunchArtemisURL" is-config="true" duration-ms="2073" started-at="2022-03-19T23:44:33 IST" finished-at="2022-03-19T23:44:35 IST">
+        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Forms.FormsProperties@cb644e]" name="LaunchArtemisURL" is-config="true" duration-ms="2048" started-at="2022-03-20T00:23:40 IST" finished-at="2022-03-20T00:23:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchArtemisURL -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Forms.FormsProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="26" started-at="2022-03-19T23:44:35 IST" finished-at="2022-03-19T23:44:35 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Forms.FormsProperties@cb644e]" name="BeforeMethod" is-config="true" duration-ms="30" started-at="2022-03-20T00:23:42 IST" finished-at="2022-03-20T00:23:42 IST">
           <params>
             <param index="0">
               <value>
@@ -809,7 +809,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="NavigatetoProjectDetailsPage()[pri:1, instance:Forms.FormsProperties@5cb9f472]" name="NavigatetoProjectDetailsPage" duration-ms="21592" started-at="2022-03-19T23:44:35 IST" finished-at="2022-03-19T23:44:57 IST">
+        <test-method status="PASS" signature="NavigatetoProjectDetailsPage()[pri:1, instance:Forms.FormsProperties@cb644e]" name="NavigatetoProjectDetailsPage" duration-ms="21528" started-at="2022-03-20T00:23:42 IST" finished-at="2022-03-20T00:24:04 IST">
           <reporter-output>
             <line>
               <![CDATA[User ented the email id details succefully]]>
@@ -825,7 +825,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- NavigatetoProjectDetailsPage -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Forms.FormsProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="55" started-at="2022-03-19T23:44:57 IST" finished-at="2022-03-19T23:44:57 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Forms.FormsProperties@cb644e]" name="BeforeMethod" is-config="true" duration-ms="47" started-at="2022-03-20T00:24:04 IST" finished-at="2022-03-20T00:24:04 IST">
           <params>
             <param index="0">
               <value>
@@ -836,11 +836,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="NavigatetoFormsTab()[pri:2, instance:Forms.FormsProperties@5cb9f472]" name="NavigatetoFormsTab" duration-ms="104" started-at="2022-03-19T23:44:57 IST" finished-at="2022-03-19T23:44:57 IST">
+        <test-method status="PASS" signature="NavigatetoFormsTab()[pri:2, instance:Forms.FormsProperties@cb644e]" name="NavigatetoFormsTab" duration-ms="130" started-at="2022-03-20T00:24:04 IST" finished-at="2022-03-20T00:24:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigatetoFormsTab -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Forms.FormsProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="31" started-at="2022-03-19T23:44:57 IST" finished-at="2022-03-19T23:44:57 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Forms.FormsProperties@cb644e]" name="BeforeMethod" is-config="true" duration-ms="24" started-at="2022-03-20T00:24:04 IST" finished-at="2022-03-20T00:24:04 IST">
           <params>
             <param index="0">
               <value>
@@ -851,11 +851,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="formspagetitle()[pri:3, instance:Forms.FormsProperties@5cb9f472]" name="formspagetitle" duration-ms="37" started-at="2022-03-19T23:44:57 IST" finished-at="2022-03-19T23:44:57 IST">
+        <test-method status="PASS" signature="formspagetitle()[pri:3, instance:Forms.FormsProperties@cb644e]" name="formspagetitle" duration-ms="41" started-at="2022-03-20T00:24:04 IST" finished-at="2022-03-20T00:24:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- formspagetitle -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Forms.FormsProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="22" started-at="2022-03-19T23:44:57 IST" finished-at="2022-03-19T23:44:57 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Forms.FormsProperties@cb644e]" name="BeforeMethod" is-config="true" duration-ms="27" started-at="2022-03-20T00:24:04 IST" finished-at="2022-03-20T00:24:04 IST">
           <params>
             <param index="0">
               <value>
@@ -866,11 +866,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="createforms()[pri:4, instance:Forms.FormsProperties@5cb9f472]" name="createforms" duration-ms="8078" started-at="2022-03-19T23:44:57 IST" finished-at="2022-03-19T23:45:05 IST">
+        <test-method status="PASS" signature="createforms()[pri:4, instance:Forms.FormsProperties@cb644e]" name="createforms" duration-ms="8089" started-at="2022-03-20T00:24:04 IST" finished-at="2022-03-20T00:24:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createforms -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Forms.FormsProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="46" started-at="2022-03-19T23:45:05 IST" finished-at="2022-03-19T23:45:05 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Forms.FormsProperties@cb644e]" name="BeforeMethod" is-config="true" duration-ms="41" started-at="2022-03-20T00:24:12 IST" finished-at="2022-03-20T00:24:12 IST">
           <params>
             <param index="0">
               <value>
@@ -881,11 +881,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="redirectedurl()[pri:5, instance:Forms.FormsProperties@5cb9f472]" name="redirectedurl" duration-ms="6" started-at="2022-03-19T23:45:05 IST" finished-at="2022-03-19T23:45:05 IST">
+        <test-method status="PASS" signature="redirectedurl()[pri:5, instance:Forms.FormsProperties@cb644e]" name="redirectedurl" duration-ms="6" started-at="2022-03-20T00:24:12 IST" finished-at="2022-03-20T00:24:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- redirectedurl -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Forms.FormsProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="50" started-at="2022-03-19T23:45:05 IST" finished-at="2022-03-19T23:45:05 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Forms.FormsProperties@cb644e]" name="BeforeMethod" is-config="true" duration-ms="42" started-at="2022-03-20T00:24:12 IST" finished-at="2022-03-20T00:24:12 IST">
           <params>
             <param index="0">
               <value>
@@ -896,11 +896,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="formstitle()[pri:6, instance:Forms.FormsProperties@5cb9f472]" name="formstitle" duration-ms="29" started-at="2022-03-19T23:45:05 IST" finished-at="2022-03-19T23:45:05 IST">
+        <test-method status="PASS" signature="formstitle()[pri:6, instance:Forms.FormsProperties@cb644e]" name="formstitle" duration-ms="44" started-at="2022-03-20T00:24:12 IST" finished-at="2022-03-20T00:24:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- formstitle -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Forms.FormsProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="42" started-at="2022-03-19T23:45:05 IST" finished-at="2022-03-19T23:45:05 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Forms.FormsProperties@cb644e]" name="BeforeMethod" is-config="true" duration-ms="39" started-at="2022-03-20T00:24:12 IST" finished-at="2022-03-20T00:24:12 IST">
           <params>
             <param index="0">
               <value>
@@ -911,11 +911,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="formtitle()[pri:7, instance:Forms.FormsProperties@5cb9f472]" name="formtitle" duration-ms="5186" started-at="2022-03-19T23:45:05 IST" finished-at="2022-03-19T23:45:10 IST">
+        <test-method status="PASS" signature="formtitle()[pri:7, instance:Forms.FormsProperties@cb644e]" name="formtitle" duration-ms="5161" started-at="2022-03-20T00:24:12 IST" finished-at="2022-03-20T00:24:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- formtitle -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Forms.FormsProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="26" started-at="2022-03-19T23:45:10 IST" finished-at="2022-03-19T23:45:10 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Forms.FormsProperties@cb644e]" name="BeforeMethod" is-config="true" duration-ms="33" started-at="2022-03-20T00:24:17 IST" finished-at="2022-03-20T00:24:17 IST">
           <params>
             <param index="0">
               <value>
@@ -926,11 +926,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="createQuestion1()[pri:8, instance:Forms.FormsProperties@5cb9f472]" name="createQuestion1" duration-ms="5225" started-at="2022-03-19T23:45:10 IST" finished-at="2022-03-19T23:45:16 IST">
+        <test-method status="PASS" signature="createQuestion1()[pri:8, instance:Forms.FormsProperties@cb644e]" name="createQuestion1" duration-ms="5217" started-at="2022-03-20T00:24:17 IST" finished-at="2022-03-20T00:24:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createQuestion1 -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Forms.FormsProperties@5cb9f472]" name="BeforeMethod" is-config="true" duration-ms="33" started-at="2022-03-19T23:45:16 IST" finished-at="2022-03-19T23:45:16 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Forms.FormsProperties@cb644e]" name="BeforeMethod" is-config="true" duration-ms="20" started-at="2022-03-20T00:24:23 IST" finished-at="2022-03-20T00:24:23 IST">
           <params>
             <param index="0">
               <value>
@@ -941,21 +941,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="PublishForm()[pri:9, instance:Forms.FormsProperties@5cb9f472]" name="PublishForm" duration-ms="6293" started-at="2022-03-19T23:45:16 IST" finished-at="2022-03-19T23:45:22 IST">
+        <test-method status="PASS" signature="PublishForm()[pri:9, instance:Forms.FormsProperties@cb644e]" name="PublishForm" duration-ms="6098" started-at="2022-03-20T00:24:23 IST" finished-at="2022-03-20T00:24:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PublishForm -->
-        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Forms.FormsProperties@5cb9f472]" name="QuitWindows" is-config="true" duration-ms="764" started-at="2022-03-19T23:45:22 IST" finished-at="2022-03-19T23:45:23 IST">
+        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Forms.FormsProperties@cb644e]" name="QuitWindows" is-config="true" duration-ms="777" started-at="2022-03-20T00:24:29 IST" finished-at="2022-03-20T00:24:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- QuitWindows -->
       </class> <!-- Forms.FormsProperties -->
       <class name="Login.LoginInvalidAndForgotPassword">
-        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Login.LoginInvalidAndForgotPassword@59494225]" name="LaunchArtemisURL" is-config="true" duration-ms="2321" started-at="2022-03-19T23:42:45 IST" finished-at="2022-03-19T23:42:47 IST">
+        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Login.LoginInvalidAndForgotPassword@6e1567f1]" name="LaunchArtemisURL" is-config="true" duration-ms="2021" started-at="2022-03-20T00:21:52 IST" finished-at="2022-03-20T00:21:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchArtemisURL -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@59494225]" name="BeforeMethod" is-config="true" duration-ms="38" started-at="2022-03-19T23:42:47 IST" finished-at="2022-03-19T23:42:47 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="39" started-at="2022-03-20T00:21:54 IST" finished-at="2022-03-20T00:21:54 IST">
           <params>
             <param index="0">
               <value>
@@ -966,11 +966,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="EnterWrongemailid()[pri:0, instance:Login.LoginInvalidAndForgotPassword@59494225]" name="EnterWrongemailid" duration-ms="5275" started-at="2022-03-19T23:42:47 IST" finished-at="2022-03-19T23:42:52 IST">
+        <test-method status="PASS" signature="EnterWrongemailid()[pri:0, instance:Login.LoginInvalidAndForgotPassword@6e1567f1]" name="EnterWrongemailid" duration-ms="5281" started-at="2022-03-20T00:21:54 IST" finished-at="2022-03-20T00:21:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnterWrongemailid -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@59494225]" name="BeforeMethod" is-config="true" duration-ms="40" started-at="2022-03-19T23:42:52 IST" finished-at="2022-03-19T23:42:52 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="52" started-at="2022-03-20T00:21:59 IST" finished-at="2022-03-20T00:21:59 IST">
           <params>
             <param index="0">
               <value>
@@ -981,11 +981,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="wrongpassword()[pri:0, instance:Login.LoginInvalidAndForgotPassword@59494225]" name="wrongpassword" duration-ms="9376" started-at="2022-03-19T23:42:52 IST" finished-at="2022-03-19T23:43:02 IST">
+        <test-method status="PASS" signature="wrongpassword()[pri:0, instance:Login.LoginInvalidAndForgotPassword@6e1567f1]" name="wrongpassword" duration-ms="9400" started-at="2022-03-20T00:21:59 IST" finished-at="2022-03-20T00:22:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wrongpassword -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@59494225]" name="BeforeMethod" is-config="true" duration-ms="42" started-at="2022-03-19T23:43:02 IST" finished-at="2022-03-19T23:43:02 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="36" started-at="2022-03-20T00:22:09 IST" finished-at="2022-03-20T00:22:09 IST">
           <params>
             <param index="0">
               <value>
@@ -996,11 +996,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="LaunchURL()[pri:1, instance:Login.LoginInvalidAndForgotPassword@59494225]" name="LaunchURL" duration-ms="591" started-at="2022-03-19T23:43:02 IST" finished-at="2022-03-19T23:43:02 IST">
+        <test-method status="PASS" signature="LaunchURL()[pri:1, instance:Login.LoginInvalidAndForgotPassword@6e1567f1]" name="LaunchURL" duration-ms="559" started-at="2022-03-20T00:22:09 IST" finished-at="2022-03-20T00:22:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchURL -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@59494225]" name="BeforeMethod" is-config="true" duration-ms="42" started-at="2022-03-19T23:43:02 IST" finished-at="2022-03-19T23:43:02 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="50" started-at="2022-03-20T00:22:09 IST" finished-at="2022-03-20T00:22:09 IST">
           <params>
             <param index="0">
               <value>
@@ -1011,11 +1011,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="checklabelsinLoginPage()[pri:2, instance:Login.LoginInvalidAndForgotPassword@59494225]" name="checklabelsinLoginPage" duration-ms="5" started-at="2022-03-19T23:43:02 IST" finished-at="2022-03-19T23:43:02 IST">
+        <test-method status="PASS" signature="checklabelsinLoginPage()[pri:2, instance:Login.LoginInvalidAndForgotPassword@6e1567f1]" name="checklabelsinLoginPage" duration-ms="7" started-at="2022-03-20T00:22:09 IST" finished-at="2022-03-20T00:22:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checklabelsinLoginPage -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@59494225]" name="BeforeMethod" is-config="true" duration-ms="45" started-at="2022-03-19T23:43:02 IST" finished-at="2022-03-19T23:43:02 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="37" started-at="2022-03-20T00:22:09 IST" finished-at="2022-03-20T00:22:09 IST">
           <params>
             <param index="0">
               <value>
@@ -1026,11 +1026,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="navigatetoforgotpasswordpage()[pri:3, instance:Login.LoginInvalidAndForgotPassword@59494225]" name="navigatetoforgotpasswordpage" duration-ms="8292" started-at="2022-03-19T23:43:02 IST" finished-at="2022-03-19T23:43:11 IST">
+        <test-method status="PASS" signature="navigatetoforgotpasswordpage()[pri:3, instance:Login.LoginInvalidAndForgotPassword@6e1567f1]" name="navigatetoforgotpasswordpage" duration-ms="8297" started-at="2022-03-20T00:22:09 IST" finished-at="2022-03-20T00:22:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigatetoforgotpasswordpage -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@59494225]" name="BeforeMethod" is-config="true" duration-ms="60" started-at="2022-03-19T23:43:11 IST" finished-at="2022-03-19T23:43:11 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="61" started-at="2022-03-20T00:22:18 IST" finished-at="2022-03-20T00:22:18 IST">
           <params>
             <param index="0">
               <value>
@@ -1041,11 +1041,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="CheckForgotpasswordlink_exists()[pri:4, instance:Login.LoginInvalidAndForgotPassword@59494225]" name="CheckForgotpasswordlink_exists" duration-ms="40" started-at="2022-03-19T23:43:11 IST" finished-at="2022-03-19T23:43:11 IST">
+        <test-method status="PASS" signature="CheckForgotpasswordlink_exists()[pri:4, instance:Login.LoginInvalidAndForgotPassword@6e1567f1]" name="CheckForgotpasswordlink_exists" duration-ms="41" started-at="2022-03-20T00:22:18 IST" finished-at="2022-03-20T00:22:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckForgotpasswordlink_exists -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@59494225]" name="BeforeMethod" is-config="true" duration-ms="53" started-at="2022-03-19T23:43:11 IST" finished-at="2022-03-19T23:43:11 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="46" started-at="2022-03-20T00:22:18 IST" finished-at="2022-03-20T00:22:18 IST">
           <params>
             <param index="0">
               <value>
@@ -1056,11 +1056,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="ClickForgotpasswordlink()[pri:5, instance:Login.LoginInvalidAndForgotPassword@59494225]" name="ClickForgotpasswordlink" duration-ms="6085" started-at="2022-03-19T23:43:11 IST" finished-at="2022-03-19T23:43:17 IST">
+        <test-method status="PASS" signature="ClickForgotpasswordlink()[pri:5, instance:Login.LoginInvalidAndForgotPassword@6e1567f1]" name="ClickForgotpasswordlink" duration-ms="6075" started-at="2022-03-20T00:22:18 IST" finished-at="2022-03-20T00:22:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickForgotpasswordlink -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@59494225]" name="BeforeMethod" is-config="true" duration-ms="54" started-at="2022-03-19T23:43:17 IST" finished-at="2022-03-19T23:43:17 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="45" started-at="2022-03-20T00:22:24 IST" finished-at="2022-03-20T00:22:24 IST">
           <params>
             <param index="0">
               <value>
@@ -1071,11 +1071,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="userinputemail()[pri:6, instance:Login.LoginInvalidAndForgotPassword@59494225]" name="userinputemail" duration-ms="5214" started-at="2022-03-19T23:43:17 IST" finished-at="2022-03-19T23:43:22 IST">
+        <test-method status="PASS" signature="userinputemail()[pri:6, instance:Login.LoginInvalidAndForgotPassword@6e1567f1]" name="userinputemail" duration-ms="5217" started-at="2022-03-20T00:22:24 IST" finished-at="2022-03-20T00:22:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userinputemail -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@59494225]" name="BeforeMethod" is-config="true" duration-ms="30" started-at="2022-03-19T23:43:22 IST" finished-at="2022-03-19T23:43:22 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="39" started-at="2022-03-20T00:22:29 IST" finished-at="2022-03-20T00:22:29 IST">
           <params>
             <param index="0">
               <value>
@@ -1086,11 +1086,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="recoveryhelptext()[pri:7, instance:Login.LoginInvalidAndForgotPassword@59494225]" name="recoveryhelptext" duration-ms="38" started-at="2022-03-19T23:43:22 IST" finished-at="2022-03-19T23:43:22 IST">
+        <test-method status="PASS" signature="recoveryhelptext()[pri:7, instance:Login.LoginInvalidAndForgotPassword@6e1567f1]" name="recoveryhelptext" duration-ms="31" started-at="2022-03-20T00:22:29 IST" finished-at="2022-03-20T00:22:29 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recoveryhelptext -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@59494225]" name="BeforeMethod" is-config="true" duration-ms="35" started-at="2022-03-19T23:43:22 IST" finished-at="2022-03-19T23:43:22 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@6e1567f1]" name="BeforeMethod" is-config="true" duration-ms="40" started-at="2022-03-20T00:22:29 IST" finished-at="2022-03-20T00:22:29 IST">
           <params>
             <param index="0">
               <value>
@@ -1101,21 +1101,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="clickcontinuelogin()[pri:8, instance:Login.LoginInvalidAndForgotPassword@59494225]" name="clickcontinuelogin" duration-ms="5118" started-at="2022-03-19T23:43:22 IST" finished-at="2022-03-19T23:43:27 IST">
+        <test-method status="PASS" signature="clickcontinuelogin()[pri:8, instance:Login.LoginInvalidAndForgotPassword@6e1567f1]" name="clickcontinuelogin" duration-ms="5115" started-at="2022-03-20T00:22:29 IST" finished-at="2022-03-20T00:22:34 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickcontinuelogin -->
-        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Login.LoginInvalidAndForgotPassword@59494225]" name="QuitWindows" is-config="true" duration-ms="732" started-at="2022-03-19T23:43:27 IST" finished-at="2022-03-19T23:43:28 IST">
+        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Login.LoginInvalidAndForgotPassword@6e1567f1]" name="QuitWindows" is-config="true" duration-ms="695" started-at="2022-03-20T00:22:34 IST" finished-at="2022-03-20T00:22:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- QuitWindows -->
       </class> <!-- Login.LoginInvalidAndForgotPassword -->
       <class name="NewUserSiteNavigation.newusernavigation">
-        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:NewUserSiteNavigation.newusernavigation@4566e5bd]" name="LaunchArtemisURL" is-config="true" duration-ms="1899" started-at="2022-03-19T23:47:26 IST" finished-at="2022-03-19T23:47:28 IST">
+        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:NewUserSiteNavigation.newusernavigation@1ed4004b]" name="LaunchArtemisURL" is-config="true" duration-ms="3801" started-at="2022-03-20T00:26:33 IST" finished-at="2022-03-20T00:26:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchArtemisURL -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NewUserSiteNavigation.newusernavigation@4566e5bd]" name="BeforeMethod" is-config="true" duration-ms="25" started-at="2022-03-19T23:47:28 IST" finished-at="2022-03-19T23:47:28 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NewUserSiteNavigation.newusernavigation@1ed4004b]" name="BeforeMethod" is-config="true" duration-ms="31" started-at="2022-03-20T00:26:37 IST" finished-at="2022-03-20T00:26:37 IST">
           <params>
             <param index="0">
               <value>
@@ -1126,25 +1126,130 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="logintoSite()[pri:0, instance:NewUserSiteNavigation.newusernavigation@4566e5bd]" name="logintoSite" duration-ms="10619" started-at="2022-03-19T23:47:28 IST" finished-at="2022-03-19T23:47:38 IST">
+        <test-method status="PASS" signature="logintoSite()[pri:1, instance:NewUserSiteNavigation.newusernavigation@1ed4004b]" name="logintoSite" duration-ms="10544" started-at="2022-03-20T00:26:37 IST" finished-at="2022-03-20T00:26:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintoSite -->
-        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:NewUserSiteNavigation.newusernavigation@4566e5bd]" name="QuitWindows" is-config="true" duration-ms="745" started-at="2022-03-19T23:47:38 IST" finished-at="2022-03-19T23:47:39 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NewUserSiteNavigation.newusernavigation@1ed4004b]" name="BeforeMethod" is-config="true" duration-ms="46" started-at="2022-03-20T00:26:47 IST" finished-at="2022-03-20T00:26:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NewUserSiteNavigation.newusernavigation.checkDisplayName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="checkDisplayName()[pri:2, instance:NewUserSiteNavigation.newusernavigation@1ed4004b]" name="checkDisplayName" duration-ms="43" started-at="2022-03-20T00:26:47 IST" finished-at="2022-03-20T00:26:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDisplayName -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NewUserSiteNavigation.newusernavigation@1ed4004b]" name="BeforeMethod" is-config="true" duration-ms="34" started-at="2022-03-20T00:26:47 IST" finished-at="2022-03-20T00:26:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NewUserSiteNavigation.newusernavigation.getNotifications() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="getNotifications()[pri:3, instance:NewUserSiteNavigation.newusernavigation@1ed4004b]" name="getNotifications" duration-ms="6116" started-at="2022-03-20T00:26:47 IST" finished-at="2022-03-20T00:26:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNotifications -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NewUserSiteNavigation.newusernavigation@1ed4004b]" name="BeforeMethod" is-config="true" duration-ms="51" started-at="2022-03-20T00:26:53 IST" finished-at="2022-03-20T00:26:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NewUserSiteNavigation.newusernavigation.readNotification()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="readNotification()[pri:4, instance:NewUserSiteNavigation.newusernavigation@1ed4004b]" name="readNotification" duration-ms="35" started-at="2022-03-20T00:26:54 IST" finished-at="2022-03-20T00:26:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readNotification -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NewUserSiteNavigation.newusernavigation@1ed4004b]" name="BeforeMethod" is-config="true" duration-ms="46" started-at="2022-03-20T00:26:54 IST" finished-at="2022-03-20T00:26:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NewUserSiteNavigation.newusernavigation.seeAllnotifications()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="seeAllnotifications()[pri:5, instance:NewUserSiteNavigation.newusernavigation@1ed4004b]" name="seeAllnotifications" duration-ms="93" started-at="2022-03-20T00:26:54 IST" finished-at="2022-03-20T00:26:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seeAllnotifications -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NewUserSiteNavigation.newusernavigation@1ed4004b]" name="BeforeMethod" is-config="true" duration-ms="25" started-at="2022-03-20T00:26:54 IST" finished-at="2022-03-20T00:26:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NewUserSiteNavigation.newusernavigation.redirectedURL()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="redirectedURL()[pri:6, instance:NewUserSiteNavigation.newusernavigation@1ed4004b]" name="redirectedURL" duration-ms="5" started-at="2022-03-20T00:26:54 IST" finished-at="2022-03-20T00:26:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectedURL -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NewUserSiteNavigation.newusernavigation@1ed4004b]" name="BeforeMethod" is-config="true" duration-ms="29" started-at="2022-03-20T00:26:54 IST" finished-at="2022-03-20T00:26:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NewUserSiteNavigation.newusernavigation.titleofwindow()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="titleofwindow()[pri:7, instance:NewUserSiteNavigation.newusernavigation@1ed4004b]" name="titleofwindow" duration-ms="29" started-at="2022-03-20T00:26:54 IST" finished-at="2022-03-20T00:26:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleofwindow -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NewUserSiteNavigation.newusernavigation@1ed4004b]" name="BeforeMethod" is-config="true" duration-ms="46" started-at="2022-03-20T00:26:54 IST" finished-at="2022-03-20T00:26:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NewUserSiteNavigation.newusernavigation.clickArtemisLogo() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="clickArtemisLogo()[pri:8, instance:NewUserSiteNavigation.newusernavigation@1ed4004b]" name="clickArtemisLogo" duration-ms="8107" started-at="2022-03-20T00:26:54 IST" finished-at="2022-03-20T00:27:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickArtemisLogo -->
+        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:NewUserSiteNavigation.newusernavigation@1ed4004b]" name="QuitWindows" is-config="true" duration-ms="757" started-at="2022-03-20T00:27:02 IST" finished-at="2022-03-20T00:27:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- QuitWindows -->
       </class> <!-- NewUserSiteNavigation.newusernavigation -->
       <class name="Login.Login_Test">
-        <test-method status="PASS" signature="BeforeTestMethod()[pri:0, instance:Login.Login_Test@72d818d1]" name="BeforeTestMethod" is-config="true" duration-ms="107" started-at="2022-03-19T23:42:32 IST" finished-at="2022-03-19T23:42:32 IST">
+        <test-method status="PASS" signature="BeforeTestMethod()[pri:0, instance:Login.Login_Test@6e06451e]" name="BeforeTestMethod" is-config="true" duration-ms="131" started-at="2022-03-20T00:21:37 IST" finished-at="2022-03-20T00:21:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeTestMethod -->
-        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Login.Login_Test@72d818d1]" name="LaunchArtemisURL" is-config="true" duration-ms="1881" started-at="2022-03-19T23:42:35 IST" finished-at="2022-03-19T23:42:37 IST">
+        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Login.Login_Test@6e06451e]" name="LaunchArtemisURL" is-config="true" duration-ms="1997" started-at="2022-03-20T00:21:42 IST" finished-at="2022-03-20T00:21:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchArtemisURL -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.Login_Test@72d818d1]" name="BeforeMethod" is-config="true" duration-ms="294" started-at="2022-03-19T23:42:37 IST" finished-at="2022-03-19T23:42:37 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.Login_Test@6e06451e]" name="BeforeMethod" is-config="true" duration-ms="334" started-at="2022-03-20T00:21:44 IST" finished-at="2022-03-20T00:21:45 IST">
           <params>
             <param index="0">
               <value>
@@ -1155,7 +1260,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="Login_HomePage()[pri:1, instance:Login.Login_Test@72d818d1]" name="Login_HomePage" duration-ms="10" started-at="2022-03-19T23:42:37 IST" description="Check the Login page title" finished-at="2022-03-19T23:42:37 IST">
+        <test-method status="PASS" signature="Login_HomePage()[pri:1, instance:Login.Login_Test@6e06451e]" name="Login_HomePage" duration-ms="12" started-at="2022-03-20T00:21:45 IST" description="Check the Login page title" finished-at="2022-03-20T00:21:45 IST">
           <reporter-output>
             <line>
               <![CDATA[Fetch the title of the page]]>
@@ -1165,7 +1270,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- Login_HomePage -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.Login_Test@72d818d1]" name="BeforeMethod" is-config="true" duration-ms="43" started-at="2022-03-19T23:42:37 IST" finished-at="2022-03-19T23:42:37 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.Login_Test@6e06451e]" name="BeforeMethod" is-config="true" duration-ms="43" started-at="2022-03-20T00:21:45 IST" finished-at="2022-03-20T00:21:45 IST">
           <params>
             <param index="0">
               <value>
@@ -1176,7 +1281,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="LogintoApp()[pri:2, instance:Login.Login_Test@72d818d1]" name="LogintoApp" duration-ms="6519" started-at="2022-03-19T23:42:37 IST" description="Verify Login to application with valid details" finished-at="2022-03-19T23:42:44 IST">
+        <test-method status="PASS" signature="LogintoApp()[pri:2, instance:Login.Login_Test@6e06451e]" name="LogintoApp" duration-ms="6471" started-at="2022-03-20T00:21:45 IST" description="Verify Login to application with valid details" finished-at="2022-03-20T00:21:51 IST">
           <reporter-output>
             <line>
               <![CDATA[User ented the email id details succefully]]>
@@ -1192,7 +1297,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- LogintoApp -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.Login_Test@72d818d1]" name="BeforeMethod" is-config="true" duration-ms="52" started-at="2022-03-19T23:42:44 IST" finished-at="2022-03-19T23:42:44 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.Login_Test@6e06451e]" name="BeforeMethod" is-config="true" duration-ms="47" started-at="2022-03-20T00:21:51 IST" finished-at="2022-03-20T00:21:51 IST">
           <params>
             <param index="0">
               <value>
@@ -1203,32 +1308,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="Loginsuccesful()[pri:3, instance:Login.Login_Test@72d818d1]" name="Loginsuccesful" duration-ms="4" started-at="2022-03-19T23:42:44 IST" finished-at="2022-03-19T23:42:44 IST">
+        <test-method status="PASS" signature="Loginsuccesful()[pri:3, instance:Login.Login_Test@6e06451e]" name="Loginsuccesful" duration-ms="5" started-at="2022-03-20T00:21:51 IST" finished-at="2022-03-20T00:21:51 IST">
           <reporter-output>
             <line>
               <![CDATA[User able to login succefully]]>
             </line>
           </reporter-output>
         </test-method> <!-- Loginsuccesful -->
-        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Login.Login_Test@72d818d1]" name="QuitWindows" is-config="true" duration-ms="752" started-at="2022-03-19T23:42:44 IST" finished-at="2022-03-19T23:42:45 IST">
+        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Login.Login_Test@6e06451e]" name="QuitWindows" is-config="true" duration-ms="718" started-at="2022-03-20T00:21:51 IST" finished-at="2022-03-20T00:21:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- QuitWindows -->
-        <test-method status="PASS" signature="AfterTestMethod()[pri:0, instance:Login.Login_Test@72d818d1]" name="AfterTestMethod" is-config="true" duration-ms="22" started-at="2022-03-19T23:47:40 IST" depends-on-methods="Onboardingnewclient.SingupNewUser.quitwindows, Onboardingnewclient.OnBoardingArtemis.closewindows" finished-at="2022-03-19T23:47:40 IST">
+        <test-method status="PASS" signature="AfterTestMethod()[pri:0, instance:Login.Login_Test@6e06451e]" name="AfterTestMethod" is-config="true" duration-ms="52" started-at="2022-03-20T00:27:04 IST" depends-on-methods="Onboardingnewclient.SingupNewUser.quitwindows, Onboardingnewclient.OnBoardingArtemis.closewindows" finished-at="2022-03-20T00:27:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTestMethod -->
       </class> <!-- Login.Login_Test -->
       <class name="Onboardingnewclient.SingupNewUser">
-        <test-method status="PASS" signature="LaunchURL()[pri:0, instance:Onboardingnewclient.SingupNewUser@27c20538]" name="LaunchURL" is-config="true" duration-ms="2598" started-at="2022-03-19T23:42:32 IST" depends-on-methods="Login.BaseTest.BeforeTestMethod" finished-at="2022-03-19T23:42:35 IST">
+        <test-method status="PASS" signature="LaunchURL()[pri:0, instance:Onboardingnewclient.SingupNewUser@72d818d1]" name="LaunchURL" is-config="true" duration-ms="4622" started-at="2022-03-20T00:21:38 IST" depends-on-methods="Login.BaseTest.BeforeTestMethod" finished-at="2022-03-20T00:21:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchURL -->
-        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Onboardingnewclient.SingupNewUser@27c20538]" name="LaunchArtemisURL" is-config="true" duration-ms="2008" started-at="2022-03-19T23:47:23 IST" finished-at="2022-03-19T23:47:25 IST">
+        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Onboardingnewclient.SingupNewUser@72d818d1]" name="LaunchArtemisURL" is-config="true" duration-ms="6250" started-at="2022-03-20T00:26:26 IST" finished-at="2022-03-20T00:26:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchArtemisURL -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.SingupNewUser@27c20538]" name="BeforeMethod" is-config="true" duration-ms="24" started-at="2022-03-19T23:47:25 IST" finished-at="2022-03-19T23:47:25 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.SingupNewUser@72d818d1]" name="BeforeMethod" is-config="true" duration-ms="27" started-at="2022-03-20T00:26:32 IST" finished-at="2022-03-20T00:26:32 IST">
           <params>
             <param index="0">
               <value>
@@ -1239,11 +1344,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="VerifySignupLinkisavailable()[pri:1, instance:Onboardingnewclient.SingupNewUser@27c20538]" name="VerifySignupLinkisavailable" duration-ms="58" started-at="2022-03-19T23:47:25 IST" description="Verify user able to see signup link" finished-at="2022-03-19T23:47:25 IST">
+        <test-method status="PASS" signature="VerifySignupLinkisavailable()[pri:1, instance:Onboardingnewclient.SingupNewUser@72d818d1]" name="VerifySignupLinkisavailable" duration-ms="59" started-at="2022-03-20T00:26:32 IST" description="Verify user able to see signup link" finished-at="2022-03-20T00:26:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySignupLinkisavailable -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.SingupNewUser@27c20538]" name="BeforeMethod" is-config="true" duration-ms="24" started-at="2022-03-19T23:47:25 IST" finished-at="2022-03-19T23:47:25 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.SingupNewUser@72d818d1]" name="BeforeMethod" is-config="true" duration-ms="38" started-at="2022-03-20T00:26:32 IST" finished-at="2022-03-20T00:26:32 IST">
           <params>
             <param index="0">
               <value>
@@ -1254,11 +1359,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="clickSignuplink()[pri:2, instance:Onboardingnewclient.SingupNewUser@27c20538]" name="clickSignuplink" duration-ms="94" started-at="2022-03-19T23:47:25 IST" description="Verify User clicks the signuplink" finished-at="2022-03-19T23:47:25 IST">
+        <test-method status="PASS" signature="clickSignuplink()[pri:2, instance:Onboardingnewclient.SingupNewUser@72d818d1]" name="clickSignuplink" duration-ms="88" started-at="2022-03-20T00:26:32 IST" description="Verify User clicks the signuplink" finished-at="2022-03-20T00:26:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickSignuplink -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.SingupNewUser@27c20538]" name="BeforeMethod" is-config="true" duration-ms="24" started-at="2022-03-19T23:47:25 IST" finished-at="2022-03-19T23:47:25 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.SingupNewUser@72d818d1]" name="BeforeMethod" is-config="true" duration-ms="41" started-at="2022-03-20T00:26:32 IST" finished-at="2022-03-20T00:26:32 IST">
           <params>
             <param index="0">
               <value>
@@ -1269,25 +1374,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="verifyTitleofsignup()[pri:3, instance:Onboardingnewclient.SingupNewUser@27c20538]" name="verifyTitleofsignup" duration-ms="26" started-at="2022-03-19T23:47:25 IST" description="user navigated to Signup screen" finished-at="2022-03-19T23:47:25 IST">
+        <test-method status="PASS" signature="verifyTitleofsignup()[pri:3, instance:Onboardingnewclient.SingupNewUser@72d818d1]" name="verifyTitleofsignup" duration-ms="30" started-at="2022-03-20T00:26:32 IST" description="user navigated to Signup screen" finished-at="2022-03-20T00:26:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitleofsignup -->
-        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Onboardingnewclient.SingupNewUser@27c20538]" name="QuitWindows" is-config="true" duration-ms="668" started-at="2022-03-19T23:47:25 IST" finished-at="2022-03-19T23:47:26 IST">
+        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Onboardingnewclient.SingupNewUser@72d818d1]" name="QuitWindows" is-config="true" duration-ms="670" started-at="2022-03-20T00:26:32 IST" finished-at="2022-03-20T00:26:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- QuitWindows -->
-        <test-method status="PASS" signature="quitwindows()[pri:0, instance:Onboardingnewclient.SingupNewUser@27c20538]" name="quitwindows" is-config="true" duration-ms="696" started-at="2022-03-19T23:47:40 IST" depends-on-methods="Onboardingnewclient.OnBoardingArtemis.closewindows" finished-at="2022-03-19T23:47:40 IST">
+        <test-method status="PASS" signature="quitwindows()[pri:0, instance:Onboardingnewclient.SingupNewUser@72d818d1]" name="quitwindows" is-config="true" duration-ms="723" started-at="2022-03-20T00:27:03 IST" depends-on-methods="Onboardingnewclient.OnBoardingArtemis.closewindows" finished-at="2022-03-20T00:27:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitwindows -->
       </class> <!-- Onboardingnewclient.SingupNewUser -->
       <class name="Onboardingnewclient.SettingsPage">
-        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Onboardingnewclient.SettingsPage@56ef9176]" name="LaunchArtemisURL" is-config="true" duration-ms="2112" started-at="2022-03-19T23:47:07 IST" finished-at="2022-03-19T23:47:09 IST">
+        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Onboardingnewclient.SettingsPage@4566e5bd]" name="LaunchArtemisURL" is-config="true" duration-ms="2066" started-at="2022-03-20T00:26:10 IST" finished-at="2022-03-20T00:26:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchArtemisURL -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.SettingsPage@56ef9176]" name="BeforeMethod" is-config="true" duration-ms="33" started-at="2022-03-19T23:47:09 IST" finished-at="2022-03-19T23:47:09 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.SettingsPage@4566e5bd]" name="BeforeMethod" is-config="true" duration-ms="27" started-at="2022-03-20T00:26:12 IST" finished-at="2022-03-20T00:26:12 IST">
           <params>
             <param index="0">
               <value>
@@ -1298,7 +1403,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="NavigatetoSettingsPage()[pri:1, instance:Onboardingnewclient.SettingsPage@56ef9176]" name="NavigatetoSettingsPage" duration-ms="12240" started-at="2022-03-19T23:47:09 IST" finished-at="2022-03-19T23:47:22 IST">
+        <test-method status="PASS" signature="NavigatetoSettingsPage()[pri:1, instance:Onboardingnewclient.SettingsPage@4566e5bd]" name="NavigatetoSettingsPage" duration-ms="12105" started-at="2022-03-20T00:26:12 IST" finished-at="2022-03-20T00:26:24 IST">
           <reporter-output>
             <line>
               <![CDATA[User ented the email id details succefully]]>
@@ -1314,7 +1419,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- NavigatetoSettingsPage -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.SettingsPage@56ef9176]" name="BeforeMethod" is-config="true" duration-ms="28" started-at="2022-03-19T23:47:22 IST" finished-at="2022-03-19T23:47:22 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.SettingsPage@4566e5bd]" name="BeforeMethod" is-config="true" duration-ms="26" started-at="2022-03-20T00:26:24 IST" finished-at="2022-03-20T00:26:25 IST">
           <params>
             <param index="0">
               <value>
@@ -1325,11 +1430,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="click_SettingsTab()[pri:2, instance:Onboardingnewclient.SettingsPage@56ef9176]" name="click_SettingsTab" duration-ms="207" started-at="2022-03-19T23:47:22 IST" finished-at="2022-03-19T23:47:22 IST">
+        <test-method status="PASS" signature="click_SettingsTab()[pri:2, instance:Onboardingnewclient.SettingsPage@4566e5bd]" name="click_SettingsTab" duration-ms="166" started-at="2022-03-20T00:26:25 IST" finished-at="2022-03-20T00:26:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- click_SettingsTab -->
-        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.SettingsPage@56ef9176]" name="BeforeMethod" is-config="true" duration-ms="32" started-at="2022-03-19T23:47:22 IST" finished-at="2022-03-19T23:47:22 IST">
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.SettingsPage@4566e5bd]" name="BeforeMethod" is-config="true" duration-ms="29" started-at="2022-03-20T00:26:25 IST" finished-at="2022-03-20T00:26:25 IST">
           <params>
             <param index="0">
               <value>
@@ -1340,11 +1445,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method status="PASS" signature="AccountsTab_exists()[pri:3, instance:Onboardingnewclient.SettingsPage@56ef9176]" name="AccountsTab_exists" duration-ms="144" started-at="2022-03-19T23:47:22 IST" finished-at="2022-03-19T23:47:22 IST">
+        <test-method status="PASS" signature="AccountsTab_exists()[pri:3, instance:Onboardingnewclient.SettingsPage@4566e5bd]" name="AccountsTab_exists" duration-ms="106" started-at="2022-03-20T00:26:25 IST" finished-at="2022-03-20T00:26:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AccountsTab_exists -->
-        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Onboardingnewclient.SettingsPage@56ef9176]" name="QuitWindows" is-config="true" duration-ms="738" started-at="2022-03-19T23:47:22 IST" finished-at="2022-03-19T23:47:23 IST">
+        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Onboardingnewclient.SettingsPage@4566e5bd]" name="QuitWindows" is-config="true" duration-ms="826" started-at="2022-03-20T00:26:25 IST" finished-at="2022-03-20T00:26:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- QuitWindows -->

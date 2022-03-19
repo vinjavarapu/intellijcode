@@ -56,5 +56,18 @@ public class newusernavigation extends BaseTest {
        System.out.println(NotificationsURL);
        assertEquals(NotificationsURL,"https://staging.artemis.im/notifications");
     }
+    @Test(priority=7)
+    public void titleofwindow(){
+
+       String title = driver.findElement(By.xpath("/html/body/div/div[1]/main/div/div/div/div/div[1]/div[1]/div/div[1]/div[1]")).getText();
+       System.out.println(title);
+       assertEquals(title,"Notification");
+    }
+    @Test(priority = 8)
+    public void clickArtemisLogo() throws InterruptedException {
+
+        driver.findElement(By.xpath("/html/body/div/div[1]/main/div/div/header/div/div[1]/div/div[3]")).click();
+        Thread.sleep(8000);
+    }
 
 }
