@@ -24,7 +24,7 @@ public class BaseTest {
         htmlReporter = new ExtentHtmlReporter("./ExtentReports//AutomationTest.html");
         htmlReporter.config().setEncoding("utf-8");
         htmlReporter.config().setDocumentTitle("Automation Test Results");
-        htmlReporter.config().setReportName("Automation Test");
+        htmlReporter.config().setReportName("Artemis Automation Testing");
         extent = new ExtentReports();
 
 

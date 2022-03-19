@@ -2,11 +2,14 @@ package NewUserSiteNavigation;
 
 import Login.BaseTest;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
+
+import static org.testng.Assert.assertEquals;
 
 public class newusernavigation extends BaseTest {
 
-    @Test
+    @Test(priority=1)
     public void logintoSite() throws InterruptedException {
 
         driver.findElement(By.id("input-31")).sendKeys("satya1@gmail.com");
@@ -17,4 +20,41 @@ public class newusernavigation extends BaseTest {
 
 
     }
+    @Test(priority=2)
+    public void checkDisplayName(){
+
+       WebElement displayName= driver.findElement(By.xpath("/html/body/div/div[1]/main/div/div/header/div/button[2]/span/div/div[2]/span"));
+       String name = displayName.getText();
+       System.out.println(name);
+       assertEquals(name,"Welcome, Satya");
+    }
+    @Test(priority=3)
+    public void getNotifications() throws InterruptedException {
+
+        driver.findElement(By.xpath("/html/body/div/div[1]/main/div/div/header/div/div[5]/button[1]/span/span/i")).click();
+        Thread.sleep(6000);
+    }
+    @Test(priority=4)
+    public void readNotification(){
+
+      String text=  driver.findElement(By.xpath("/html/body/div/div[2]/div/div/div[1]/div[2]/span/div/div/div/div[2]")).getText();
+      System.out.println(text);
+    }
+    @Test(priority=5)
+    public void seeAllnotifications(){
+
+        driver.findElement(By.xpath("/html/body/div/div[2]/div/div/div[2]/a")).click();
+        String titleofwindow = driver.getTitle();
+        System.out.println(titleofwindow);
+        assertEquals(titleofwindow,"Artemis Organizer - Notification");
+
+    }
+    @Test(priority=6)
+    public void redirectedURL(){
+
+       String NotificationsURL =  driver.getCurrentUrl();
+       System.out.println(NotificationsURL);
+       assertEquals(NotificationsURL,"https://staging.artemis.im/notifications");
+    }
+
 }
