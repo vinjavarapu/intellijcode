@@ -37,7 +37,7 @@ public class OnBoardingArtemis extends BaseTest {
 	public void LaunchURL() throws IOException {
 		
 
-		System.setProperty("webdriver.chrome.driver", "./Drivers//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./Drivers//1.exe");
 		 driver = new ChromeDriver();
 		  driver.get(Constants.url);
 		driver.manage().window().maximize();

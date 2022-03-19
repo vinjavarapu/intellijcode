@@ -18,7 +18,7 @@ public class SingupNewUser extends BaseTest {
 	@BeforeTest
 	public void LaunchURL() {
 		
-		System.setProperty("webdriver.chrome.driver", "./Drivers//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./Drivers//1.exe");
 		driver = new ChromeDriver();
 		driver.get("https://accounts.staging.artemis.im/?origin=organizer");
 		driver.manage().window().maximize();
