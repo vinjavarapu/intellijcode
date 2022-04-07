@@ -11,6 +11,8 @@
             <class name="Onboardingnewclient.SettingsPage"/>
             <class name="Onboardingnewclient.SingupNewUser"/>
             <class name="NewUserSiteNavigation.newusernavigation"/>
+            <class name="Forms.CreateForms"/>
+            <class name="Login.GmailLogin"/>
 
 
         </classes>

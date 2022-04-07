@@ -3,45 +3,31 @@
 <suite name="Failed suite [example suite 1]">
   <test thread-count="5" name="Regression suite 1(failed)">
     <classes>
-      <class name="Projects.editproject">
+      <class name="Forms.CreateForms">
         <methods>
-          <include name="VerifyTitleofeditproject"/>
-          <include name="fetchProjectaccess"/>
-          <include name="ClickEditProject"/>
-          <include name="NavigatetoProjectBoard"/>
+          <include name="SortNameForms_AscOrder"/>
+          <include name="SortStatus_DscOrder"/>
+          <include name="SortStatus_AscOrder"/>
+          <include name="FormsListView_TH_CreatedAT"/>
+          <include name="FormsListView_TH_Actions"/>
+          <include name="FormsListView_TH_Status"/>
+          <include name="FormsListView_TH_SerialNumber"/>
+          <include name="clickFormslistview"/>
+          <include name="SortNameForms_DscOrder"/>
           <include name="AfterTestMethod"/>
           <include name="LaunchArtemisURL"/>
+          <include name="SearchForms_InvalidData"/>
           <include name="BeforeTestMethod"/>
           <include name="BeforeMethod"/>
-          <include name="edittitleofproject"/>
+          <include name="FormsListView_TH_Name"/>
+          <include name="SortCreatedAt_AscOrder"/>
+          <include name="SortCreatedAt_DscOrder"/>
           <include name="QuitWindows"/>
-          <include name="clickCancelButton"/>
-          <include name="clickProjectHamburgicon"/>
-          <include name="checkProjectState"/>
+          <include name="ClearSearchDatainForm"/>
+          <include name="SearchForms_validData"/>
+          <include name="fetchtheformspagetitle"/>
         </methods>
-      </class> <!-- Projects.editproject -->
-      <class name="Onboardingnewclient.OnBoardingArtemis">
-        <methods>
-          <include name="Logout_click"/>
-          <include name="Logout_Click"/>
-          <include name="Logout_Confirmation"/>
-          <include name="AfterTestMethod"/>
-          <include name="Settings_is_Clickable"/>
-          <include name="Setting_is_Present"/>
-          <include name="Settings_Navigations_Popup"/>
-          <include name="BeforeTestMethod"/>
-          <include name="closewindows"/>
-        </methods>
-      </class> <!-- Onboardingnewclient.OnBoardingArtemis -->
-      <class name="Onboardingnewclient.SingupNewUser">
-        <methods>
-          <include name="VerifySignupLinkisavailable"/>
-          <include name="verifyTitleofsignup"/>
-          <include name="quitwindows"/>
-          <include name="clickSignuplink"/>
-          <include name="LaunchURL"/>
-        </methods>
-      </class> <!-- Onboardingnewclient.SingupNewUser -->
+      </class> <!-- Forms.CreateForms -->
     </classes>
   </test> <!-- Regression suite 1(failed) -->
 </suite> <!-- Failed suite [example suite 1] -->

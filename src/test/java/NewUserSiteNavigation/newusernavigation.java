@@ -21,24 +21,20 @@ public class newusernavigation extends BaseTest {
 
     }
     @Test(priority=2)
-    public void checkDisplayName(){
+    public void checkDisplayName() throws InterruptedException {
 
        WebElement displayName= driver.findElement(By.xpath("/html/body/div/div[1]/main/div/div/header/div/button[2]/span/div/div[2]/span"));
        String name = displayName.getText();
        System.out.println(name);
        assertEquals(name,"Welcome, Satya");
+
     }
     @Test(priority=3)
     public void getNotifications() throws InterruptedException {
 
-        driver.findElement(By.xpath("/html/body/div/div[1]/main/div/div/header/div/div[5]/button[1]/span/span/i")).click();
+        driver.findElement(By.xpath("//*[@id=\"elk\"]/div[1]/main/div/div/header/div/div[5]/button[1]/span/span/i")).click();
         Thread.sleep(6000);
-    }
-    @Test(priority=4)
-    public void readNotification(){
 
-      String text=  driver.findElement(By.xpath("/html/body/div/div[2]/div/div/div[1]/div[2]/span/div/div/div/div[2]")).getText();
-      System.out.println(text);
     }
     @Test(priority=5)
     public void seeAllnotifications(){

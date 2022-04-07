@@ -1,0 +1,13 @@
+Login\BaseTest.class
+Projects\ProjectProperties.class
+Onboardingnewclient\SingupNewUser.class
+NewUserSiteNavigation\newusernavigation.class
+SeleniumJavaClass\LaunchURL.class
+Login\Login_Test.class
+Login\LoginInvalidAndForgotPassword.class
+Uploadfiles\Surveyformsubmit.class
+Projects\editproject.class
+Forms\FormsProperties.class
+Onboardingnewclient\SettingsPage.class
+Onboardingnewclient\OnBoardingArtemis.class
+Projects\FormsProperties.class

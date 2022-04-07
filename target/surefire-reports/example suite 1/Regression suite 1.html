@@ -1,0 +1,544 @@
+<html>
+<head>
+<title>TestNG:  Regression suite 1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression suite 1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>80/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Mar 20 10:19:27 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>356 seconds (356511 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Onboardingnewclient.SettingsPage.AccountsTab_exists()'><b>AccountsTab_exists</b><br>Test class: Onboardingnewclient.SettingsPage</td>
+<td></td>
+<td>0</td>
+<td>Onboardingnewclient.SettingsPage@76707e36</td></tr>
+<tr>
+<td title='Login.LoginInvalidAndForgotPassword.CheckForgotpasswordlink_exists()'><b>CheckForgotpasswordlink_exists</b><br>Test class: Login.LoginInvalidAndForgotPassword</td>
+<td></td>
+<td>0</td>
+<td>Login.LoginInvalidAndForgotPassword@7d0587f1</td></tr>
+<tr>
+<td title='Onboardingnewclient.OnBoardingArtemis.ClickCancelProjectDialog()'><b>ClickCancelProjectDialog</b><br>Test class: Onboardingnewclient.OnBoardingArtemis</td>
+<td></td>
+<td>5</td>
+<td>Onboardingnewclient.OnBoardingArtemis@1e6d1014</td></tr>
+<tr>
+<td title='Projects.ProjectProperties.ClickCreateStargeyDoneButton()'><b>ClickCreateStargeyDoneButton</b><br>Test class: Projects.ProjectProperties</td>
+<td></td>
+<td>5</td>
+<td>Projects.ProjectProperties@5d76b067</td></tr>
+<tr>
+<td title='Projects.ProjectProperties.ClickCreateStragey()'><b>ClickCreateStragey</b><br>Test class: Projects.ProjectProperties</td>
+<td></td>
+<td>5</td>
+<td>Projects.ProjectProperties@5d76b067</td></tr>
+<tr>
+<td title='Onboardingnewclient.OnBoardingArtemis.ClickCreatenewproject()'><b>ClickCreatenewproject</b><br>Test class: Onboardingnewclient.OnBoardingArtemis</td>
+<td></td>
+<td>0</td>
+<td>Onboardingnewclient.OnBoardingArtemis@1e6d1014</td></tr>
+<tr>
+<td title='Projects.editproject.ClickEditProject()'><b>ClickEditProject</b><br>Test class: Projects.editproject</td>
+<td></td>
+<td>8</td>
+<td>Projects.editproject@4f063c0a</td></tr>
+<tr>
+<td title='Login.LoginInvalidAndForgotPassword.ClickForgotpasswordlink()'><b>ClickForgotpasswordlink</b><br>Test class: Login.LoginInvalidAndForgotPassword</td>
+<td></td>
+<td>6</td>
+<td>Login.LoginInvalidAndForgotPassword@7d0587f1</td></tr>
+<tr>
+<td title='Projects.ProjectProperties.ClickProject()'><b>ClickProject</b><br>Test class: Projects.ProjectProperties</td>
+<td></td>
+<td>0</td>
+<td>Projects.ProjectProperties@5d76b067</td></tr>
+<tr>
+<td title='Projects.ProjectProperties.ClickStrategyTab()'><b>ClickStrategyTab</b><br>Test class: Projects.ProjectProperties</td>
+<td></td>
+<td>0</td>
+<td>Projects.ProjectProperties@5d76b067</td></tr>
+<tr>
+<td title='Projects.ProjectProperties.DeleteConfirmmessage()'><b>DeleteConfirmmessage</b><br>Test class: Projects.ProjectProperties</td>
+<td></td>
+<td>5</td>
+<td>Projects.ProjectProperties@5d76b067</td></tr>
+<tr>
+<td title='Projects.ProjectProperties.DeleteStargeyMenu()'><b>DeleteStargeyMenu</b><br>Test class: Projects.ProjectProperties</td>
+<td></td>
+<td>7</td>
+<td>Projects.ProjectProperties@5d76b067</td></tr>
+<tr>
+<td title='Projects.ProjectProperties.DeleteStragey()'><b>DeleteStragey</b><br>Test class: Projects.ProjectProperties</td>
+<td></td>
+<td>4</td>
+<td>Projects.ProjectProperties@5d76b067</td></tr>
+<tr>
+<td title='Projects.ProjectProperties.Deleteaction()'><b>Deleteaction</b><br>Test class: Projects.ProjectProperties</td>
+<td></td>
+<td>7</td>
+<td>Projects.ProjectProperties@5d76b067</td></tr>
+<tr>
+<td title='Login.LoginInvalidAndForgotPassword.EnterWrongemailid()'><b>EnterWrongemailid</b><br>Test class: Login.LoginInvalidAndForgotPassword</td>
+<td></td>
+<td>5</td>
+<td>Login.LoginInvalidAndForgotPassword@7d0587f1</td></tr>
+<tr>
+<td title='Projects.ProjectProperties.HelpTextofCreateStrategy()'><b>HelpTextofCreateStrategy</b><br>Test class: Projects.ProjectProperties</td>
+<td></td>
+<td>0</td>
+<td>Projects.ProjectProperties@5d76b067</td></tr>
+<tr>
+<td title='Onboardingnewclient.OnBoardingArtemis.HomePageTitle()'><b>HomePageTitle</b><br>Test class: Onboardingnewclient.OnBoardingArtemis</td>
+<td></td>
+<td>0</td>
+<td>Onboardingnewclient.OnBoardingArtemis@1e6d1014</td></tr>
+<tr>
+<td title='Login.LoginInvalidAndForgotPassword.LaunchURL()'><b>LaunchURL</b><br>Test class: Login.LoginInvalidAndForgotPassword</td>
+<td></td>
+<td>0</td>
+<td>Login.LoginInvalidAndForgotPassword@7d0587f1</td></tr>
+<tr>
+<td title='Onboardingnewclient.OnBoardingArtemis.LaunchURL()'><b>LaunchURL</b><br>Test class: Onboardingnewclient.OnBoardingArtemis</td>
+<td></td>
+<td>2</td>
+<td>Onboardingnewclient.OnBoardingArtemis@1e6d1014</td></tr>
+<tr>
+<td title='Onboardingnewclient.OnBoardingArtemis.LoginAction()'><b>LoginAction</b><br>Test class: Onboardingnewclient.OnBoardingArtemis</td>
+<td></td>
+<td>4</td>
+<td>Onboardingnewclient.OnBoardingArtemis@1e6d1014</td></tr>
+<tr>
+<td title='Onboardingnewclient.OnBoardingArtemis.LoginErrorMessage_Wrongemailformat()'><b>LoginErrorMessage_Wrongemailformat</b><br>Test class: Onboardingnewclient.OnBoardingArtemis</td>
+<td></td>
+<td>4</td>
+<td>Onboardingnewclient.OnBoardingArtemis@1e6d1014</td></tr>
+<tr>
+<td title='Login.Login_Test.Login_HomePage()'><b>Login_HomePage</b><br>Test class: Login.Login_Test<br>Test method: Check the Login page title<br/>
+<a href="#Output-1648700617" onClick='toggleBox("Output-1648700617", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1648700617" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1648700617">
+Fetch the title of the page<br/>
+Verify the title of the page is Artemis Accounts Portal<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Login.Login_Test@5e853265</td></tr>
+<tr>
+<td title='Login.Login_Test.Loginsuccesful()'><b>Loginsuccesful</b><br>Test class: Login.Login_Test<br/>
+<a href="#Output-1456061400" onClick='toggleBox("Output-1456061400", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1456061400" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1456061400">
+User able to login succefully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Login.Login_Test@5e853265</td></tr>
+<tr>
+<td title='Login.Login_Test.LogintoApp()'><b>LogintoApp</b><br>Test class: Login.Login_Test<br>Test method: Verify Login to application with valid details<br/>
+<a href="#Output-26928827" onClick='toggleBox("Output-26928827", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-26928827" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-26928827">
+User ented the email id details succefully<br/>
+User clicks Login button succefully<br/>
+User entered the passowrd succefully<br/>
+User clicks the next button<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>Login.Login_Test@5e853265</td></tr>
+<tr>
+<td title='Onboardingnewclient.OnBoardingArtemis.LogoutAction()'><b>LogoutAction</b><br>Test class: Onboardingnewclient.OnBoardingArtemis</td>
+<td></td>
+<td>4</td>
+<td>Onboardingnewclient.OnBoardingArtemis@1e6d1014</td></tr>
+<tr>
+<td title='Onboardingnewclient.OnBoardingArtemis.Logout_Click()'><b>Logout_Click</b><br>Test class: Onboardingnewclient.OnBoardingArtemis</td>
+<td></td>
+<td>0</td>
+<td>Onboardingnewclient.OnBoardingArtemis@1e6d1014</td></tr>
+<tr>
+<td title='Onboardingnewclient.OnBoardingArtemis.Logout_Confirmation()'><b>Logout_Confirmation</b><br>Test class: Onboardingnewclient.OnBoardingArtemis</td>
+<td></td>
+<td>0</td>
+<td>Onboardingnewclient.OnBoardingArtemis@1e6d1014</td></tr>
+<tr>
+<td title='Onboardingnewclient.OnBoardingArtemis.Logout_click()'><b>Logout_click</b><br>Test class: Onboardingnewclient.OnBoardingArtemis</td>
+<td></td>
+<td>0</td>
+<td>Onboardingnewclient.OnBoardingArtemis@1e6d1014</td></tr>
+<tr>
+<td title='Forms.FormsProperties.NavigatetoFormsTab()'><b>NavigatetoFormsTab</b><br>Test class: Forms.FormsProperties</td>
+<td></td>
+<td>0</td>
+<td>Forms.FormsProperties@2a17b7b6</td></tr>
+<tr>
+<td title='Projects.editproject.NavigatetoProjectBoard()'><b>NavigatetoProjectBoard</b><br>Test class: Projects.editproject<br/>
+<a href="#Output-769986276" onClick='toggleBox("Output-769986276", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-769986276" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-769986276">
+User ented the email id details succefully<br/>
+User clicks Login button succefully<br/>
+User entered the passowrd succefully<br/>
+User clicks the next button<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>Projects.editproject@4f063c0a</td></tr>
+<tr>
+<td title='Forms.FormsProperties.NavigatetoProjectDetailsPage()'><b>NavigatetoProjectDetailsPage</b><br>Test class: Forms.FormsProperties<br/>
+<a href="#Output-246014273" onClick='toggleBox("Output-246014273", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-246014273" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-246014273">
+User ented the email id details succefully<br/>
+User clicks Login button succefully<br/>
+User entered the passowrd succefully<br/>
+User clicks the next button<br/>
+</div>
+</td>
+<td></td>
+<td>29</td>
+<td>Forms.FormsProperties@2a17b7b6</td></tr>
+<tr>
+<td title='Onboardingnewclient.SettingsPage.NavigatetoSettingsPage()'><b>NavigatetoSettingsPage</b><br>Test class: Onboardingnewclient.SettingsPage<br/>
+<a href="#Output-1442768482" onClick='toggleBox("Output-1442768482", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1442768482" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1442768482">
+User ented the email id details succefully<br/>
+User clicks Login button succefully<br/>
+User entered the passowrd succefully<br/>
+User clicks the next button<br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>Onboardingnewclient.SettingsPage@76707e36</td></tr>
+<tr>
+<td title='Projects.ProjectProperties.ProblemStatement_exists()'><b>ProblemStatement_exists</b><br>Test class: Projects.ProjectProperties</td>
+<td></td>
+<td>5</td>
+<td>Projects.ProjectProperties@5d76b067</td></tr>
+<tr>
+<td title='Forms.FormsProperties.PublishForm()'><b>PublishForm</b><br>Test class: Forms.FormsProperties</td>
+<td></td>
+<td>5</td>
+<td>Forms.FormsProperties@2a17b7b6</td></tr>
+<tr>
+<td title='Onboardingnewclient.OnBoardingArtemis.Setting_is_Present()'><b>Setting_is_Present</b><br>Test class: Onboardingnewclient.OnBoardingArtemis</td>
+<td></td>
+<td>0</td>
+<td>Onboardingnewclient.OnBoardingArtemis@1e6d1014</td></tr>
+<tr>
+<td title='Onboardingnewclient.OnBoardingArtemis.Settings_Navigations_Popup()'><b>Settings_Navigations_Popup</b><br>Test class: Onboardingnewclient.OnBoardingArtemis</td>
+<td></td>
+<td>4</td>
+<td>Onboardingnewclient.OnBoardingArtemis@1e6d1014</td></tr>
+<tr>
+<td title='Onboardingnewclient.OnBoardingArtemis.Settings_is_Clickable()'><b>Settings_is_Clickable</b><br>Test class: Onboardingnewclient.OnBoardingArtemis</td>
+<td></td>
+<td>0</td>
+<td>Onboardingnewclient.OnBoardingArtemis@1e6d1014</td></tr>
+<tr>
+<td title='Projects.ProjectProperties.TitleLabel_exists()'><b>TitleLabel_exists</b><br>Test class: Projects.ProjectProperties</td>
+<td></td>
+<td>0</td>
+<td>Projects.ProjectProperties@5d76b067</td></tr>
+<tr>
+<td title='Onboardingnewclient.OnBoardingArtemis.UserNameDisplay()'><b>UserNameDisplay</b><br>Test class: Onboardingnewclient.OnBoardingArtemis</td>
+<td></td>
+<td>12</td>
+<td>Onboardingnewclient.OnBoardingArtemis@1e6d1014</td></tr>
+<tr>
+<td title='Projects.ProjectProperties.VerifyHelpText()'><b>VerifyHelpText</b><br>Test class: Projects.ProjectProperties</td>
+<td></td>
+<td>0</td>
+<td>Projects.ProjectProperties@5d76b067</td></tr>
+<tr>
+<td title='Onboardingnewclient.SingupNewUser.VerifySignupLinkisavailable()'><b>VerifySignupLinkisavailable</b><br>Test class: Onboardingnewclient.SingupNewUser<br>Test method: Verify user able to see signup link</td>
+<td></td>
+<td>0</td>
+<td>Onboardingnewclient.SingupNewUser@6c49835d</td></tr>
+<tr>
+<td title='Projects.editproject.VerifyTitleofeditproject()'><b>VerifyTitleofeditproject</b><br>Test class: Projects.editproject</td>
+<td></td>
+<td>6</td>
+<td>Projects.editproject@4f063c0a</td></tr>
+<tr>
+<td title='NewUserSiteNavigation.newusernavigation.checkDisplayName()'><b>checkDisplayName</b><br>Test class: NewUserSiteNavigation.newusernavigation</td>
+<td></td>
+<td>0</td>
+<td>NewUserSiteNavigation.newusernavigation@614ddd49</td></tr>
+<tr>
+<td title='Projects.editproject.checkProjectState()'><b>checkProjectState</b><br>Test class: Projects.editproject</td>
+<td></td>
+<td>5</td>
+<td>Projects.editproject@4f063c0a</td></tr>
+<tr>
+<td title='Login.LoginInvalidAndForgotPassword.checklabelsinLoginPage()'><b>checklabelsinLoginPage</b><br>Test class: Login.LoginInvalidAndForgotPassword</td>
+<td></td>
+<td>0</td>
+<td>Login.LoginInvalidAndForgotPassword@7d0587f1</td></tr>
+<tr>
+<td title='NewUserSiteNavigation.newusernavigation.clickArtemisLogo()'><b>clickArtemisLogo</b><br>Test class: NewUserSiteNavigation.newusernavigation</td>
+<td></td>
+<td>8</td>
+<td>NewUserSiteNavigation.newusernavigation@614ddd49</td></tr>
+<tr>
+<td title='Projects.editproject.clickCancelButton()'><b>clickCancelButton</b><br>Test class: Projects.editproject</td>
+<td></td>
+<td>8</td>
+<td>Projects.editproject@4f063c0a</td></tr>
+<tr>
+<td title='Projects.editproject.clickProjectHamburgicon()'><b>clickProjectHamburgicon</b><br>Test class: Projects.editproject</td>
+<td></td>
+<td>8</td>
+<td>Projects.editproject@4f063c0a</td></tr>
+<tr>
+<td title='Onboardingnewclient.SingupNewUser.clickSignuplink()'><b>clickSignuplink</b><br>Test class: Onboardingnewclient.SingupNewUser<br>Test method: Verify User clicks the signuplink</td>
+<td></td>
+<td>0</td>
+<td>Onboardingnewclient.SingupNewUser@6c49835d</td></tr>
+<tr>
+<td title='Onboardingnewclient.SettingsPage.click_SettingsTab()'><b>click_SettingsTab</b><br>Test class: Onboardingnewclient.SettingsPage</td>
+<td></td>
+<td>0</td>
+<td>Onboardingnewclient.SettingsPage@76707e36</td></tr>
+<tr>
+<td title='Login.LoginInvalidAndForgotPassword.clickcontinuelogin()'><b>clickcontinuelogin</b><br>Test class: Login.LoginInvalidAndForgotPassword</td>
+<td></td>
+<td>5</td>
+<td>Login.LoginInvalidAndForgotPassword@7d0587f1</td></tr>
+<tr>
+<td title='Projects.ProjectProperties.closeProjectDetailsContent()'><b>closeProjectDetailsContent</b><br>Test class: Projects.ProjectProperties</td>
+<td></td>
+<td>0</td>
+<td>Projects.ProjectProperties@5d76b067</td></tr>
+<tr>
+<td title='Forms.FormsProperties.createQuestion1()'><b>createQuestion1</b><br>Test class: Forms.FormsProperties</td>
+<td></td>
+<td>5</td>
+<td>Forms.FormsProperties@2a17b7b6</td></tr>
+<tr>
+<td title='Forms.FormsProperties.createforms()'><b>createforms</b><br>Test class: Forms.FormsProperties</td>
+<td></td>
+<td>8</td>
+<td>Forms.FormsProperties@2a17b7b6</td></tr>
+<tr>
+<td title='Projects.editproject.edittitleofproject()'><b>edittitleofproject</b><br>Test class: Projects.editproject</td>
+<td></td>
+<td>13</td>
+<td>Projects.editproject@4f063c0a</td></tr>
+<tr>
+<td title='Projects.ProjectProperties.enterProblemStatements()'><b>enterProblemStatements</b><br>Test class: Projects.ProjectProperties</td>
+<td></td>
+<td>5</td>
+<td>Projects.ProjectProperties@5d76b067</td></tr>
+<tr>
+<td title='Projects.ProjectProperties.enterTitleofStrategy()'><b>enterTitleofStrategy</b><br>Test class: Projects.ProjectProperties</td>
+<td></td>
+<td>0</td>
+<td>Projects.ProjectProperties@5d76b067</td></tr>
+<tr>
+<td title='Projects.editproject.fetchProjectaccess()'><b>fetchProjectaccess</b><br>Test class: Projects.editproject</td>
+<td></td>
+<td>0</td>
+<td>Projects.editproject@4f063c0a</td></tr>
+<tr>
+<td title='Projects.ProjectProperties.fetchprojecttitle()'><b>fetchprojecttitle</b><br>Test class: Projects.ProjectProperties<br/>
+<a href="#Output-861522296" onClick='toggleBox("Output-861522296", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-861522296" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-861522296">
+User ented the email id details succefully<br/>
+User clicks Login button succefully<br/>
+User entered the passowrd succefully<br/>
+User clicks the next button<br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>Projects.ProjectProperties@5d76b067</td></tr>
+<tr>
+<td title='Forms.FormsProperties.formspagetitle()'><b>formspagetitle</b><br>Test class: Forms.FormsProperties</td>
+<td></td>
+<td>0</td>
+<td>Forms.FormsProperties@2a17b7b6</td></tr>
+<tr>
+<td title='Forms.FormsProperties.formstitle()'><b>formstitle</b><br>Test class: Forms.FormsProperties</td>
+<td></td>
+<td>0</td>
+<td>Forms.FormsProperties@2a17b7b6</td></tr>
+<tr>
+<td title='Forms.FormsProperties.formtitle()'><b>formtitle</b><br>Test class: Forms.FormsProperties</td>
+<td></td>
+<td>5</td>
+<td>Forms.FormsProperties@2a17b7b6</td></tr>
+<tr>
+<td title='NewUserSiteNavigation.newusernavigation.getNotifications()'><b>getNotifications</b><br>Test class: NewUserSiteNavigation.newusernavigation</td>
+<td></td>
+<td>6</td>
+<td>NewUserSiteNavigation.newusernavigation@614ddd49</td></tr>
+<tr>
+<td title='Projects.ProjectProperties.getProjectClassification()'><b>getProjectClassification</b><br>Test class: Projects.ProjectProperties</td>
+<td></td>
+<td>0</td>
+<td>Projects.ProjectProperties@5d76b067</td></tr>
+<tr>
+<td title='Projects.ProjectProperties.getProjectDetailsContent()'><b>getProjectDetailsContent</b><br>Test class: Projects.ProjectProperties</td>
+<td></td>
+<td>5</td>
+<td>Projects.ProjectProperties@5d76b067</td></tr>
+<tr>
+<td title='Projects.ProjectProperties.gettitleofpage()'><b>gettitleofpage</b><br>Test class: Projects.ProjectProperties</td>
+<td></td>
+<td>0</td>
+<td>Projects.ProjectProperties@5d76b067</td></tr>
+<tr>
+<td title='Onboardingnewclient.OnBoardingArtemis.isCreateNewButtonEnabled()'><b>isCreateNewButtonEnabled</b><br>Test class: Onboardingnewclient.OnBoardingArtemis</td>
+<td></td>
+<td>0</td>
+<td>Onboardingnewclient.OnBoardingArtemis@1e6d1014</td></tr>
+<tr>
+<td title='Onboardingnewclient.OnBoardingArtemis.isCreateNewButtonPresent()'><b>isCreateNewButtonPresent</b><br>Test class: Onboardingnewclient.OnBoardingArtemis</td>
+<td></td>
+<td>0</td>
+<td>Onboardingnewclient.OnBoardingArtemis@1e6d1014</td></tr>
+<tr>
+<td title='NewUserSiteNavigation.newusernavigation.logintoSite()'><b>logintoSite</b><br>Test class: NewUserSiteNavigation.newusernavigation</td>
+<td></td>
+<td>10</td>
+<td>NewUserSiteNavigation.newusernavigation@614ddd49</td></tr>
+<tr>
+<td title='Login.LoginInvalidAndForgotPassword.navigatetoforgotpasswordpage()'><b>navigatetoforgotpasswordpage</b><br>Test class: Login.LoginInvalidAndForgotPassword</td>
+<td></td>
+<td>8</td>
+<td>Login.LoginInvalidAndForgotPassword@7d0587f1</td></tr>
+<tr>
+<td title='NewUserSiteNavigation.newusernavigation.readNotification()'><b>readNotification</b><br>Test class: NewUserSiteNavigation.newusernavigation</td>
+<td></td>
+<td>0</td>
+<td>NewUserSiteNavigation.newusernavigation@614ddd49</td></tr>
+<tr>
+<td title='Login.LoginInvalidAndForgotPassword.recoveryhelptext()'><b>recoveryhelptext</b><br>Test class: Login.LoginInvalidAndForgotPassword</td>
+<td></td>
+<td>0</td>
+<td>Login.LoginInvalidAndForgotPassword@7d0587f1</td></tr>
+<tr>
+<td title='NewUserSiteNavigation.newusernavigation.redirectedURL()'><b>redirectedURL</b><br>Test class: NewUserSiteNavigation.newusernavigation</td>
+<td></td>
+<td>0</td>
+<td>NewUserSiteNavigation.newusernavigation@614ddd49</td></tr>
+<tr>
+<td title='Forms.FormsProperties.redirectedurl()'><b>redirectedurl</b><br>Test class: Forms.FormsProperties</td>
+<td></td>
+<td>0</td>
+<td>Forms.FormsProperties@2a17b7b6</td></tr>
+<tr>
+<td title='NewUserSiteNavigation.newusernavigation.seeAllnotifications()'><b>seeAllnotifications</b><br>Test class: NewUserSiteNavigation.newusernavigation</td>
+<td></td>
+<td>0</td>
+<td>NewUserSiteNavigation.newusernavigation@614ddd49</td></tr>
+<tr>
+<td title='NewUserSiteNavigation.newusernavigation.titleofwindow()'><b>titleofwindow</b><br>Test class: NewUserSiteNavigation.newusernavigation</td>
+<td></td>
+<td>0</td>
+<td>NewUserSiteNavigation.newusernavigation@614ddd49</td></tr>
+<tr>
+<td title='Login.LoginInvalidAndForgotPassword.userinputemail()'><b>userinputemail</b><br>Test class: Login.LoginInvalidAndForgotPassword</td>
+<td></td>
+<td>5</td>
+<td>Login.LoginInvalidAndForgotPassword@7d0587f1</td></tr>
+<tr>
+<td title='Projects.ProjectProperties.verifyCreateStrategypopupDetails()'><b>verifyCreateStrategypopupDetails</b><br>Test class: Projects.ProjectProperties</td>
+<td></td>
+<td>0</td>
+<td>Projects.ProjectProperties@5d76b067</td></tr>
+<tr>
+<td title='Onboardingnewclient.SingupNewUser.verifyTitleofsignup()'><b>verifyTitleofsignup</b><br>Test class: Onboardingnewclient.SingupNewUser<br>Test method: user navigated to Signup screen</td>
+<td></td>
+<td>0</td>
+<td>Onboardingnewclient.SingupNewUser@6c49835d</td></tr>
+<tr>
+<td title='Login.LoginInvalidAndForgotPassword.wrongpassword()'><b>wrongpassword</b><br>Test class: Login.LoginInvalidAndForgotPassword</td>
+<td></td>
+<td>9</td>
+<td>Login.LoginInvalidAndForgotPassword@7d0587f1</td></tr>
+</table><p>
+</body>
+</html>

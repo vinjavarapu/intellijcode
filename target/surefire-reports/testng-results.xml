@@ -1,0 +1,1459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="16" total="96" passed="80">
+  <reporter-output>
+    <line>
+      <![CDATA[Fetch the title of the page]]>
+    </line>
+    <line>
+      <![CDATA[Verify the title of the page is Artemis Accounts Portal]]>
+    </line>
+    <line>
+      <![CDATA[User ented the email id details succefully]]>
+    </line>
+    <line>
+      <![CDATA[User clicks Login button succefully]]>
+    </line>
+    <line>
+      <![CDATA[User entered the passowrd succefully]]>
+    </line>
+    <line>
+      <![CDATA[User clicks the next button]]>
+    </line>
+    <line>
+      <![CDATA[User able to login succefully]]>
+    </line>
+    <line>
+      <![CDATA[User ented the email id details succefully]]>
+    </line>
+    <line>
+      <![CDATA[User clicks Login button succefully]]>
+    </line>
+    <line>
+      <![CDATA[User entered the passowrd succefully]]>
+    </line>
+    <line>
+      <![CDATA[User clicks the next button]]>
+    </line>
+    <line>
+      <![CDATA[User ented the email id details succefully]]>
+    </line>
+    <line>
+      <![CDATA[User clicks Login button succefully]]>
+    </line>
+    <line>
+      <![CDATA[User entered the passowrd succefully]]>
+    </line>
+    <line>
+      <![CDATA[User clicks the next button]]>
+    </line>
+    <line>
+      <![CDATA[User ented the email id details succefully]]>
+    </line>
+    <line>
+      <![CDATA[User clicks Login button succefully]]>
+    </line>
+    <line>
+      <![CDATA[User entered the passowrd succefully]]>
+    </line>
+    <line>
+      <![CDATA[User clicks the next button]]>
+    </line>
+    <line>
+      <![CDATA[User ented the email id details succefully]]>
+    </line>
+    <line>
+      <![CDATA[User clicks Login button succefully]]>
+    </line>
+    <line>
+      <![CDATA[User entered the passowrd succefully]]>
+    </line>
+    <line>
+      <![CDATA[User clicks the next button]]>
+    </line>
+  </reporter-output>
+  <suite name="example suite 1" duration-ms="356511" started-at="2022-03-20T10:19:27 IST" finished-at="2022-03-20T10:25:23 IST">
+    <groups>
+    </groups>
+    <test name="Regression suite 1" duration-ms="356511" started-at="2022-03-20T10:19:27 IST" finished-at="2022-03-20T10:25:23 IST">
+      <class name="Projects.editproject">
+        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Projects.editproject@4f063c0a]" name="LaunchArtemisURL" is-config="true" duration-ms="3118" started-at="2022-03-20T10:22:36 IST" finished-at="2022-03-20T10:22:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchArtemisURL -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.editproject@4f063c0a]" name="BeforeMethod" is-config="true" duration-ms="24" started-at="2022-03-20T10:22:39 IST" finished-at="2022-03-20T10:22:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.editproject.NavigatetoProjectBoard() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="NavigatetoProjectBoard()[pri:1, instance:Projects.editproject@4f063c0a]" name="NavigatetoProjectBoard" duration-ms="17621" started-at="2022-03-20T10:22:39 IST" finished-at="2022-03-20T10:22:57 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[User ented the email id details succefully]]>
+            </line>
+            <line>
+              <![CDATA[User clicks Login button succefully]]>
+            </line>
+            <line>
+              <![CDATA[User entered the passowrd succefully]]>
+            </line>
+            <line>
+              <![CDATA[User clicks the next button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NavigatetoProjectBoard -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.editproject@4f063c0a]" name="BeforeMethod" is-config="true" duration-ms="22" started-at="2022-03-20T10:22:57 IST" finished-at="2022-03-20T10:22:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.editproject.fetchProjectaccess()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="fetchProjectaccess()[pri:2, instance:Projects.editproject@4f063c0a]" name="fetchProjectaccess" duration-ms="26" started-at="2022-03-20T10:22:57 IST" finished-at="2022-03-20T10:22:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchProjectaccess -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.editproject@4f063c0a]" name="BeforeMethod" is-config="true" duration-ms="18" started-at="2022-03-20T10:22:57 IST" finished-at="2022-03-20T10:22:57 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.editproject.checkProjectState() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="checkProjectState()[pri:3, instance:Projects.editproject@4f063c0a]" name="checkProjectState" duration-ms="5029" started-at="2022-03-20T10:22:57 IST" finished-at="2022-03-20T10:23:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkProjectState -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.editproject@4f063c0a]" name="BeforeMethod" is-config="true" duration-ms="19" started-at="2022-03-20T10:23:02 IST" finished-at="2022-03-20T10:23:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.editproject.clickProjectHamburgicon() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="clickProjectHamburgicon()[pri:4, instance:Projects.editproject@4f063c0a]" name="clickProjectHamburgicon" duration-ms="8087" started-at="2022-03-20T10:23:02 IST" finished-at="2022-03-20T10:23:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickProjectHamburgicon -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.editproject@4f063c0a]" name="BeforeMethod" is-config="true" duration-ms="22" started-at="2022-03-20T10:23:10 IST" finished-at="2022-03-20T10:23:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.editproject.ClickEditProject() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="ClickEditProject()[pri:5, instance:Projects.editproject@4f063c0a]" name="ClickEditProject" duration-ms="8186" started-at="2022-03-20T10:23:10 IST" finished-at="2022-03-20T10:23:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickEditProject -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.editproject@4f063c0a]" name="BeforeMethod" is-config="true" duration-ms="36" started-at="2022-03-20T10:23:18 IST" finished-at="2022-03-20T10:23:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.editproject.VerifyTitleofeditproject() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="VerifyTitleofeditproject()[pri:6, instance:Projects.editproject@4f063c0a]" name="VerifyTitleofeditproject" duration-ms="6044" started-at="2022-03-20T10:23:18 IST" finished-at="2022-03-20T10:23:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitleofeditproject -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.editproject@4f063c0a]" name="BeforeMethod" is-config="true" duration-ms="31" started-at="2022-03-20T10:23:24 IST" finished-at="2022-03-20T10:23:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.editproject.edittitleofproject() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="edittitleofproject()[pri:7, instance:Projects.editproject@4f063c0a]" name="edittitleofproject" duration-ms="13227" started-at="2022-03-20T10:23:24 IST" finished-at="2022-03-20T10:23:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- edittitleofproject -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.editproject@4f063c0a]" name="BeforeMethod" is-config="true" duration-ms="23" started-at="2022-03-20T10:23:38 IST" finished-at="2022-03-20T10:23:38 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.editproject.clickCancelButton() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="clickCancelButton()[pri:8, instance:Projects.editproject@4f063c0a]" name="clickCancelButton" duration-ms="8098" started-at="2022-03-20T10:23:38 IST" finished-at="2022-03-20T10:23:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCancelButton -->
+        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Projects.editproject@4f063c0a]" name="QuitWindows" is-config="true" duration-ms="727" started-at="2022-03-20T10:23:46 IST" finished-at="2022-03-20T10:23:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitWindows -->
+      </class> <!-- Projects.editproject -->
+      <class name="Onboardingnewclient.OnBoardingArtemis">
+        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="LaunchArtemisURL" is-config="true" duration-ms="2379" started-at="2022-03-20T10:23:46 IST" finished-at="2022-03-20T10:23:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchArtemisURL -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="BeforeMethod" is-config="true" duration-ms="30" started-at="2022-03-20T10:23:49 IST" finished-at="2022-03-20T10:23:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.LaunchURL() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="LaunchURL()[pri:1, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="LaunchURL" duration-ms="2074" started-at="2022-03-20T10:23:49 IST" finished-at="2022-03-20T10:23:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchURL -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="BeforeMethod" is-config="true" duration-ms="27" started-at="2022-03-20T10:23:51 IST" finished-at="2022-03-20T10:23:51 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.LoginErrorMessage_Wrongemailformat() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="LoginErrorMessage_Wrongemailformat()[pri:2, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="LoginErrorMessage_Wrongemailformat" duration-ms="4781" started-at="2022-03-20T10:23:51 IST" finished-at="2022-03-20T10:23:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorMessage_Wrongemailformat -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="BeforeMethod" is-config="true" duration-ms="17" started-at="2022-03-20T10:23:56 IST" finished-at="2022-03-20T10:23:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.LoginAction() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="LoginAction()[pri:3, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="LoginAction" duration-ms="4385" started-at="2022-03-20T10:23:56 IST" finished-at="2022-03-20T10:24:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAction -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="BeforeMethod" is-config="true" duration-ms="18" started-at="2022-03-20T10:24:00 IST" finished-at="2022-03-20T10:24:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.HomePageTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="HomePageTitle()[pri:4, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="HomePageTitle" duration-ms="7" started-at="2022-03-20T10:24:00 IST" finished-at="2022-03-20T10:24:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTitle -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="BeforeMethod" is-config="true" duration-ms="21" started-at="2022-03-20T10:24:00 IST" finished-at="2022-03-20T10:24:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.UserNameDisplay()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="UserNameDisplay()[pri:5, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="UserNameDisplay" duration-ms="12230" started-at="2022-03-20T10:24:00 IST" finished-at="2022-03-20T10:24:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserNameDisplay -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="BeforeMethod" is-config="true" duration-ms="24" started-at="2022-03-20T10:24:12 IST" finished-at="2022-03-20T10:24:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.isCreateNewButtonPresent()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="isCreateNewButtonPresent()[pri:6, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="isCreateNewButtonPresent" duration-ms="61" started-at="2022-03-20T10:24:12 IST" finished-at="2022-03-20T10:24:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isCreateNewButtonPresent -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="BeforeMethod" is-config="true" duration-ms="18" started-at="2022-03-20T10:24:13 IST" finished-at="2022-03-20T10:24:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.isCreateNewButtonEnabled()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="isCreateNewButtonEnabled()[pri:7, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="isCreateNewButtonEnabled" duration-ms="31" started-at="2022-03-20T10:24:13 IST" finished-at="2022-03-20T10:24:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isCreateNewButtonEnabled -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="BeforeMethod" is-config="true" duration-ms="23" started-at="2022-03-20T10:24:13 IST" finished-at="2022-03-20T10:24:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.ClickCreatenewproject()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="ClickCreatenewproject()[pri:8, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="ClickCreatenewproject" duration-ms="380" started-at="2022-03-20T10:24:13 IST" finished-at="2022-03-20T10:24:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickCreatenewproject -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="BeforeMethod" is-config="true" duration-ms="20" started-at="2022-03-20T10:24:13 IST" finished-at="2022-03-20T10:24:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.ClickCancelProjectDialog() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="ClickCancelProjectDialog()[pri:9, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="ClickCancelProjectDialog" duration-ms="5502" started-at="2022-03-20T10:24:13 IST" finished-at="2022-03-20T10:24:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickCancelProjectDialog -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="BeforeMethod" is-config="true" duration-ms="19" started-at="2022-03-20T10:24:18 IST" finished-at="2022-03-20T10:24:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.LogoutAction() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="LogoutAction()[pri:10, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="LogoutAction" duration-ms="4134" started-at="2022-03-20T10:24:19 IST" finished-at="2022-03-20T10:24:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutAction -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="BeforeMethod" is-config="true" duration-ms="17" started-at="2022-03-20T10:24:23 IST" finished-at="2022-03-20T10:24:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.Setting_is_Present()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="Setting_is_Present()[pri:11, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="Setting_is_Present" duration-ms="59" started-at="2022-03-20T10:24:23 IST" finished-at="2022-03-20T10:24:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setting_is_Present -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="BeforeMethod" is-config="true" duration-ms="22" started-at="2022-03-20T10:24:23 IST" finished-at="2022-03-20T10:24:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.Settings_is_Clickable()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="Settings_is_Clickable()[pri:12, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="Settings_is_Clickable" duration-ms="40" started-at="2022-03-20T10:24:23 IST" finished-at="2022-03-20T10:24:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Settings_is_Clickable -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="BeforeMethod" is-config="true" duration-ms="20" started-at="2022-03-20T10:24:23 IST" finished-at="2022-03-20T10:24:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.Settings_Navigations_Popup() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="Settings_Navigations_Popup()[pri:13, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="Settings_Navigations_Popup" duration-ms="4338" started-at="2022-03-20T10:24:23 IST" finished-at="2022-03-20T10:24:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Settings_Navigations_Popup -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="BeforeMethod" is-config="true" duration-ms="19" started-at="2022-03-20T10:24:27 IST" finished-at="2022-03-20T10:24:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.Logout_Click()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="Logout_Click()[pri:14, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="Logout_Click" duration-ms="93" started-at="2022-03-20T10:24:27 IST" finished-at="2022-03-20T10:24:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout_Click -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="BeforeMethod" is-config="true" duration-ms="17" started-at="2022-03-20T10:24:27 IST" finished-at="2022-03-20T10:24:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.Logout_Confirmation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="Logout_Confirmation()[pri:15, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="Logout_Confirmation" duration-ms="29" started-at="2022-03-20T10:24:27 IST" finished-at="2022-03-20T10:24:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout_Confirmation -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="BeforeMethod" is-config="true" duration-ms="19" started-at="2022-03-20T10:24:27 IST" finished-at="2022-03-20T10:24:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.OnBoardingArtemis.Logout_click()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="Logout_click()[pri:16, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="Logout_click" duration-ms="103" started-at="2022-03-20T10:24:27 IST" finished-at="2022-03-20T10:24:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout_click -->
+        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="QuitWindows" is-config="true" duration-ms="681" started-at="2022-03-20T10:24:27 IST" finished-at="2022-03-20T10:24:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitWindows -->
+        <test-method status="PASS" signature="closewindows()[pri:0, instance:Onboardingnewclient.OnBoardingArtemis@1e6d1014]" name="closewindows" is-config="true" duration-ms="713" started-at="2022-03-20T10:25:22 IST" finished-at="2022-03-20T10:25:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindows -->
+      </class> <!-- Onboardingnewclient.OnBoardingArtemis -->
+      <class name="Projects.ProjectProperties">
+        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Projects.ProjectProperties@5d76b067]" name="LaunchArtemisURL" is-config="true" duration-ms="3027" started-at="2022-03-20T10:20:24 IST" finished-at="2022-03-20T10:20:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchArtemisURL -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5d76b067]" name="BeforeMethod" is-config="true" duration-ms="37" started-at="2022-03-20T10:20:27 IST" finished-at="2022-03-20T10:20:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.ProjectProperties.fetchprojecttitle() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="fetchprojecttitle()[pri:1, instance:Projects.ProjectProperties@5d76b067]" name="fetchprojecttitle" duration-ms="19665" started-at="2022-03-20T10:20:28 IST" finished-at="2022-03-20T10:20:47 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[User ented the email id details succefully]]>
+            </line>
+            <line>
+              <![CDATA[User clicks Login button succefully]]>
+            </line>
+            <line>
+              <![CDATA[User entered the passowrd succefully]]>
+            </line>
+            <line>
+              <![CDATA[User clicks the next button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fetchprojecttitle -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5d76b067]" name="BeforeMethod" is-config="true" duration-ms="33" started-at="2022-03-20T10:20:47 IST" finished-at="2022-03-20T10:20:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.ProjectProperties.ClickProject()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="ClickProject()[pri:3, instance:Projects.ProjectProperties@5d76b067]" name="ClickProject" duration-ms="110" started-at="2022-03-20T10:20:47 IST" finished-at="2022-03-20T10:20:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickProject -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5d76b067]" name="BeforeMethod" is-config="true" duration-ms="23" started-at="2022-03-20T10:20:47 IST" finished-at="2022-03-20T10:20:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.ProjectProperties.getProjectClassification()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="getProjectClassification()[pri:4, instance:Projects.ProjectProperties@5d76b067]" name="getProjectClassification" duration-ms="403" started-at="2022-03-20T10:20:47 IST" finished-at="2022-03-20T10:20:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProjectClassification -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5d76b067]" name="BeforeMethod" is-config="true" duration-ms="28" started-at="2022-03-20T10:20:48 IST" finished-at="2022-03-20T10:20:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.ProjectProperties.getProjectDetailsContent() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="getProjectDetailsContent()[pri:5, instance:Projects.ProjectProperties@5d76b067]" name="getProjectDetailsContent" duration-ms="5118" started-at="2022-03-20T10:20:48 IST" finished-at="2022-03-20T10:20:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getProjectDetailsContent -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5d76b067]" name="BeforeMethod" is-config="true" duration-ms="22" started-at="2022-03-20T10:20:53 IST" finished-at="2022-03-20T10:20:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.ProjectProperties.closeProjectDetailsContent()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="closeProjectDetailsContent()[pri:6, instance:Projects.ProjectProperties@5d76b067]" name="closeProjectDetailsContent" duration-ms="60" started-at="2022-03-20T10:20:53 IST" finished-at="2022-03-20T10:20:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeProjectDetailsContent -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5d76b067]" name="BeforeMethod" is-config="true" duration-ms="29" started-at="2022-03-20T10:20:53 IST" finished-at="2022-03-20T10:20:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.ProjectProperties.ClickStrategyTab()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="ClickStrategyTab()[pri:7, instance:Projects.ProjectProperties@5d76b067]" name="ClickStrategyTab" duration-ms="88" started-at="2022-03-20T10:20:53 IST" finished-at="2022-03-20T10:20:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickStrategyTab -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5d76b067]" name="BeforeMethod" is-config="true" duration-ms="32" started-at="2022-03-20T10:20:53 IST" finished-at="2022-03-20T10:20:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.ProjectProperties.gettitleofpage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="gettitleofpage()[pri:8, instance:Projects.ProjectProperties@5d76b067]" name="gettitleofpage" duration-ms="5" started-at="2022-03-20T10:20:53 IST" finished-at="2022-03-20T10:20:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gettitleofpage -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5d76b067]" name="BeforeMethod" is-config="true" duration-ms="29" started-at="2022-03-20T10:20:53 IST" finished-at="2022-03-20T10:20:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.ProjectProperties.ClickCreateStragey() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="ClickCreateStragey()[pri:9, instance:Projects.ProjectProperties@5d76b067]" name="ClickCreateStragey" duration-ms="5174" started-at="2022-03-20T10:20:53 IST" finished-at="2022-03-20T10:20:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickCreateStragey -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5d76b067]" name="BeforeMethod" is-config="true" duration-ms="26" started-at="2022-03-20T10:20:58 IST" finished-at="2022-03-20T10:20:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.ProjectProperties.verifyCreateStrategypopupDetails()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="verifyCreateStrategypopupDetails()[pri:10, instance:Projects.ProjectProperties@5d76b067]" name="verifyCreateStrategypopupDetails" duration-ms="42" started-at="2022-03-20T10:20:58 IST" finished-at="2022-03-20T10:20:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateStrategypopupDetails -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5d76b067]" name="BeforeMethod" is-config="true" duration-ms="18" started-at="2022-03-20T10:20:58 IST" finished-at="2022-03-20T10:20:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.ProjectProperties.HelpTextofCreateStrategy()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="HelpTextofCreateStrategy()[pri:11, instance:Projects.ProjectProperties@5d76b067]" name="HelpTextofCreateStrategy" duration-ms="31" started-at="2022-03-20T10:20:58 IST" finished-at="2022-03-20T10:20:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HelpTextofCreateStrategy -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5d76b067]" name="BeforeMethod" is-config="true" duration-ms="19" started-at="2022-03-20T10:20:58 IST" finished-at="2022-03-20T10:20:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.ProjectProperties.VerifyHelpText()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="VerifyHelpText()[pri:12, instance:Projects.ProjectProperties@5d76b067]" name="VerifyHelpText" duration-ms="42" started-at="2022-03-20T10:20:58 IST" finished-at="2022-03-20T10:20:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyHelpText -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5d76b067]" name="BeforeMethod" is-config="true" duration-ms="24" started-at="2022-03-20T10:20:59 IST" finished-at="2022-03-20T10:20:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.ProjectProperties.TitleLabel_exists()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="TitleLabel_exists()[pri:13, instance:Projects.ProjectProperties@5d76b067]" name="TitleLabel_exists" duration-ms="35" started-at="2022-03-20T10:20:59 IST" finished-at="2022-03-20T10:20:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TitleLabel_exists -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5d76b067]" name="BeforeMethod" is-config="true" duration-ms="21" started-at="2022-03-20T10:20:59 IST" finished-at="2022-03-20T10:20:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.ProjectProperties.ProblemStatement_exists() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="ProblemStatement_exists()[pri:14, instance:Projects.ProjectProperties@5d76b067]" name="ProblemStatement_exists" duration-ms="5049" started-at="2022-03-20T10:20:59 IST" finished-at="2022-03-20T10:21:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProblemStatement_exists -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5d76b067]" name="BeforeMethod" is-config="true" duration-ms="19" started-at="2022-03-20T10:21:04 IST" finished-at="2022-03-20T10:21:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.ProjectProperties.enterTitleofStrategy() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="enterTitleofStrategy()[pri:15, instance:Projects.ProjectProperties@5d76b067]" name="enterTitleofStrategy" duration-ms="104" started-at="2022-03-20T10:21:04 IST" finished-at="2022-03-20T10:21:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterTitleofStrategy -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5d76b067]" name="BeforeMethod" is-config="true" duration-ms="16" started-at="2022-03-20T10:21:04 IST" finished-at="2022-03-20T10:21:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.ProjectProperties.enterProblemStatements() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="enterProblemStatements()[pri:16, instance:Projects.ProjectProperties@5d76b067]" name="enterProblemStatements" duration-ms="5132" started-at="2022-03-20T10:21:04 IST" finished-at="2022-03-20T10:21:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterProblemStatements -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5d76b067]" name="BeforeMethod" is-config="true" duration-ms="16" started-at="2022-03-20T10:21:09 IST" finished-at="2022-03-20T10:21:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.ProjectProperties.ClickCreateStargeyDoneButton() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="ClickCreateStargeyDoneButton()[pri:17, instance:Projects.ProjectProperties@5d76b067]" name="ClickCreateStargeyDoneButton" duration-ms="5095" started-at="2022-03-20T10:21:09 IST" finished-at="2022-03-20T10:21:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickCreateStargeyDoneButton -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5d76b067]" name="BeforeMethod" is-config="true" duration-ms="24" started-at="2022-03-20T10:21:14 IST" finished-at="2022-03-20T10:21:14 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.ProjectProperties.DeleteStargeyMenu() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="DeleteStargeyMenu()[pri:18, instance:Projects.ProjectProperties@5d76b067]" name="DeleteStargeyMenu" duration-ms="7319" started-at="2022-03-20T10:21:14 IST" finished-at="2022-03-20T10:21:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteStargeyMenu -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5d76b067]" name="BeforeMethod" is-config="true" duration-ms="19" started-at="2022-03-20T10:21:21 IST" finished-at="2022-03-20T10:21:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.ProjectProperties.DeleteStragey() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="DeleteStragey()[pri:18, instance:Projects.ProjectProperties@5d76b067]" name="DeleteStragey" duration-ms="4106" started-at="2022-03-20T10:21:21 IST" finished-at="2022-03-20T10:21:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteStragey -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5d76b067]" name="BeforeMethod" is-config="true" duration-ms="24" started-at="2022-03-20T10:21:25 IST" finished-at="2022-03-20T10:21:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.ProjectProperties.DeleteConfirmmessage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="DeleteConfirmmessage()[pri:19, instance:Projects.ProjectProperties@5d76b067]" name="DeleteConfirmmessage" duration-ms="5027" started-at="2022-03-20T10:21:26 IST" finished-at="2022-03-20T10:21:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteConfirmmessage -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Projects.ProjectProperties@5d76b067]" name="BeforeMethod" is-config="true" duration-ms="20" started-at="2022-03-20T10:21:31 IST" finished-at="2022-03-20T10:21:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Projects.ProjectProperties.Deleteaction() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="Deleteaction()[pri:20, instance:Projects.ProjectProperties@5d76b067]" name="Deleteaction" duration-ms="7069" started-at="2022-03-20T10:21:31 IST" finished-at="2022-03-20T10:21:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Deleteaction -->
+        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Projects.ProjectProperties@5d76b067]" name="QuitWindows" is-config="true" duration-ms="758" started-at="2022-03-20T10:21:38 IST" finished-at="2022-03-20T10:21:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitWindows -->
+      </class> <!-- Projects.ProjectProperties -->
+      <class name="Forms.FormsProperties">
+        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Forms.FormsProperties@2a17b7b6]" name="LaunchArtemisURL" is-config="true" duration-ms="3230" started-at="2022-03-20T10:21:38 IST" finished-at="2022-03-20T10:21:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchArtemisURL -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Forms.FormsProperties@2a17b7b6]" name="BeforeMethod" is-config="true" duration-ms="21" started-at="2022-03-20T10:21:42 IST" finished-at="2022-03-20T10:21:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Forms.FormsProperties.NavigatetoProjectDetailsPage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="NavigatetoProjectDetailsPage()[pri:1, instance:Forms.FormsProperties@2a17b7b6]" name="NavigatetoProjectDetailsPage" duration-ms="29716" started-at="2022-03-20T10:21:42 IST" finished-at="2022-03-20T10:22:11 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[User ented the email id details succefully]]>
+            </line>
+            <line>
+              <![CDATA[User clicks Login button succefully]]>
+            </line>
+            <line>
+              <![CDATA[User entered the passowrd succefully]]>
+            </line>
+            <line>
+              <![CDATA[User clicks the next button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NavigatetoProjectDetailsPage -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Forms.FormsProperties@2a17b7b6]" name="BeforeMethod" is-config="true" duration-ms="21" started-at="2022-03-20T10:22:11 IST" finished-at="2022-03-20T10:22:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Forms.FormsProperties.NavigatetoFormsTab()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="NavigatetoFormsTab()[pri:2, instance:Forms.FormsProperties@2a17b7b6]" name="NavigatetoFormsTab" duration-ms="118" started-at="2022-03-20T10:22:11 IST" finished-at="2022-03-20T10:22:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigatetoFormsTab -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Forms.FormsProperties@2a17b7b6]" name="BeforeMethod" is-config="true" duration-ms="23" started-at="2022-03-20T10:22:11 IST" finished-at="2022-03-20T10:22:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Forms.FormsProperties.formspagetitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="formspagetitle()[pri:3, instance:Forms.FormsProperties@2a17b7b6]" name="formspagetitle" duration-ms="32" started-at="2022-03-20T10:22:12 IST" finished-at="2022-03-20T10:22:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formspagetitle -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Forms.FormsProperties@2a17b7b6]" name="BeforeMethod" is-config="true" duration-ms="21" started-at="2022-03-20T10:22:12 IST" finished-at="2022-03-20T10:22:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Forms.FormsProperties.createforms() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="createforms()[pri:4, instance:Forms.FormsProperties@2a17b7b6]" name="createforms" duration-ms="8142" started-at="2022-03-20T10:22:12 IST" finished-at="2022-03-20T10:22:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createforms -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Forms.FormsProperties@2a17b7b6]" name="BeforeMethod" is-config="true" duration-ms="17" started-at="2022-03-20T10:22:20 IST" finished-at="2022-03-20T10:22:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Forms.FormsProperties.redirectedurl()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="redirectedurl()[pri:5, instance:Forms.FormsProperties@2a17b7b6]" name="redirectedurl" duration-ms="5" started-at="2022-03-20T10:22:20 IST" finished-at="2022-03-20T10:22:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectedurl -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Forms.FormsProperties@2a17b7b6]" name="BeforeMethod" is-config="true" duration-ms="15" started-at="2022-03-20T10:22:20 IST" finished-at="2022-03-20T10:22:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Forms.FormsProperties.formstitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="formstitle()[pri:6, instance:Forms.FormsProperties@2a17b7b6]" name="formstitle" duration-ms="30" started-at="2022-03-20T10:22:20 IST" finished-at="2022-03-20T10:22:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formstitle -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Forms.FormsProperties@2a17b7b6]" name="BeforeMethod" is-config="true" duration-ms="15" started-at="2022-03-20T10:22:20 IST" finished-at="2022-03-20T10:22:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Forms.FormsProperties.formtitle() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="formtitle()[pri:7, instance:Forms.FormsProperties@2a17b7b6]" name="formtitle" duration-ms="5152" started-at="2022-03-20T10:22:20 IST" finished-at="2022-03-20T10:22:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formtitle -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Forms.FormsProperties@2a17b7b6]" name="BeforeMethod" is-config="true" duration-ms="19" started-at="2022-03-20T10:22:25 IST" finished-at="2022-03-20T10:22:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Forms.FormsProperties.createQuestion1() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="createQuestion1()[pri:8, instance:Forms.FormsProperties@2a17b7b6]" name="createQuestion1" duration-ms="5223" started-at="2022-03-20T10:22:25 IST" finished-at="2022-03-20T10:22:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createQuestion1 -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Forms.FormsProperties@2a17b7b6]" name="BeforeMethod" is-config="true" duration-ms="18" started-at="2022-03-20T10:22:30 IST" finished-at="2022-03-20T10:22:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Forms.FormsProperties.PublishForm() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="PublishForm()[pri:9, instance:Forms.FormsProperties@2a17b7b6]" name="PublishForm" duration-ms="5124" started-at="2022-03-20T10:22:30 IST" finished-at="2022-03-20T10:22:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PublishForm -->
+        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Forms.FormsProperties@2a17b7b6]" name="QuitWindows" is-config="true" duration-ms="750" started-at="2022-03-20T10:22:35 IST" finished-at="2022-03-20T10:22:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitWindows -->
+      </class> <!-- Forms.FormsProperties -->
+      <class name="Login.LoginInvalidAndForgotPassword">
+        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Login.LoginInvalidAndForgotPassword@7d0587f1]" name="LaunchArtemisURL" is-config="true" duration-ms="2495" started-at="2022-03-20T10:19:41 IST" finished-at="2022-03-20T10:19:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchArtemisURL -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@7d0587f1]" name="BeforeMethod" is-config="true" duration-ms="33" started-at="2022-03-20T10:19:44 IST" finished-at="2022-03-20T10:19:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Login.LoginInvalidAndForgotPassword.EnterWrongemailid() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="EnterWrongemailid()[pri:0, instance:Login.LoginInvalidAndForgotPassword@7d0587f1]" name="EnterWrongemailid" duration-ms="5250" started-at="2022-03-20T10:19:44 IST" finished-at="2022-03-20T10:19:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterWrongemailid -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@7d0587f1]" name="BeforeMethod" is-config="true" duration-ms="26" started-at="2022-03-20T10:19:49 IST" finished-at="2022-03-20T10:19:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Login.LoginInvalidAndForgotPassword.wrongpassword() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="wrongpassword()[pri:0, instance:Login.LoginInvalidAndForgotPassword@7d0587f1]" name="wrongpassword" duration-ms="9393" started-at="2022-03-20T10:19:49 IST" finished-at="2022-03-20T10:19:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongpassword -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@7d0587f1]" name="BeforeMethod" is-config="true" duration-ms="21" started-at="2022-03-20T10:19:58 IST" finished-at="2022-03-20T10:19:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Login.LoginInvalidAndForgotPassword.LaunchURL()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="LaunchURL()[pri:1, instance:Login.LoginInvalidAndForgotPassword@7d0587f1]" name="LaunchURL" duration-ms="633" started-at="2022-03-20T10:19:58 IST" finished-at="2022-03-20T10:19:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchURL -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@7d0587f1]" name="BeforeMethod" is-config="true" duration-ms="29" started-at="2022-03-20T10:19:59 IST" finished-at="2022-03-20T10:19:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Login.LoginInvalidAndForgotPassword.checklabelsinLoginPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="checklabelsinLoginPage()[pri:2, instance:Login.LoginInvalidAndForgotPassword@7d0587f1]" name="checklabelsinLoginPage" duration-ms="6" started-at="2022-03-20T10:19:59 IST" finished-at="2022-03-20T10:19:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checklabelsinLoginPage -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@7d0587f1]" name="BeforeMethod" is-config="true" duration-ms="23" started-at="2022-03-20T10:19:59 IST" finished-at="2022-03-20T10:19:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Login.LoginInvalidAndForgotPassword.navigatetoforgotpasswordpage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="navigatetoforgotpasswordpage()[pri:3, instance:Login.LoginInvalidAndForgotPassword@7d0587f1]" name="navigatetoforgotpasswordpage" duration-ms="8266" started-at="2022-03-20T10:19:59 IST" finished-at="2022-03-20T10:20:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigatetoforgotpasswordpage -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@7d0587f1]" name="BeforeMethod" is-config="true" duration-ms="23" started-at="2022-03-20T10:20:07 IST" finished-at="2022-03-20T10:20:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Login.LoginInvalidAndForgotPassword.CheckForgotpasswordlink_exists()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="CheckForgotpasswordlink_exists()[pri:4, instance:Login.LoginInvalidAndForgotPassword@7d0587f1]" name="CheckForgotpasswordlink_exists" duration-ms="27" started-at="2022-03-20T10:20:07 IST" finished-at="2022-03-20T10:20:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckForgotpasswordlink_exists -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@7d0587f1]" name="BeforeMethod" is-config="true" duration-ms="18" started-at="2022-03-20T10:20:07 IST" finished-at="2022-03-20T10:20:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Login.LoginInvalidAndForgotPassword.ClickForgotpasswordlink() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="ClickForgotpasswordlink()[pri:5, instance:Login.LoginInvalidAndForgotPassword@7d0587f1]" name="ClickForgotpasswordlink" duration-ms="6070" started-at="2022-03-20T10:20:07 IST" finished-at="2022-03-20T10:20:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickForgotpasswordlink -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@7d0587f1]" name="BeforeMethod" is-config="true" duration-ms="30" started-at="2022-03-20T10:20:13 IST" finished-at="2022-03-20T10:20:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Login.LoginInvalidAndForgotPassword.userinputemail() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="userinputemail()[pri:6, instance:Login.LoginInvalidAndForgotPassword@7d0587f1]" name="userinputemail" duration-ms="5197" started-at="2022-03-20T10:20:13 IST" finished-at="2022-03-20T10:20:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userinputemail -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@7d0587f1]" name="BeforeMethod" is-config="true" duration-ms="28" started-at="2022-03-20T10:20:19 IST" finished-at="2022-03-20T10:20:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Login.LoginInvalidAndForgotPassword.recoveryhelptext()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="recoveryhelptext()[pri:7, instance:Login.LoginInvalidAndForgotPassword@7d0587f1]" name="recoveryhelptext" duration-ms="34" started-at="2022-03-20T10:20:19 IST" finished-at="2022-03-20T10:20:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recoveryhelptext -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.LoginInvalidAndForgotPassword@7d0587f1]" name="BeforeMethod" is-config="true" duration-ms="26" started-at="2022-03-20T10:20:19 IST" finished-at="2022-03-20T10:20:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Login.LoginInvalidAndForgotPassword.clickcontinuelogin() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="clickcontinuelogin()[pri:8, instance:Login.LoginInvalidAndForgotPassword@7d0587f1]" name="clickcontinuelogin" duration-ms="5110" started-at="2022-03-20T10:20:19 IST" finished-at="2022-03-20T10:20:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickcontinuelogin -->
+        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Login.LoginInvalidAndForgotPassword@7d0587f1]" name="QuitWindows" is-config="true" duration-ms="679" started-at="2022-03-20T10:20:24 IST" finished-at="2022-03-20T10:20:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitWindows -->
+      </class> <!-- Login.LoginInvalidAndForgotPassword -->
+      <class name="NewUserSiteNavigation.newusernavigation">
+        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:NewUserSiteNavigation.newusernavigation@614ddd49]" name="LaunchArtemisURL" is-config="true" duration-ms="2027" started-at="2022-03-20T10:24:54 IST" finished-at="2022-03-20T10:24:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchArtemisURL -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NewUserSiteNavigation.newusernavigation@614ddd49]" name="BeforeMethod" is-config="true" duration-ms="29" started-at="2022-03-20T10:24:56 IST" finished-at="2022-03-20T10:24:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NewUserSiteNavigation.newusernavigation.logintoSite() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="logintoSite()[pri:1, instance:NewUserSiteNavigation.newusernavigation@614ddd49]" name="logintoSite" duration-ms="10469" started-at="2022-03-20T10:24:56 IST" finished-at="2022-03-20T10:25:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoSite -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NewUserSiteNavigation.newusernavigation@614ddd49]" name="BeforeMethod" is-config="true" duration-ms="24" started-at="2022-03-20T10:25:07 IST" finished-at="2022-03-20T10:25:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NewUserSiteNavigation.newusernavigation.checkDisplayName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="checkDisplayName()[pri:2, instance:NewUserSiteNavigation.newusernavigation@614ddd49]" name="checkDisplayName" duration-ms="29" started-at="2022-03-20T10:25:07 IST" finished-at="2022-03-20T10:25:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDisplayName -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NewUserSiteNavigation.newusernavigation@614ddd49]" name="BeforeMethod" is-config="true" duration-ms="16" started-at="2022-03-20T10:25:07 IST" finished-at="2022-03-20T10:25:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NewUserSiteNavigation.newusernavigation.getNotifications() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="getNotifications()[pri:3, instance:NewUserSiteNavigation.newusernavigation@614ddd49]" name="getNotifications" duration-ms="6086" started-at="2022-03-20T10:25:07 IST" finished-at="2022-03-20T10:25:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getNotifications -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NewUserSiteNavigation.newusernavigation@614ddd49]" name="BeforeMethod" is-config="true" duration-ms="30" started-at="2022-03-20T10:25:13 IST" finished-at="2022-03-20T10:25:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NewUserSiteNavigation.newusernavigation.readNotification()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="readNotification()[pri:4, instance:NewUserSiteNavigation.newusernavigation@614ddd49]" name="readNotification" duration-ms="39" started-at="2022-03-20T10:25:13 IST" finished-at="2022-03-20T10:25:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readNotification -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NewUserSiteNavigation.newusernavigation@614ddd49]" name="BeforeMethod" is-config="true" duration-ms="17" started-at="2022-03-20T10:25:13 IST" finished-at="2022-03-20T10:25:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NewUserSiteNavigation.newusernavigation.seeAllnotifications()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="seeAllnotifications()[pri:5, instance:NewUserSiteNavigation.newusernavigation@614ddd49]" name="seeAllnotifications" duration-ms="93" started-at="2022-03-20T10:25:13 IST" finished-at="2022-03-20T10:25:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seeAllnotifications -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NewUserSiteNavigation.newusernavigation@614ddd49]" name="BeforeMethod" is-config="true" duration-ms="22" started-at="2022-03-20T10:25:13 IST" finished-at="2022-03-20T10:25:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NewUserSiteNavigation.newusernavigation.redirectedURL()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="redirectedURL()[pri:6, instance:NewUserSiteNavigation.newusernavigation@614ddd49]" name="redirectedURL" duration-ms="5" started-at="2022-03-20T10:25:13 IST" finished-at="2022-03-20T10:25:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- redirectedURL -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NewUserSiteNavigation.newusernavigation@614ddd49]" name="BeforeMethod" is-config="true" duration-ms="18" started-at="2022-03-20T10:25:13 IST" finished-at="2022-03-20T10:25:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NewUserSiteNavigation.newusernavigation.titleofwindow()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="titleofwindow()[pri:7, instance:NewUserSiteNavigation.newusernavigation@614ddd49]" name="titleofwindow" duration-ms="28" started-at="2022-03-20T10:25:13 IST" finished-at="2022-03-20T10:25:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleofwindow -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:NewUserSiteNavigation.newusernavigation@614ddd49]" name="BeforeMethod" is-config="true" duration-ms="17" started-at="2022-03-20T10:25:13 IST" finished-at="2022-03-20T10:25:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void NewUserSiteNavigation.newusernavigation.clickArtemisLogo() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="clickArtemisLogo()[pri:8, instance:NewUserSiteNavigation.newusernavigation@614ddd49]" name="clickArtemisLogo" duration-ms="8104" started-at="2022-03-20T10:25:13 IST" finished-at="2022-03-20T10:25:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickArtemisLogo -->
+        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:NewUserSiteNavigation.newusernavigation@614ddd49]" name="QuitWindows" is-config="true" duration-ms="743" started-at="2022-03-20T10:25:21 IST" finished-at="2022-03-20T10:25:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitWindows -->
+      </class> <!-- NewUserSiteNavigation.newusernavigation -->
+      <class name="Login.Login_Test">
+        <test-method status="PASS" signature="BeforeTestMethod()[pri:0, instance:Login.Login_Test@5e853265]" name="BeforeTestMethod" is-config="true" duration-ms="81" started-at="2022-03-20T10:19:27 IST" finished-at="2022-03-20T10:19:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTestMethod -->
+        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Login.Login_Test@5e853265]" name="LaunchArtemisURL" is-config="true" duration-ms="2112" started-at="2022-03-20T10:19:31 IST" finished-at="2022-03-20T10:19:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchArtemisURL -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.Login_Test@5e853265]" name="BeforeMethod" is-config="true" duration-ms="280" started-at="2022-03-20T10:19:33 IST" finished-at="2022-03-20T10:19:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Login.Login_Test.Login_HomePage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="Login_HomePage()[pri:1, instance:Login.Login_Test@5e853265]" name="Login_HomePage" duration-ms="35" started-at="2022-03-20T10:19:34 IST" description="Check the Login page title" finished-at="2022-03-20T10:19:34 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Fetch the title of the page]]>
+            </line>
+            <line>
+              <![CDATA[Verify the title of the page is Artemis Accounts Portal]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_HomePage -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.Login_Test@5e853265]" name="BeforeMethod" is-config="true" duration-ms="46" started-at="2022-03-20T10:19:34 IST" finished-at="2022-03-20T10:19:34 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Login.Login_Test.LogintoApp() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="LogintoApp()[pri:2, instance:Login.Login_Test@5e853265]" name="LogintoApp" duration-ms="6574" started-at="2022-03-20T10:19:34 IST" description="Verify Login to application with valid details" finished-at="2022-03-20T10:19:40 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[User ented the email id details succefully]]>
+            </line>
+            <line>
+              <![CDATA[User clicks Login button succefully]]>
+            </line>
+            <line>
+              <![CDATA[User entered the passowrd succefully]]>
+            </line>
+            <line>
+              <![CDATA[User clicks the next button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LogintoApp -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Login.Login_Test@5e853265]" name="BeforeMethod" is-config="true" duration-ms="36" started-at="2022-03-20T10:19:40 IST" finished-at="2022-03-20T10:19:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Login.Login_Test.Loginsuccesful()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="Loginsuccesful()[pri:3, instance:Login.Login_Test@5e853265]" name="Loginsuccesful" duration-ms="5" started-at="2022-03-20T10:19:40 IST" finished-at="2022-03-20T10:19:40 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[User able to login succefully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Loginsuccesful -->
+        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Login.Login_Test@5e853265]" name="QuitWindows" is-config="true" duration-ms="740" started-at="2022-03-20T10:19:40 IST" finished-at="2022-03-20T10:19:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitWindows -->
+        <test-method status="PASS" signature="AfterTestMethod()[pri:0, instance:Login.Login_Test@5e853265]" name="AfterTestMethod" is-config="true" duration-ms="19" started-at="2022-03-20T10:25:23 IST" depends-on-methods="Onboardingnewclient.SingupNewUser.quitwindows, Onboardingnewclient.OnBoardingArtemis.closewindows" finished-at="2022-03-20T10:25:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTestMethod -->
+      </class> <!-- Login.Login_Test -->
+      <class name="Onboardingnewclient.SingupNewUser">
+        <test-method status="PASS" signature="LaunchURL()[pri:0, instance:Onboardingnewclient.SingupNewUser@6c49835d]" name="LaunchURL" is-config="true" duration-ms="4188" started-at="2022-03-20T10:19:27 IST" depends-on-methods="Login.BaseTest.BeforeTestMethod" finished-at="2022-03-20T10:19:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchURL -->
+        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Onboardingnewclient.SingupNewUser@6c49835d]" name="LaunchArtemisURL" is-config="true" duration-ms="4001" started-at="2022-03-20T10:24:49 IST" finished-at="2022-03-20T10:24:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchArtemisURL -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.SingupNewUser@6c49835d]" name="BeforeMethod" is-config="true" duration-ms="40" started-at="2022-03-20T10:24:53 IST" finished-at="2022-03-20T10:24:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.SingupNewUser.VerifySignupLinkisavailable()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="VerifySignupLinkisavailable()[pri:1, instance:Onboardingnewclient.SingupNewUser@6c49835d]" name="VerifySignupLinkisavailable" duration-ms="54" started-at="2022-03-20T10:24:53 IST" description="Verify user able to see signup link" finished-at="2022-03-20T10:24:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySignupLinkisavailable -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.SingupNewUser@6c49835d]" name="BeforeMethod" is-config="true" duration-ms="17" started-at="2022-03-20T10:24:53 IST" finished-at="2022-03-20T10:24:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.SingupNewUser.clickSignuplink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="clickSignuplink()[pri:2, instance:Onboardingnewclient.SingupNewUser@6c49835d]" name="clickSignuplink" duration-ms="90" started-at="2022-03-20T10:24:53 IST" description="Verify User clicks the signuplink" finished-at="2022-03-20T10:24:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSignuplink -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.SingupNewUser@6c49835d]" name="BeforeMethod" is-config="true" duration-ms="21" started-at="2022-03-20T10:24:53 IST" finished-at="2022-03-20T10:24:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.SingupNewUser.verifyTitleofsignup()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="verifyTitleofsignup()[pri:3, instance:Onboardingnewclient.SingupNewUser@6c49835d]" name="verifyTitleofsignup" duration-ms="27" started-at="2022-03-20T10:24:53 IST" description="user navigated to Signup screen" finished-at="2022-03-20T10:24:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleofsignup -->
+        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Onboardingnewclient.SingupNewUser@6c49835d]" name="QuitWindows" is-config="true" duration-ms="682" started-at="2022-03-20T10:24:53 IST" finished-at="2022-03-20T10:24:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitWindows -->
+        <test-method status="PASS" signature="quitwindows()[pri:0, instance:Onboardingnewclient.SingupNewUser@6c49835d]" name="quitwindows" is-config="true" duration-ms="692" started-at="2022-03-20T10:25:23 IST" depends-on-methods="Onboardingnewclient.OnBoardingArtemis.closewindows" finished-at="2022-03-20T10:25:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitwindows -->
+      </class> <!-- Onboardingnewclient.SingupNewUser -->
+      <class name="Onboardingnewclient.SettingsPage">
+        <test-method status="PASS" signature="LaunchArtemisURL()[pri:0, instance:Onboardingnewclient.SettingsPage@76707e36]" name="LaunchArtemisURL" is-config="true" duration-ms="2461" started-at="2022-03-20T10:24:28 IST" finished-at="2022-03-20T10:24:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchArtemisURL -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.SettingsPage@76707e36]" name="BeforeMethod" is-config="true" duration-ms="24" started-at="2022-03-20T10:24:31 IST" finished-at="2022-03-20T10:24:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.SettingsPage.NavigatetoSettingsPage() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="NavigatetoSettingsPage()[pri:1, instance:Onboardingnewclient.SettingsPage@76707e36]" name="NavigatetoSettingsPage" duration-ms="17689" started-at="2022-03-20T10:24:31 IST" finished-at="2022-03-20T10:24:48 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[User ented the email id details succefully]]>
+            </line>
+            <line>
+              <![CDATA[User clicks Login button succefully]]>
+            </line>
+            <line>
+              <![CDATA[User entered the passowrd succefully]]>
+            </line>
+            <line>
+              <![CDATA[User clicks the next button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- NavigatetoSettingsPage -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.SettingsPage@76707e36]" name="BeforeMethod" is-config="true" duration-ms="19" started-at="2022-03-20T10:24:48 IST" finished-at="2022-03-20T10:24:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.SettingsPage.click_SettingsTab()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="click_SettingsTab()[pri:2, instance:Onboardingnewclient.SettingsPage@76707e36]" name="click_SettingsTab" duration-ms="142" started-at="2022-03-20T10:24:48 IST" finished-at="2022-03-20T10:24:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_SettingsTab -->
+        <test-method status="PASS" signature="BeforeMethod(java.lang.reflect.Method)[pri:0, instance:Onboardingnewclient.SettingsPage@76707e36]" name="BeforeMethod" is-config="true" duration-ms="23" started-at="2022-03-20T10:24:48 IST" finished-at="2022-03-20T10:24:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Onboardingnewclient.SettingsPage.AccountsTab_exists()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="AccountsTab_exists()[pri:3, instance:Onboardingnewclient.SettingsPage@76707e36]" name="AccountsTab_exists" duration-ms="61" started-at="2022-03-20T10:24:48 IST" finished-at="2022-03-20T10:24:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountsTab_exists -->
+        <test-method status="PASS" signature="QuitWindows()[pri:0, instance:Onboardingnewclient.SettingsPage@76707e36]" name="QuitWindows" is-config="true" duration-ms="708" started-at="2022-03-20T10:24:49 IST" finished-at="2022-03-20T10:24:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitWindows -->
+      </class> <!-- Onboardingnewclient.SettingsPage -->
+    </test> <!-- Regression suite 1 -->
+  </suite> <!-- example suite 1 -->
+</testng-results>

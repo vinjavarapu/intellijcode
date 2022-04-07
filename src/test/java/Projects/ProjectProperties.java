@@ -21,7 +21,7 @@ public class ProjectProperties extends BaseTest {
         Thread.sleep(8000);
         String text = driver.findElement(By.xpath(ProjectsPage.project_title)).getText();
         System.out.println(text);
-        assertEquals(text,"Project123");
+        assertEquals(text,"ProjectA");
 
     }
    @Test(priority=3)
